@@ -180,55 +180,320 @@ private: System::Windows::Forms::PictureBox^ pictureBox50;
 private: System::Windows::Forms::PictureBox^ pictureBox51;
 private: System::Windows::Forms::PictureBox^ pictureBox52;
 private: System::Windows::Forms::PictureBox^ pictureBox53;
-private: System::Windows::Forms::PictureBox^ pictureBox40;
-private: System::Windows::Forms::PictureBox^ pictureBox41;
-private: System::Windows::Forms::PictureBox^ pictureBox42;
-private: System::Windows::Forms::PictureBox^ pictureBox43;
-private: System::Windows::Forms::PictureBox^ pictureBox44;
-private: System::Windows::Forms::PictureBox^ pictureBox45;
-private: System::Windows::Forms::PictureBox^ pictureBox46;
-private: System::Windows::Forms::PictureBox^ pictureBox54;
-private: System::Windows::Forms::PictureBox^ pictureBox55;
-private: System::Windows::Forms::PictureBox^ pictureBox56;
-private: System::Windows::Forms::PictureBox^ pictureBox57;
-private: System::Windows::Forms::PictureBox^ pictureBox58;
-private: System::Windows::Forms::PictureBox^ pictureBox59;
-private: System::Windows::Forms::PictureBox^ pictureBox60;
-private: System::Windows::Forms::PictureBox^ pictureBox61;
-private: System::Windows::Forms::PictureBox^ pictureBox62;
-private: System::Windows::Forms::PictureBox^ pictureBox63;
-private: System::Windows::Forms::PictureBox^ pictureBox64;
-private: System::Windows::Forms::PictureBox^ pictureBox65;
-private: System::Windows::Forms::PictureBox^ pictureBox66;
-private: System::Windows::Forms::PictureBox^ pictureBox67;
-private: System::Windows::Forms::PictureBox^ pictureBox68;
-private: System::Windows::Forms::PictureBox^ pictureBox69;
-private: System::Windows::Forms::PictureBox^ pictureBox70;
-private: System::Windows::Forms::PictureBox^ pictureBox71;
-private: System::Windows::Forms::PictureBox^ pictureBox72;
-private: System::Windows::Forms::PictureBox^ pictureBox73;
-private: System::Windows::Forms::PictureBox^ pictureBox74;
-private: System::Windows::Forms::PictureBox^ pictureBox75;
-private: System::Windows::Forms::PictureBox^ pictureBox76;
-private: System::Windows::Forms::PictureBox^ pictureBox77;
-private: System::Windows::Forms::PictureBox^ pictureBox78;
-private: System::Windows::Forms::PictureBox^ pictureBox79;
-private: System::Windows::Forms::PictureBox^ pictureBox80;
-private: System::Windows::Forms::PictureBox^ pictureBox81;
-private: System::Windows::Forms::PictureBox^ pictureBox82;
-private: System::Windows::Forms::PictureBox^ pictureBox83;
-private: System::Windows::Forms::PictureBox^ pictureBox84;
-private: System::Windows::Forms::PictureBox^ pictureBox85;
-private: System::Windows::Forms::PictureBox^ pictureBox86;
-private: System::Windows::Forms::PictureBox^ pictureBox87;
-private: System::Windows::Forms::PictureBox^ pictureBox88;
-private: System::Windows::Forms::PictureBox^ pictureBox89;
-private: System::Windows::Forms::PictureBox^ pictureBox90;
-private: System::Windows::Forms::PictureBox^ pictureBox91;
-private: System::Windows::Forms::PictureBox^ pictureBox92;
-private: System::Windows::Forms::PictureBox^ pictureBox93;
-private: System::Windows::Forms::PictureBox^ pictureBox94;
-private: System::Windows::Forms::PictureBox^ pictureBox95;
+private: System::Windows::Forms::PictureBox^ pb_granjero11;
+private: System::Windows::Forms::PictureBox^ pb_granjero12;
+private: System::Windows::Forms::PictureBox^ pb_granjero13;
+private: System::Windows::Forms::PictureBox^ pb_granjero14;
+private: System::Windows::Forms::PictureBox^ pb_granjero15;
+private: System::Windows::Forms::PictureBox^ pb_granjero16;
+private: System::Windows::Forms::PictureBox^ pb_granjero17;
+private: System::Windows::Forms::PictureBox^ pb_granjero21;
+private: System::Windows::Forms::PictureBox^ pb_granjero22;
+private: System::Windows::Forms::PictureBox^ pb_granjero23;
+private: System::Windows::Forms::PictureBox^ pb_granjero24;
+private: System::Windows::Forms::PictureBox^ pb_granjero25;
+private: System::Windows::Forms::PictureBox^ pb_granjero26;
+private: System::Windows::Forms::PictureBox^ pb_granjero27;
+private: System::Windows::Forms::PictureBox^ pb_granjero31;
+private: System::Windows::Forms::PictureBox^ pb_granjero33;
+private: System::Windows::Forms::PictureBox^ pb_granjero34;
+private: System::Windows::Forms::PictureBox^ pb_granjero35;
+private: System::Windows::Forms::PictureBox^ pb_granjero36;
+private: System::Windows::Forms::PictureBox^ pb_granjero37;
+private: System::Windows::Forms::PictureBox^ pb_granjero41;
+private: System::Windows::Forms::PictureBox^ pb_granjero42;
+private: System::Windows::Forms::PictureBox^ pb_granjero43;
+private: System::Windows::Forms::PictureBox^ pb_granjero44;
+private: System::Windows::Forms::PictureBox^ pb_granjero45;
+private: System::Windows::Forms::PictureBox^ pb_granjero46;
+private: System::Windows::Forms::PictureBox^ pb_granjero47;
+private: System::Windows::Forms::PictureBox^ pb_granjero51;
+private: System::Windows::Forms::PictureBox^ pb_granjero52;
+private: System::Windows::Forms::PictureBox^ pb_granjero53;
+private: System::Windows::Forms::PictureBox^ pb_granjero54;
+private: System::Windows::Forms::PictureBox^ pb_granjero55;
+private: System::Windows::Forms::PictureBox^ pb_granjero56;
+private: System::Windows::Forms::PictureBox^ pb_granjero57;
+private: System::Windows::Forms::PictureBox^ pb_granjero61;
+private: System::Windows::Forms::PictureBox^ pb_granjero62;
+private: System::Windows::Forms::PictureBox^ pb_granjero63;
+private: System::Windows::Forms::PictureBox^ pb_granjero64;
+private: System::Windows::Forms::PictureBox^ pb_granjero65;
+private: System::Windows::Forms::PictureBox^ pb_granjero66;
+private: System::Windows::Forms::PictureBox^ pb_granjero67;
+private: System::Windows::Forms::PictureBox^ pb_granjero71;
+private: System::Windows::Forms::PictureBox^ pb_granjero72;
+private: System::Windows::Forms::PictureBox^ pb_granjero77;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_granjero76;
+
+private: System::Windows::Forms::PictureBox^ pb_granjero75;
+
+private: System::Windows::Forms::PictureBox^ pb_granjero74;
+
+private: System::Windows::Forms::PictureBox^ pb_granjero73;
+
+private: System::Windows::Forms::PictureBox^ pb_granjero32;
+private: System::Windows::Forms::PictureBox^ pb_plaga11;
+private: System::Windows::Forms::PictureBox^ pb_espanta17;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga17;
+private: System::Windows::Forms::PictureBox^ pb_espanta16;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga16;
+private: System::Windows::Forms::PictureBox^ pb_espanta15;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga15;
+private: System::Windows::Forms::PictureBox^ pb_espanta14;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga14;
+private: System::Windows::Forms::PictureBox^ pb_espanta13;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga13;
+private: System::Windows::Forms::PictureBox^ pb_espanta12;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga12;
+private: System::Windows::Forms::PictureBox^ pb_espanta11;
+private: System::Windows::Forms::PictureBox^ pb_espanta27;
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga27;
+private: System::Windows::Forms::PictureBox^ pb_espanta26;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga26;
+private: System::Windows::Forms::PictureBox^ pb_espanta25;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga25;
+private: System::Windows::Forms::PictureBox^ pb_espanta24;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga24;
+private: System::Windows::Forms::PictureBox^ pb_espanta23;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga23;
+private: System::Windows::Forms::PictureBox^ pb_espanta22;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga22;
+
+private: System::Windows::Forms::PictureBox^ pb_espanta21;
+
+private: System::Windows::Forms::PictureBox^ pb_plaga21;
+private: System::Windows::Forms::PictureBox^ pb_espanta45;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga45;
+private: System::Windows::Forms::PictureBox^ pb_espanta46;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga46;
+private: System::Windows::Forms::PictureBox^ pb_espanta47;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga47;
+private: System::Windows::Forms::PictureBox^ pb_espanta44;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga44;
+private: System::Windows::Forms::PictureBox^ pb_espanta43;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga43;
+private: System::Windows::Forms::PictureBox^ pb_espanta42;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga42;
+
+private: System::Windows::Forms::PictureBox^ pb_espanta41;
+
+private: System::Windows::Forms::PictureBox^ pb_plaga41;
+private: System::Windows::Forms::PictureBox^ pb_espanta37;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga37;
+private: System::Windows::Forms::PictureBox^ pb_espanta36;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga36;
+private: System::Windows::Forms::PictureBox^ pb_espanta35;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga35;
+private: System::Windows::Forms::PictureBox^ pb_espanta34;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga34;
+private: System::Windows::Forms::PictureBox^ pb_espanta33;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga33;
+private: System::Windows::Forms::PictureBox^ pb_espanta32;
+
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga32;
+
+private: System::Windows::Forms::PictureBox^ pb_espanta31;
+private: System::Windows::Forms::PictureBox^ pb_plaga31;
+private: System::Windows::Forms::PictureBox^ pb_espanta56;
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga56;
+private: System::Windows::Forms::PictureBox^ pb_espanta55;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga55;
+private: System::Windows::Forms::PictureBox^ pb_espanta54;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga54;
+private: System::Windows::Forms::PictureBox^ pb_espanta53;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga53;
+private: System::Windows::Forms::PictureBox^ pb_espanta52;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga52;
+
+private: System::Windows::Forms::PictureBox^ pb_espanta51;
+
+private: System::Windows::Forms::PictureBox^ pb_plaga51;
+private: System::Windows::Forms::PictureBox^ pb_plaga61;
+
+
+private: System::Windows::Forms::PictureBox^ pb_espanta57;
+
+private: System::Windows::Forms::PictureBox^ pb_plaga57;
+private: System::Windows::Forms::PictureBox^ pb_espanta67;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga67;
+private: System::Windows::Forms::PictureBox^ pb_espanta66;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga66;
+private: System::Windows::Forms::PictureBox^ pb_espanta65;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga65;
+private: System::Windows::Forms::PictureBox^ pb_espanta64;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga64;
+private: System::Windows::Forms::PictureBox^ pb_espanta63;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga63;
+private: System::Windows::Forms::PictureBox^ pb_espanta62;
+
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga62;
+
+private: System::Windows::Forms::PictureBox^ pb_espanta61;
+private: System::Windows::Forms::PictureBox^ pb_espanta77;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga77;
+private: System::Windows::Forms::PictureBox^ pb_espanta76;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga76;
+private: System::Windows::Forms::PictureBox^ pb_espanta75;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga75;
+private: System::Windows::Forms::PictureBox^ pb_espanta74;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga74;
+private: System::Windows::Forms::PictureBox^ pb_espanta73;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga73;
+private: System::Windows::Forms::PictureBox^ pb_espanta72;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga72;
+private: System::Windows::Forms::PictureBox^ pb_espanta71;
+
+
+private: System::Windows::Forms::PictureBox^ pb_plaga71;
+private: System::Windows::Forms::Label^ lbl_TituloArbol;
+private: System::Windows::Forms::Label^ label1;
+private: System::Windows::Forms::Label^ label2;
+private: System::Windows::Forms::Label^ label3;
+private: System::Windows::Forms::Label^ label4;
+private: System::Windows::Forms::Label^ lbl_PosiAB;
+private: System::Windows::Forms::Label^ lbl_PosiHEAP;
+
+
+private: System::Windows::Forms::Label^ lbl_PosiAVL;
+private: System::Windows::Forms::Label^ lbl_FrutaHEAP;
+private: System::Windows::Forms::Label^ lbl_FrutaAVL;
+private: System::Windows::Forms::Label^ lbl_FrutaAB;
+private: System::Windows::Forms::Label^ label8;
+
+
+
 
 
 
@@ -346,55 +611,165 @@ private: System::Windows::Forms::PictureBox^ pictureBox95;
 			this->pictureBox51 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox52 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox53 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox40 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox41 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox42 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox43 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox44 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox45 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox46 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox54 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox55 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox56 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox57 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox58 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox59 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox60 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox61 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox62 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox63 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox64 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox65 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox66 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox67 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox68 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox69 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox70 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox71 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox72 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox73 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox74 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox75 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox76 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox77 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox78 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox79 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox80 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox81 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox82 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox83 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox84 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox85 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox86 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox87 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox88 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox89 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox90 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox91 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox92 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox93 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox94 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox95 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero11 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero12 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero13 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero14 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero15 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero16 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero17 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero21 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero22 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero24 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero25 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero26 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero27 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero31 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero32 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero33 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero34 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero35 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero36 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero37 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero41 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero42 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero43 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero44 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero45 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero46 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero47 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero51 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero52 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero53 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero54 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero55 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero56 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero57 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero61 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero62 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero63 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero64 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero65 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero66 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero67 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero71 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero72 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero77 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero76 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero75 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero74 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_granjero73 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga11 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta17 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga17 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta16 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga16 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta15 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga15 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta14 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga14 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta13 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga13 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta12 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga12 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta11 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta27 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga27 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta26 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga26 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta25 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga25 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta24 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga24 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta22 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga22 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta21 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga21 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta45 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga45 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta46 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga46 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta47 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga47 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta44 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga44 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta43 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga43 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta42 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga42 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta41 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga41 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta37 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga37 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta36 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga36 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta35 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga35 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta34 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga34 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta33 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga33 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta32 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga32 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta31 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga31 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta56 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga56 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta55 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga55 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta54 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga54 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta53 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga53 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta52 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga52 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta51 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga51 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga61 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta57 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga57 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta67 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga67 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta66 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga66 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta65 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga65 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta64 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga64 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta63 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga63 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta62 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga62 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta61 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta77 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga77 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta76 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga76 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta75 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga75 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta74 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga74 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta73 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga73 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta72 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga72 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_espanta71 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_plaga71 = (gcnew System::Windows::Forms::PictureBox());
+			this->lbl_TituloArbol = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->lbl_PosiAB = (gcnew System::Windows::Forms::Label());
+			this->lbl_PosiHEAP = (gcnew System::Windows::Forms::Label());
+			this->lbl_PosiAVL = (gcnew System::Windows::Forms::Label());
+			this->lbl_FrutaHEAP = (gcnew System::Windows::Forms::Label());
+			this->lbl_FrutaAVL = (gcnew System::Windows::Forms::Label());
+			this->lbl_FrutaAB = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_11))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_13))->BeginInit();
@@ -493,55 +868,153 @@ private: System::Windows::Forms::PictureBox^ pictureBox95;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox51))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox52))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox53))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox40))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox41))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox42))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox43))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox44))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox45))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox46))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox54))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox55))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox56))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox57))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox58))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox59))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox60))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox61))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox62))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox63))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox64))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox65))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox66))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox67))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox68))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox69))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox70))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox71))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox72))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox73))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox74))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox75))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox76))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox77))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox78))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox79))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox80))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox81))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox82))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox83))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox84))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox85))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox86))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox87))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox88))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox89))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox90))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox91))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox92))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox93))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox94))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox95))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero11))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero12))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero13))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero14))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero15))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero16))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero17))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero21))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero22))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero24))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero25))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero26))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero27))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero31))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero32))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero33))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero34))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero35))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero36))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero37))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero41))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero42))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero43))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero44))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero45))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero46))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero47))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero51))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero52))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero53))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero54))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero55))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero56))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero57))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero61))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero62))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero63))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero64))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero65))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero66))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero67))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero71))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero72))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero77))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero76))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero75))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero74))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero73))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga11))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta17))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga17))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta16))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga16))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta15))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga15))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta14))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga14))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta13))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga13))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta12))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga12))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta11))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta27))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga27))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta26))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga26))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta25))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga25))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta24))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga24))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta22))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga22))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta21))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga21))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta45))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga45))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta46))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga46))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta47))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga47))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta44))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga44))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta43))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga43))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta42))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga42))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta41))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga41))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta37))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga37))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta36))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga36))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta35))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga35))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta34))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga34))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta33))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga33))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta32))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga32))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta31))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga31))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta56))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga56))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta55))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga55))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta54))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga54))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta53))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga53))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta52))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga52))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta51))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga51))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga61))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta57))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga57))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta67))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga67))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta66))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga66))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta65))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga65))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta64))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga64))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta63))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga63))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta62))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga62))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta61))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta77))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga77))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta76))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga76))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta75))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga75))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta74))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga74))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta73))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga73))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta72))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga72))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta71))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga71))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pb_11
@@ -1436,398 +1909,1291 @@ private: System::Windows::Forms::PictureBox^ pictureBox95;
 			this->pictureBox53->TabIndex = 84;
 			this->pictureBox53->TabStop = false;
 			// 
-			// pictureBox40
-			// 
-			this->pictureBox40->Location = System::Drawing::Point(260, 280);
-			this->pictureBox40->Name = L"pictureBox40";
-			this->pictureBox40->Size = System::Drawing::Size(46, 72);
-			this->pictureBox40->TabIndex = 98;
-			this->pictureBox40->TabStop = false;
+			// pb_granjero11
+			// 
+			this->pb_granjero11->Location = System::Drawing::Point(260, 280);
+			this->pb_granjero11->Name = L"pb_granjero11";
+			this->pb_granjero11->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero11->TabIndex = 98;
+			this->pb_granjero11->TabStop = false;
 			// 
-			// pictureBox41
-			// 
-			this->pictureBox41->Location = System::Drawing::Point(386, 280);
-			this->pictureBox41->Name = L"pictureBox41";
-			this->pictureBox41->Size = System::Drawing::Size(46, 72);
-			this->pictureBox41->TabIndex = 99;
-			this->pictureBox41->TabStop = false;
+			// pb_granjero12
+			// 
+			this->pb_granjero12->Location = System::Drawing::Point(386, 280);
+			this->pb_granjero12->Name = L"pb_granjero12";
+			this->pb_granjero12->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero12->TabIndex = 99;
+			this->pb_granjero12->TabStop = false;
 			// 
-			// pictureBox42
-			// 
-			this->pictureBox42->Location = System::Drawing::Point(512, 280);
-			this->pictureBox42->Name = L"pictureBox42";
-			this->pictureBox42->Size = System::Drawing::Size(46, 72);
-			this->pictureBox42->TabIndex = 100;
-			this->pictureBox42->TabStop = false;
+			// pb_granjero13
+			// 
+			this->pb_granjero13->Location = System::Drawing::Point(512, 280);
+			this->pb_granjero13->Name = L"pb_granjero13";
+			this->pb_granjero13->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero13->TabIndex = 100;
+			this->pb_granjero13->TabStop = false;
 			// 
-			// pictureBox43
-			// 
-			this->pictureBox43->Location = System::Drawing::Point(638, 280);
-			this->pictureBox43->Name = L"pictureBox43";
-			this->pictureBox43->Size = System::Drawing::Size(46, 72);
-			this->pictureBox43->TabIndex = 101;
-			this->pictureBox43->TabStop = false;
+			// pb_granjero14
+			// 
+			this->pb_granjero14->Location = System::Drawing::Point(638, 280);
+			this->pb_granjero14->Name = L"pb_granjero14";
+			this->pb_granjero14->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero14->TabIndex = 101;
+			this->pb_granjero14->TabStop = false;
+			// 
+			// pb_granjero15
+			// 
+			this->pb_granjero15->Location = System::Drawing::Point(764, 280);
+			this->pb_granjero15->Name = L"pb_granjero15";
+			this->pb_granjero15->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero15->TabIndex = 102;
+			this->pb_granjero15->TabStop = false;
+			// 
+			// pb_granjero16
+			// 
+			this->pb_granjero16->Location = System::Drawing::Point(890, 280);
+			this->pb_granjero16->Name = L"pb_granjero16";
+			this->pb_granjero16->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero16->TabIndex = 103;
+			this->pb_granjero16->TabStop = false;
+			// 
+			// pb_granjero17
+			// 
+			this->pb_granjero17->Location = System::Drawing::Point(1016, 280);
+			this->pb_granjero17->Name = L"pb_granjero17";
+			this->pb_granjero17->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero17->TabIndex = 104;
+			this->pb_granjero17->TabStop = false;
+			// 
+			// pb_granjero21
+			// 
+			this->pb_granjero21->Location = System::Drawing::Point(260, 407);
+			this->pb_granjero21->Name = L"pb_granjero21";
+			this->pb_granjero21->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero21->TabIndex = 105;
+			this->pb_granjero21->TabStop = false;
+			// 
+			// pb_granjero22
+			// 
+			this->pb_granjero22->Location = System::Drawing::Point(386, 406);
+			this->pb_granjero22->Name = L"pb_granjero22";
+			this->pb_granjero22->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero22->TabIndex = 106;
+			this->pb_granjero22->TabStop = false;
+			// 
+			// pb_granjero23
+			// 
+			this->pb_granjero23->Location = System::Drawing::Point(512, 407);
+			this->pb_granjero23->Name = L"pb_granjero23";
+			this->pb_granjero23->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero23->TabIndex = 107;
+			this->pb_granjero23->TabStop = false;
+			// 
+			// pb_granjero24
+			// 
+			this->pb_granjero24->Location = System::Drawing::Point(638, 407);
+			this->pb_granjero24->Name = L"pb_granjero24";
+			this->pb_granjero24->Size = System::Drawing::Size(46, 73);
+			this->pb_granjero24->TabIndex = 108;
+			this->pb_granjero24->TabStop = false;
+			// 
+			// pb_granjero25
+			// 
+			this->pb_granjero25->Location = System::Drawing::Point(764, 406);
+			this->pb_granjero25->Name = L"pb_granjero25";
+			this->pb_granjero25->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero25->TabIndex = 109;
+			this->pb_granjero25->TabStop = false;
+			// 
+			// pb_granjero26
+			// 
+			this->pb_granjero26->Location = System::Drawing::Point(890, 406);
+			this->pb_granjero26->Name = L"pb_granjero26";
+			this->pb_granjero26->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero26->TabIndex = 110;
+			this->pb_granjero26->TabStop = false;
+			// 
+			// pb_granjero27
+			// 
+			this->pb_granjero27->Location = System::Drawing::Point(1016, 406);
+			this->pb_granjero27->Name = L"pb_granjero27";
+			this->pb_granjero27->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero27->TabIndex = 111;
+			this->pb_granjero27->TabStop = false;
+			this->pb_granjero27->Click += gcnew System::EventHandler(this, &Form1::pictureBox60_Click);
 			// 
-			// pictureBox44
-			// 
-			this->pictureBox44->Location = System::Drawing::Point(764, 280);
-			this->pictureBox44->Name = L"pictureBox44";
-			this->pictureBox44->Size = System::Drawing::Size(46, 72);
-			this->pictureBox44->TabIndex = 102;
-			this->pictureBox44->TabStop = false;
+			// pb_granjero31
+			// 
+			this->pb_granjero31->Location = System::Drawing::Point(260, 532);
+			this->pb_granjero31->Name = L"pb_granjero31";
+			this->pb_granjero31->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero31->TabIndex = 112;
+			this->pb_granjero31->TabStop = false;
 			// 
-			// pictureBox45
-			// 
-			this->pictureBox45->Location = System::Drawing::Point(890, 280);
-			this->pictureBox45->Name = L"pictureBox45";
-			this->pictureBox45->Size = System::Drawing::Size(46, 72);
-			this->pictureBox45->TabIndex = 103;
-			this->pictureBox45->TabStop = false;
-			// 
-			// pictureBox46
-			// 
-			this->pictureBox46->Location = System::Drawing::Point(1016, 280);
-			this->pictureBox46->Name = L"pictureBox46";
-			this->pictureBox46->Size = System::Drawing::Size(46, 72);
-			this->pictureBox46->TabIndex = 104;
-			this->pictureBox46->TabStop = false;
-			// 
-			// pictureBox54
-			// 
-			this->pictureBox54->Location = System::Drawing::Point(260, 407);
-			this->pictureBox54->Name = L"pictureBox54";
-			this->pictureBox54->Size = System::Drawing::Size(46, 72);
-			this->pictureBox54->TabIndex = 105;
-			this->pictureBox54->TabStop = false;
-			// 
-			// pictureBox55
-			// 
-			this->pictureBox55->Location = System::Drawing::Point(386, 406);
-			this->pictureBox55->Name = L"pictureBox55";
-			this->pictureBox55->Size = System::Drawing::Size(46, 72);
-			this->pictureBox55->TabIndex = 106;
-			this->pictureBox55->TabStop = false;
-			// 
-			// pictureBox56
-			// 
-			this->pictureBox56->Location = System::Drawing::Point(512, 407);
-			this->pictureBox56->Name = L"pictureBox56";
-			this->pictureBox56->Size = System::Drawing::Size(46, 72);
-			this->pictureBox56->TabIndex = 107;
-			this->pictureBox56->TabStop = false;
-			// 
-			// pictureBox57
-			// 
-			this->pictureBox57->Location = System::Drawing::Point(638, 407);
-			this->pictureBox57->Name = L"pictureBox57";
-			this->pictureBox57->Size = System::Drawing::Size(46, 73);
-			this->pictureBox57->TabIndex = 108;
-			this->pictureBox57->TabStop = false;
-			// 
-			// pictureBox58
-			// 
-			this->pictureBox58->Location = System::Drawing::Point(764, 406);
-			this->pictureBox58->Name = L"pictureBox58";
-			this->pictureBox58->Size = System::Drawing::Size(46, 72);
-			this->pictureBox58->TabIndex = 109;
-			this->pictureBox58->TabStop = false;
-			// 
-			// pictureBox59
-			// 
-			this->pictureBox59->Location = System::Drawing::Point(890, 406);
-			this->pictureBox59->Name = L"pictureBox59";
-			this->pictureBox59->Size = System::Drawing::Size(46, 72);
-			this->pictureBox59->TabIndex = 110;
-			this->pictureBox59->TabStop = false;
-			// 
-			// pictureBox60
-			// 
-			this->pictureBox60->Location = System::Drawing::Point(1016, 406);
-			this->pictureBox60->Name = L"pictureBox60";
-			this->pictureBox60->Size = System::Drawing::Size(46, 72);
-			this->pictureBox60->TabIndex = 111;
-			this->pictureBox60->TabStop = false;
-			this->pictureBox60->Click += gcnew System::EventHandler(this, &Form1::pictureBox60_Click);
-			// 
-			// pictureBox61
-			// 
-			this->pictureBox61->Location = System::Drawing::Point(260, 532);
-			this->pictureBox61->Name = L"pictureBox61";
-			this->pictureBox61->Size = System::Drawing::Size(46, 72);
-			this->pictureBox61->TabIndex = 112;
-			this->pictureBox61->TabStop = false;
-			// 
-			// pictureBox62
-			// 
-			this->pictureBox62->Location = System::Drawing::Point(386, 532);
-			this->pictureBox62->Name = L"pictureBox62";
-			this->pictureBox62->Size = System::Drawing::Size(46, 72);
-			this->pictureBox62->TabIndex = 113;
-			this->pictureBox62->TabStop = false;
-			// 
-			// pictureBox63
-			// 
-			this->pictureBox63->Location = System::Drawing::Point(512, 532);
-			this->pictureBox63->Name = L"pictureBox63";
-			this->pictureBox63->Size = System::Drawing::Size(46, 72);
-			this->pictureBox63->TabIndex = 114;
-			this->pictureBox63->TabStop = false;
-			// 
-			// pictureBox64
-			// 
-			this->pictureBox64->Location = System::Drawing::Point(638, 532);
-			this->pictureBox64->Name = L"pictureBox64";
-			this->pictureBox64->Size = System::Drawing::Size(46, 72);
-			this->pictureBox64->TabIndex = 115;
-			this->pictureBox64->TabStop = false;
-			// 
-			// pictureBox65
-			// 
-			this->pictureBox65->Location = System::Drawing::Point(764, 532);
-			this->pictureBox65->Name = L"pictureBox65";
-			this->pictureBox65->Size = System::Drawing::Size(46, 72);
-			this->pictureBox65->TabIndex = 116;
-			this->pictureBox65->TabStop = false;
-			// 
-			// pictureBox66
-			// 
-			this->pictureBox66->Location = System::Drawing::Point(890, 532);
-			this->pictureBox66->Name = L"pictureBox66";
-			this->pictureBox66->Size = System::Drawing::Size(46, 72);
-			this->pictureBox66->TabIndex = 117;
-			this->pictureBox66->TabStop = false;
-			// 
-			// pictureBox67
-			// 
-			this->pictureBox67->Location = System::Drawing::Point(1016, 532);
-			this->pictureBox67->Name = L"pictureBox67";
-			this->pictureBox67->Size = System::Drawing::Size(46, 72);
-			this->pictureBox67->TabIndex = 118;
-			this->pictureBox67->TabStop = false;
-			// 
-			// pictureBox68
-			// 
-			this->pictureBox68->Location = System::Drawing::Point(260, 658);
-			this->pictureBox68->Name = L"pictureBox68";
-			this->pictureBox68->Size = System::Drawing::Size(46, 72);
-			this->pictureBox68->TabIndex = 119;
-			this->pictureBox68->TabStop = false;
-			// 
-			// pictureBox69
-			// 
-			this->pictureBox69->Location = System::Drawing::Point(386, 658);
-			this->pictureBox69->Name = L"pictureBox69";
-			this->pictureBox69->Size = System::Drawing::Size(46, 72);
-			this->pictureBox69->TabIndex = 120;
-			this->pictureBox69->TabStop = false;
-			// 
-			// pictureBox70
-			// 
-			this->pictureBox70->Location = System::Drawing::Point(512, 658);
-			this->pictureBox70->Name = L"pictureBox70";
-			this->pictureBox70->Size = System::Drawing::Size(46, 72);
-			this->pictureBox70->TabIndex = 121;
-			this->pictureBox70->TabStop = false;
-			// 
-			// pictureBox71
-			// 
-			this->pictureBox71->Location = System::Drawing::Point(638, 658);
-			this->pictureBox71->Name = L"pictureBox71";
-			this->pictureBox71->Size = System::Drawing::Size(46, 72);
-			this->pictureBox71->TabIndex = 122;
-			this->pictureBox71->TabStop = false;
-			// 
-			// pictureBox72
-			// 
-			this->pictureBox72->Location = System::Drawing::Point(764, 659);
-			this->pictureBox72->Name = L"pictureBox72";
-			this->pictureBox72->Size = System::Drawing::Size(46, 72);
-			this->pictureBox72->TabIndex = 123;
-			this->pictureBox72->TabStop = false;
-			// 
-			// pictureBox73
-			// 
-			this->pictureBox73->Location = System::Drawing::Point(890, 658);
-			this->pictureBox73->Name = L"pictureBox73";
-			this->pictureBox73->Size = System::Drawing::Size(46, 72);
-			this->pictureBox73->TabIndex = 124;
-			this->pictureBox73->TabStop = false;
-			// 
-			// pictureBox74
-			// 
-			this->pictureBox74->Location = System::Drawing::Point(1016, 659);
-			this->pictureBox74->Name = L"pictureBox74";
-			this->pictureBox74->Size = System::Drawing::Size(46, 72);
-			this->pictureBox74->TabIndex = 125;
-			this->pictureBox74->TabStop = false;
-			// 
-			// pictureBox75
-			// 
-			this->pictureBox75->Location = System::Drawing::Point(260, 784);
-			this->pictureBox75->Name = L"pictureBox75";
-			this->pictureBox75->Size = System::Drawing::Size(46, 72);
-			this->pictureBox75->TabIndex = 126;
-			this->pictureBox75->TabStop = false;
-			// 
-			// pictureBox76
-			// 
-			this->pictureBox76->Location = System::Drawing::Point(386, 785);
-			this->pictureBox76->Name = L"pictureBox76";
-			this->pictureBox76->Size = System::Drawing::Size(46, 72);
-			this->pictureBox76->TabIndex = 127;
-			this->pictureBox76->TabStop = false;
-			// 
-			// pictureBox77
-			// 
-			this->pictureBox77->Location = System::Drawing::Point(512, 784);
-			this->pictureBox77->Name = L"pictureBox77";
-			this->pictureBox77->Size = System::Drawing::Size(46, 72);
-			this->pictureBox77->TabIndex = 128;
-			this->pictureBox77->TabStop = false;
-			// 
-			// pictureBox78
-			// 
-			this->pictureBox78->Location = System::Drawing::Point(638, 784);
-			this->pictureBox78->Name = L"pictureBox78";
-			this->pictureBox78->Size = System::Drawing::Size(46, 72);
-			this->pictureBox78->TabIndex = 129;
-			this->pictureBox78->TabStop = false;
-			// 
-			// pictureBox79
-			// 
-			this->pictureBox79->Location = System::Drawing::Point(764, 784);
-			this->pictureBox79->Name = L"pictureBox79";
-			this->pictureBox79->Size = System::Drawing::Size(46, 72);
-			this->pictureBox79->TabIndex = 130;
-			this->pictureBox79->TabStop = false;
-			// 
-			// pictureBox80
-			// 
-			this->pictureBox80->Location = System::Drawing::Point(890, 785);
-			this->pictureBox80->Name = L"pictureBox80";
-			this->pictureBox80->Size = System::Drawing::Size(46, 72);
-			this->pictureBox80->TabIndex = 131;
-			this->pictureBox80->TabStop = false;
-			// 
-			// pictureBox81
-			// 
-			this->pictureBox81->Location = System::Drawing::Point(1016, 784);
-			this->pictureBox81->Name = L"pictureBox81";
-			this->pictureBox81->Size = System::Drawing::Size(46, 72);
-			this->pictureBox81->TabIndex = 132;
-			this->pictureBox81->TabStop = false;
-			// 
-			// pictureBox82
-			// 
-			this->pictureBox82->Location = System::Drawing::Point(260, 910);
-			this->pictureBox82->Name = L"pictureBox82";
-			this->pictureBox82->Size = System::Drawing::Size(46, 72);
-			this->pictureBox82->TabIndex = 133;
-			this->pictureBox82->TabStop = false;
-			// 
-			// pictureBox83
-			// 
-			this->pictureBox83->Location = System::Drawing::Point(386, 910);
-			this->pictureBox83->Name = L"pictureBox83";
-			this->pictureBox83->Size = System::Drawing::Size(46, 72);
-			this->pictureBox83->TabIndex = 134;
-			this->pictureBox83->TabStop = false;
-			// 
-			// pictureBox84
-			// 
-			this->pictureBox84->Location = System::Drawing::Point(512, 910);
-			this->pictureBox84->Name = L"pictureBox84";
-			this->pictureBox84->Size = System::Drawing::Size(46, 72);
-			this->pictureBox84->TabIndex = 135;
-			this->pictureBox84->TabStop = false;
-			// 
-			// pictureBox85
-			// 
-			this->pictureBox85->Location = System::Drawing::Point(638, 910);
-			this->pictureBox85->Name = L"pictureBox85";
-			this->pictureBox85->Size = System::Drawing::Size(46, 72);
-			this->pictureBox85->TabIndex = 136;
-			this->pictureBox85->TabStop = false;
-			// 
-			// pictureBox86
-			// 
-			this->pictureBox86->Location = System::Drawing::Point(764, 910);
-			this->pictureBox86->Name = L"pictureBox86";
-			this->pictureBox86->Size = System::Drawing::Size(46, 72);
-			this->pictureBox86->TabIndex = 137;
-			this->pictureBox86->TabStop = false;
-			// 
-			// pictureBox87
-			// 
-			this->pictureBox87->Location = System::Drawing::Point(890, 911);
-			this->pictureBox87->Name = L"pictureBox87";
-			this->pictureBox87->Size = System::Drawing::Size(46, 72);
-			this->pictureBox87->TabIndex = 138;
-			this->pictureBox87->TabStop = false;
-			// 
-			// pictureBox88
-			// 
-			this->pictureBox88->Location = System::Drawing::Point(1016, 910);
-			this->pictureBox88->Name = L"pictureBox88";
-			this->pictureBox88->Size = System::Drawing::Size(46, 72);
-			this->pictureBox88->TabIndex = 139;
-			this->pictureBox88->TabStop = false;
-			// 
-			// pictureBox89
-			// 
-			this->pictureBox89->Location = System::Drawing::Point(260, 1036);
-			this->pictureBox89->Name = L"pictureBox89";
-			this->pictureBox89->Size = System::Drawing::Size(46, 72);
-			this->pictureBox89->TabIndex = 140;
-			this->pictureBox89->TabStop = false;
-			// 
-			// pictureBox90
-			// 
-			this->pictureBox90->Location = System::Drawing::Point(386, 1036);
-			this->pictureBox90->Name = L"pictureBox90";
-			this->pictureBox90->Size = System::Drawing::Size(46, 72);
-			this->pictureBox90->TabIndex = 141;
-			this->pictureBox90->TabStop = false;
-			// 
-			// pictureBox91
-			// 
-			this->pictureBox91->Location = System::Drawing::Point(1016, 1036);
-			this->pictureBox91->Name = L"pictureBox91";
-			this->pictureBox91->Size = System::Drawing::Size(46, 72);
-			this->pictureBox91->TabIndex = 142;
-			this->pictureBox91->TabStop = false;
-			// 
-			// pictureBox92
-			// 
-			this->pictureBox92->Location = System::Drawing::Point(890, 1036);
-			this->pictureBox92->Name = L"pictureBox92";
-			this->pictureBox92->Size = System::Drawing::Size(46, 72);
-			this->pictureBox92->TabIndex = 143;
-			this->pictureBox92->TabStop = false;
-			// 
-			// pictureBox93
-			// 
-			this->pictureBox93->Location = System::Drawing::Point(764, 1036);
-			this->pictureBox93->Name = L"pictureBox93";
-			this->pictureBox93->Size = System::Drawing::Size(46, 72);
-			this->pictureBox93->TabIndex = 144;
-			this->pictureBox93->TabStop = false;
-			// 
-			// pictureBox94
-			// 
-			this->pictureBox94->Location = System::Drawing::Point(638, 1036);
-			this->pictureBox94->Name = L"pictureBox94";
-			this->pictureBox94->Size = System::Drawing::Size(46, 72);
-			this->pictureBox94->TabIndex = 145;
-			this->pictureBox94->TabStop = false;
-			// 
-			// pictureBox95
-			// 
-			this->pictureBox95->Location = System::Drawing::Point(512, 1036);
-			this->pictureBox95->Name = L"pictureBox95";
-			this->pictureBox95->Size = System::Drawing::Size(46, 72);
-			this->pictureBox95->TabIndex = 146;
-			this->pictureBox95->TabStop = false;
+			// pb_granjero32
+			// 
+			this->pb_granjero32->Location = System::Drawing::Point(386, 532);
+			this->pb_granjero32->Name = L"pb_granjero32";
+			this->pb_granjero32->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero32->TabIndex = 113;
+			this->pb_granjero32->TabStop = false;
+			this->pb_granjero32->Click += gcnew System::EventHandler(this, &Form1::pictureBox62_Click);
+			// 
+			// pb_granjero33
+			// 
+			this->pb_granjero33->Location = System::Drawing::Point(512, 532);
+			this->pb_granjero33->Name = L"pb_granjero33";
+			this->pb_granjero33->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero33->TabIndex = 114;
+			this->pb_granjero33->TabStop = false;
+			// 
+			// pb_granjero34
+			// 
+			this->pb_granjero34->Location = System::Drawing::Point(638, 532);
+			this->pb_granjero34->Name = L"pb_granjero34";
+			this->pb_granjero34->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero34->TabIndex = 115;
+			this->pb_granjero34->TabStop = false;
+			// 
+			// pb_granjero35
+			// 
+			this->pb_granjero35->Location = System::Drawing::Point(764, 532);
+			this->pb_granjero35->Name = L"pb_granjero35";
+			this->pb_granjero35->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero35->TabIndex = 116;
+			this->pb_granjero35->TabStop = false;
+			// 
+			// pb_granjero36
+			// 
+			this->pb_granjero36->Location = System::Drawing::Point(890, 532);
+			this->pb_granjero36->Name = L"pb_granjero36";
+			this->pb_granjero36->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero36->TabIndex = 117;
+			this->pb_granjero36->TabStop = false;
+			// 
+			// pb_granjero37
+			// 
+			this->pb_granjero37->Location = System::Drawing::Point(1016, 532);
+			this->pb_granjero37->Name = L"pb_granjero37";
+			this->pb_granjero37->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero37->TabIndex = 118;
+			this->pb_granjero37->TabStop = false;
+			// 
+			// pb_granjero41
+			// 
+			this->pb_granjero41->Location = System::Drawing::Point(260, 658);
+			this->pb_granjero41->Name = L"pb_granjero41";
+			this->pb_granjero41->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero41->TabIndex = 119;
+			this->pb_granjero41->TabStop = false;
+			// 
+			// pb_granjero42
+			// 
+			this->pb_granjero42->Location = System::Drawing::Point(386, 658);
+			this->pb_granjero42->Name = L"pb_granjero42";
+			this->pb_granjero42->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero42->TabIndex = 120;
+			this->pb_granjero42->TabStop = false;
+			// 
+			// pb_granjero43
+			// 
+			this->pb_granjero43->Location = System::Drawing::Point(512, 658);
+			this->pb_granjero43->Name = L"pb_granjero43";
+			this->pb_granjero43->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero43->TabIndex = 121;
+			this->pb_granjero43->TabStop = false;
+			// 
+			// pb_granjero44
+			// 
+			this->pb_granjero44->Location = System::Drawing::Point(638, 658);
+			this->pb_granjero44->Name = L"pb_granjero44";
+			this->pb_granjero44->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero44->TabIndex = 122;
+			this->pb_granjero44->TabStop = false;
+			// 
+			// pb_granjero45
+			// 
+			this->pb_granjero45->Location = System::Drawing::Point(764, 659);
+			this->pb_granjero45->Name = L"pb_granjero45";
+			this->pb_granjero45->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero45->TabIndex = 123;
+			this->pb_granjero45->TabStop = false;
+			// 
+			// pb_granjero46
+			// 
+			this->pb_granjero46->Location = System::Drawing::Point(890, 658);
+			this->pb_granjero46->Name = L"pb_granjero46";
+			this->pb_granjero46->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero46->TabIndex = 124;
+			this->pb_granjero46->TabStop = false;
+			// 
+			// pb_granjero47
+			// 
+			this->pb_granjero47->Location = System::Drawing::Point(1016, 659);
+			this->pb_granjero47->Name = L"pb_granjero47";
+			this->pb_granjero47->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero47->TabIndex = 125;
+			this->pb_granjero47->TabStop = false;
+			// 
+			// pb_granjero51
+			// 
+			this->pb_granjero51->Location = System::Drawing::Point(260, 784);
+			this->pb_granjero51->Name = L"pb_granjero51";
+			this->pb_granjero51->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero51->TabIndex = 126;
+			this->pb_granjero51->TabStop = false;
+			// 
+			// pb_granjero52
+			// 
+			this->pb_granjero52->Location = System::Drawing::Point(386, 785);
+			this->pb_granjero52->Name = L"pb_granjero52";
+			this->pb_granjero52->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero52->TabIndex = 127;
+			this->pb_granjero52->TabStop = false;
+			// 
+			// pb_granjero53
+			// 
+			this->pb_granjero53->Location = System::Drawing::Point(512, 784);
+			this->pb_granjero53->Name = L"pb_granjero53";
+			this->pb_granjero53->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero53->TabIndex = 128;
+			this->pb_granjero53->TabStop = false;
+			// 
+			// pb_granjero54
+			// 
+			this->pb_granjero54->Location = System::Drawing::Point(638, 784);
+			this->pb_granjero54->Name = L"pb_granjero54";
+			this->pb_granjero54->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero54->TabIndex = 129;
+			this->pb_granjero54->TabStop = false;
+			// 
+			// pb_granjero55
+			// 
+			this->pb_granjero55->Location = System::Drawing::Point(764, 784);
+			this->pb_granjero55->Name = L"pb_granjero55";
+			this->pb_granjero55->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero55->TabIndex = 130;
+			this->pb_granjero55->TabStop = false;
+			// 
+			// pb_granjero56
+			// 
+			this->pb_granjero56->Location = System::Drawing::Point(890, 785);
+			this->pb_granjero56->Name = L"pb_granjero56";
+			this->pb_granjero56->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero56->TabIndex = 131;
+			this->pb_granjero56->TabStop = false;
+			// 
+			// pb_granjero57
+			// 
+			this->pb_granjero57->Location = System::Drawing::Point(1016, 784);
+			this->pb_granjero57->Name = L"pb_granjero57";
+			this->pb_granjero57->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero57->TabIndex = 132;
+			this->pb_granjero57->TabStop = false;
+			// 
+			// pb_granjero61
+			// 
+			this->pb_granjero61->Location = System::Drawing::Point(260, 910);
+			this->pb_granjero61->Name = L"pb_granjero61";
+			this->pb_granjero61->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero61->TabIndex = 133;
+			this->pb_granjero61->TabStop = false;
+			// 
+			// pb_granjero62
+			// 
+			this->pb_granjero62->Location = System::Drawing::Point(386, 910);
+			this->pb_granjero62->Name = L"pb_granjero62";
+			this->pb_granjero62->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero62->TabIndex = 134;
+			this->pb_granjero62->TabStop = false;
+			// 
+			// pb_granjero63
+			// 
+			this->pb_granjero63->Location = System::Drawing::Point(512, 910);
+			this->pb_granjero63->Name = L"pb_granjero63";
+			this->pb_granjero63->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero63->TabIndex = 135;
+			this->pb_granjero63->TabStop = false;
+			// 
+			// pb_granjero64
+			// 
+			this->pb_granjero64->Location = System::Drawing::Point(638, 910);
+			this->pb_granjero64->Name = L"pb_granjero64";
+			this->pb_granjero64->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero64->TabIndex = 136;
+			this->pb_granjero64->TabStop = false;
+			// 
+			// pb_granjero65
+			// 
+			this->pb_granjero65->Location = System::Drawing::Point(764, 910);
+			this->pb_granjero65->Name = L"pb_granjero65";
+			this->pb_granjero65->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero65->TabIndex = 137;
+			this->pb_granjero65->TabStop = false;
+			// 
+			// pb_granjero66
+			// 
+			this->pb_granjero66->Location = System::Drawing::Point(890, 911);
+			this->pb_granjero66->Name = L"pb_granjero66";
+			this->pb_granjero66->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero66->TabIndex = 138;
+			this->pb_granjero66->TabStop = false;
+			// 
+			// pb_granjero67
+			// 
+			this->pb_granjero67->Location = System::Drawing::Point(1016, 910);
+			this->pb_granjero67->Name = L"pb_granjero67";
+			this->pb_granjero67->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero67->TabIndex = 139;
+			this->pb_granjero67->TabStop = false;
+			// 
+			// pb_granjero71
+			// 
+			this->pb_granjero71->Location = System::Drawing::Point(260, 1036);
+			this->pb_granjero71->Name = L"pb_granjero71";
+			this->pb_granjero71->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero71->TabIndex = 140;
+			this->pb_granjero71->TabStop = false;
+			// 
+			// pb_granjero72
+			// 
+			this->pb_granjero72->Location = System::Drawing::Point(386, 1036);
+			this->pb_granjero72->Name = L"pb_granjero72";
+			this->pb_granjero72->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero72->TabIndex = 141;
+			this->pb_granjero72->TabStop = false;
+			// 
+			// pb_granjero77
+			// 
+			this->pb_granjero77->Location = System::Drawing::Point(1016, 1036);
+			this->pb_granjero77->Name = L"pb_granjero77";
+			this->pb_granjero77->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero77->TabIndex = 142;
+			this->pb_granjero77->TabStop = false;
+			// 
+			// pb_granjero76
+			// 
+			this->pb_granjero76->Location = System::Drawing::Point(890, 1036);
+			this->pb_granjero76->Name = L"pb_granjero76";
+			this->pb_granjero76->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero76->TabIndex = 143;
+			this->pb_granjero76->TabStop = false;
+			// 
+			// pb_granjero75
+			// 
+			this->pb_granjero75->Location = System::Drawing::Point(764, 1036);
+			this->pb_granjero75->Name = L"pb_granjero75";
+			this->pb_granjero75->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero75->TabIndex = 144;
+			this->pb_granjero75->TabStop = false;
+			// 
+			// pb_granjero74
+			// 
+			this->pb_granjero74->Location = System::Drawing::Point(638, 1036);
+			this->pb_granjero74->Name = L"pb_granjero74";
+			this->pb_granjero74->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero74->TabIndex = 145;
+			this->pb_granjero74->TabStop = false;
+			// 
+			// pb_granjero73
+			// 
+			this->pb_granjero73->Location = System::Drawing::Point(512, 1036);
+			this->pb_granjero73->Name = L"pb_granjero73";
+			this->pb_granjero73->Size = System::Drawing::Size(46, 72);
+			this->pb_granjero73->TabIndex = 146;
+			this->pb_granjero73->TabStop = false;
+			// 
+			// pb_plaga11
+			// 
+			this->pb_plaga11->Location = System::Drawing::Point(186, 233);
+			this->pb_plaga11->Name = L"pb_plaga11";
+			this->pb_plaga11->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga11->TabIndex = 147;
+			this->pb_plaga11->TabStop = false;
+			// 
+			// pb_espanta17
+			// 
+			this->pb_espanta17->Location = System::Drawing::Point(1016, 233);
+			this->pb_espanta17->Name = L"pb_espanta17";
+			this->pb_espanta17->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta17->TabIndex = 148;
+			this->pb_espanta17->TabStop = false;
+			// 
+			// pb_plaga17
+			// 
+			this->pb_plaga17->Location = System::Drawing::Point(942, 233);
+			this->pb_plaga17->Name = L"pb_plaga17";
+			this->pb_plaga17->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga17->TabIndex = 149;
+			this->pb_plaga17->TabStop = false;
+			// 
+			// pb_espanta16
+			// 
+			this->pb_espanta16->Location = System::Drawing::Point(890, 233);
+			this->pb_espanta16->Name = L"pb_espanta16";
+			this->pb_espanta16->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta16->TabIndex = 150;
+			this->pb_espanta16->TabStop = false;
+			// 
+			// pb_plaga16
+			// 
+			this->pb_plaga16->Location = System::Drawing::Point(816, 233);
+			this->pb_plaga16->Name = L"pb_plaga16";
+			this->pb_plaga16->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga16->TabIndex = 151;
+			this->pb_plaga16->TabStop = false;
+			// 
+			// pb_espanta15
+			// 
+			this->pb_espanta15->Location = System::Drawing::Point(764, 233);
+			this->pb_espanta15->Name = L"pb_espanta15";
+			this->pb_espanta15->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta15->TabIndex = 152;
+			this->pb_espanta15->TabStop = false;
+			// 
+			// pb_plaga15
+			// 
+			this->pb_plaga15->Location = System::Drawing::Point(690, 233);
+			this->pb_plaga15->Name = L"pb_plaga15";
+			this->pb_plaga15->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga15->TabIndex = 153;
+			this->pb_plaga15->TabStop = false;
+			// 
+			// pb_espanta14
+			// 
+			this->pb_espanta14->Location = System::Drawing::Point(638, 233);
+			this->pb_espanta14->Name = L"pb_espanta14";
+			this->pb_espanta14->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta14->TabIndex = 154;
+			this->pb_espanta14->TabStop = false;
+			// 
+			// pb_plaga14
+			// 
+			this->pb_plaga14->Location = System::Drawing::Point(564, 233);
+			this->pb_plaga14->Name = L"pb_plaga14";
+			this->pb_plaga14->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga14->TabIndex = 155;
+			this->pb_plaga14->TabStop = false;
+			// 
+			// pb_espanta13
+			// 
+			this->pb_espanta13->Location = System::Drawing::Point(512, 233);
+			this->pb_espanta13->Name = L"pb_espanta13";
+			this->pb_espanta13->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta13->TabIndex = 156;
+			this->pb_espanta13->TabStop = false;
+			// 
+			// pb_plaga13
+			// 
+			this->pb_plaga13->Location = System::Drawing::Point(438, 233);
+			this->pb_plaga13->Name = L"pb_plaga13";
+			this->pb_plaga13->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga13->TabIndex = 157;
+			this->pb_plaga13->TabStop = false;
+			// 
+			// pb_espanta12
+			// 
+			this->pb_espanta12->Location = System::Drawing::Point(386, 233);
+			this->pb_espanta12->Name = L"pb_espanta12";
+			this->pb_espanta12->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta12->TabIndex = 158;
+			this->pb_espanta12->TabStop = false;
+			// 
+			// pb_plaga12
+			// 
+			this->pb_plaga12->Location = System::Drawing::Point(312, 233);
+			this->pb_plaga12->Name = L"pb_plaga12";
+			this->pb_plaga12->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga12->TabIndex = 159;
+			this->pb_plaga12->TabStop = false;
+			// 
+			// pb_espanta11
+			// 
+			this->pb_espanta11->Location = System::Drawing::Point(260, 233);
+			this->pb_espanta11->Name = L"pb_espanta11";
+			this->pb_espanta11->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta11->TabIndex = 160;
+			this->pb_espanta11->TabStop = false;
+			// 
+			// pb_espanta27
+			// 
+			this->pb_espanta27->Location = System::Drawing::Point(1016, 359);
+			this->pb_espanta27->Name = L"pb_espanta27";
+			this->pb_espanta27->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta27->TabIndex = 161;
+			this->pb_espanta27->TabStop = false;
+			// 
+			// pb_plaga27
+			// 
+			this->pb_plaga27->Location = System::Drawing::Point(942, 359);
+			this->pb_plaga27->Name = L"pb_plaga27";
+			this->pb_plaga27->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga27->TabIndex = 162;
+			this->pb_plaga27->TabStop = false;
+			// 
+			// pb_espanta26
+			// 
+			this->pb_espanta26->Location = System::Drawing::Point(890, 358);
+			this->pb_espanta26->Name = L"pb_espanta26";
+			this->pb_espanta26->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta26->TabIndex = 163;
+			this->pb_espanta26->TabStop = false;
+			// 
+			// pb_plaga26
+			// 
+			this->pb_plaga26->Location = System::Drawing::Point(816, 359);
+			this->pb_plaga26->Name = L"pb_plaga26";
+			this->pb_plaga26->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga26->TabIndex = 164;
+			this->pb_plaga26->TabStop = false;
+			// 
+			// pb_espanta25
+			// 
+			this->pb_espanta25->Location = System::Drawing::Point(764, 359);
+			this->pb_espanta25->Name = L"pb_espanta25";
+			this->pb_espanta25->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta25->TabIndex = 165;
+			this->pb_espanta25->TabStop = false;
+			// 
+			// pb_plaga25
+			// 
+			this->pb_plaga25->Location = System::Drawing::Point(690, 359);
+			this->pb_plaga25->Name = L"pb_plaga25";
+			this->pb_plaga25->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga25->TabIndex = 166;
+			this->pb_plaga25->TabStop = false;
+			// 
+			// pb_espanta24
+			// 
+			this->pb_espanta24->Location = System::Drawing::Point(638, 359);
+			this->pb_espanta24->Name = L"pb_espanta24";
+			this->pb_espanta24->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta24->TabIndex = 167;
+			this->pb_espanta24->TabStop = false;
+			// 
+			// pb_plaga24
+			// 
+			this->pb_plaga24->Location = System::Drawing::Point(564, 359);
+			this->pb_plaga24->Name = L"pb_plaga24";
+			this->pb_plaga24->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga24->TabIndex = 168;
+			this->pb_plaga24->TabStop = false;
+			// 
+			// pb_espanta23
+			// 
+			this->pb_espanta23->Location = System::Drawing::Point(512, 359);
+			this->pb_espanta23->Name = L"pb_espanta23";
+			this->pb_espanta23->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta23->TabIndex = 169;
+			this->pb_espanta23->TabStop = false;
+			// 
+			// pb_plaga23
+			// 
+			this->pb_plaga23->Location = System::Drawing::Point(438, 359);
+			this->pb_plaga23->Name = L"pb_plaga23";
+			this->pb_plaga23->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga23->TabIndex = 170;
+			this->pb_plaga23->TabStop = false;
+			// 
+			// pb_espanta22
+			// 
+			this->pb_espanta22->Location = System::Drawing::Point(386, 359);
+			this->pb_espanta22->Name = L"pb_espanta22";
+			this->pb_espanta22->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta22->TabIndex = 171;
+			this->pb_espanta22->TabStop = false;
+			// 
+			// pb_plaga22
+			// 
+			this->pb_plaga22->Location = System::Drawing::Point(312, 359);
+			this->pb_plaga22->Name = L"pb_plaga22";
+			this->pb_plaga22->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga22->TabIndex = 172;
+			this->pb_plaga22->TabStop = false;
+			// 
+			// pb_espanta21
+			// 
+			this->pb_espanta21->Location = System::Drawing::Point(260, 359);
+			this->pb_espanta21->Name = L"pb_espanta21";
+			this->pb_espanta21->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta21->TabIndex = 173;
+			this->pb_espanta21->TabStop = false;
+			// 
+			// pb_plaga21
+			// 
+			this->pb_plaga21->Location = System::Drawing::Point(186, 359);
+			this->pb_plaga21->Name = L"pb_plaga21";
+			this->pb_plaga21->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga21->TabIndex = 174;
+			this->pb_plaga21->TabStop = false;
+			// 
+			// pb_espanta45
+			// 
+			this->pb_espanta45->Location = System::Drawing::Point(764, 611);
+			this->pb_espanta45->Name = L"pb_espanta45";
+			this->pb_espanta45->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta45->TabIndex = 175;
+			this->pb_espanta45->TabStop = false;
+			// 
+			// pb_plaga45
+			// 
+			this->pb_plaga45->Location = System::Drawing::Point(690, 611);
+			this->pb_plaga45->Name = L"pb_plaga45";
+			this->pb_plaga45->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga45->TabIndex = 176;
+			this->pb_plaga45->TabStop = false;
+			// 
+			// pb_espanta46
+			// 
+			this->pb_espanta46->Location = System::Drawing::Point(890, 610);
+			this->pb_espanta46->Name = L"pb_espanta46";
+			this->pb_espanta46->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta46->TabIndex = 177;
+			this->pb_espanta46->TabStop = false;
+			// 
+			// pb_plaga46
+			// 
+			this->pb_plaga46->Location = System::Drawing::Point(816, 611);
+			this->pb_plaga46->Name = L"pb_plaga46";
+			this->pb_plaga46->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga46->TabIndex = 178;
+			this->pb_plaga46->TabStop = false;
+			// 
+			// pb_espanta47
+			// 
+			this->pb_espanta47->Location = System::Drawing::Point(1016, 611);
+			this->pb_espanta47->Name = L"pb_espanta47";
+			this->pb_espanta47->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta47->TabIndex = 179;
+			this->pb_espanta47->TabStop = false;
+			// 
+			// pb_plaga47
+			// 
+			this->pb_plaga47->Location = System::Drawing::Point(942, 610);
+			this->pb_plaga47->Name = L"pb_plaga47";
+			this->pb_plaga47->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga47->TabIndex = 180;
+			this->pb_plaga47->TabStop = false;
+			// 
+			// pb_espanta44
+			// 
+			this->pb_espanta44->Location = System::Drawing::Point(638, 611);
+			this->pb_espanta44->Name = L"pb_espanta44";
+			this->pb_espanta44->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta44->TabIndex = 181;
+			this->pb_espanta44->TabStop = false;
+			// 
+			// pb_plaga44
+			// 
+			this->pb_plaga44->Location = System::Drawing::Point(564, 608);
+			this->pb_plaga44->Name = L"pb_plaga44";
+			this->pb_plaga44->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga44->TabIndex = 182;
+			this->pb_plaga44->TabStop = false;
+			// 
+			// pb_espanta43
+			// 
+			this->pb_espanta43->Location = System::Drawing::Point(512, 610);
+			this->pb_espanta43->Name = L"pb_espanta43";
+			this->pb_espanta43->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta43->TabIndex = 183;
+			this->pb_espanta43->TabStop = false;
+			// 
+			// pb_plaga43
+			// 
+			this->pb_plaga43->Location = System::Drawing::Point(438, 608);
+			this->pb_plaga43->Name = L"pb_plaga43";
+			this->pb_plaga43->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga43->TabIndex = 184;
+			this->pb_plaga43->TabStop = false;
+			// 
+			// pb_espanta42
+			// 
+			this->pb_espanta42->Location = System::Drawing::Point(386, 610);
+			this->pb_espanta42->Name = L"pb_espanta42";
+			this->pb_espanta42->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta42->TabIndex = 185;
+			this->pb_espanta42->TabStop = false;
+			// 
+			// pb_plaga42
+			// 
+			this->pb_plaga42->Location = System::Drawing::Point(312, 611);
+			this->pb_plaga42->Name = L"pb_plaga42";
+			this->pb_plaga42->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga42->TabIndex = 186;
+			this->pb_plaga42->TabStop = false;
+			// 
+			// pb_espanta41
+			// 
+			this->pb_espanta41->Location = System::Drawing::Point(260, 611);
+			this->pb_espanta41->Name = L"pb_espanta41";
+			this->pb_espanta41->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta41->TabIndex = 187;
+			this->pb_espanta41->TabStop = false;
+			// 
+			// pb_plaga41
+			// 
+			this->pb_plaga41->Location = System::Drawing::Point(186, 611);
+			this->pb_plaga41->Name = L"pb_plaga41";
+			this->pb_plaga41->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga41->TabIndex = 188;
+			this->pb_plaga41->TabStop = false;
+			// 
+			// pb_espanta37
+			// 
+			this->pb_espanta37->Location = System::Drawing::Point(1016, 485);
+			this->pb_espanta37->Name = L"pb_espanta37";
+			this->pb_espanta37->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta37->TabIndex = 189;
+			this->pb_espanta37->TabStop = false;
+			// 
+			// pb_plaga37
+			// 
+			this->pb_plaga37->Location = System::Drawing::Point(942, 486);
+			this->pb_plaga37->Name = L"pb_plaga37";
+			this->pb_plaga37->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga37->TabIndex = 190;
+			this->pb_plaga37->TabStop = false;
+			// 
+			// pb_espanta36
+			// 
+			this->pb_espanta36->Location = System::Drawing::Point(890, 484);
+			this->pb_espanta36->Name = L"pb_espanta36";
+			this->pb_espanta36->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta36->TabIndex = 191;
+			this->pb_espanta36->TabStop = false;
+			// 
+			// pb_plaga36
+			// 
+			this->pb_plaga36->Location = System::Drawing::Point(816, 485);
+			this->pb_plaga36->Name = L"pb_plaga36";
+			this->pb_plaga36->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga36->TabIndex = 192;
+			this->pb_plaga36->TabStop = false;
+			// 
+			// pb_espanta35
+			// 
+			this->pb_espanta35->Location = System::Drawing::Point(764, 486);
+			this->pb_espanta35->Name = L"pb_espanta35";
+			this->pb_espanta35->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta35->TabIndex = 193;
+			this->pb_espanta35->TabStop = false;
+			// 
+			// pb_plaga35
+			// 
+			this->pb_plaga35->Location = System::Drawing::Point(690, 485);
+			this->pb_plaga35->Name = L"pb_plaga35";
+			this->pb_plaga35->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga35->TabIndex = 194;
+			this->pb_plaga35->TabStop = false;
+			// 
+			// pb_espanta34
+			// 
+			this->pb_espanta34->Location = System::Drawing::Point(638, 486);
+			this->pb_espanta34->Name = L"pb_espanta34";
+			this->pb_espanta34->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta34->TabIndex = 195;
+			this->pb_espanta34->TabStop = false;
+			// 
+			// pb_plaga34
+			// 
+			this->pb_plaga34->Location = System::Drawing::Point(564, 485);
+			this->pb_plaga34->Name = L"pb_plaga34";
+			this->pb_plaga34->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga34->TabIndex = 196;
+			this->pb_plaga34->TabStop = false;
+			// 
+			// pb_espanta33
+			// 
+			this->pb_espanta33->Location = System::Drawing::Point(512, 485);
+			this->pb_espanta33->Name = L"pb_espanta33";
+			this->pb_espanta33->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta33->TabIndex = 197;
+			this->pb_espanta33->TabStop = false;
+			// 
+			// pb_plaga33
+			// 
+			this->pb_plaga33->Location = System::Drawing::Point(438, 485);
+			this->pb_plaga33->Name = L"pb_plaga33";
+			this->pb_plaga33->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga33->TabIndex = 198;
+			this->pb_plaga33->TabStop = false;
+			// 
+			// pb_espanta32
+			// 
+			this->pb_espanta32->Location = System::Drawing::Point(386, 485);
+			this->pb_espanta32->Name = L"pb_espanta32";
+			this->pb_espanta32->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta32->TabIndex = 199;
+			this->pb_espanta32->TabStop = false;
+			// 
+			// pb_plaga32
+			// 
+			this->pb_plaga32->Location = System::Drawing::Point(312, 485);
+			this->pb_plaga32->Name = L"pb_plaga32";
+			this->pb_plaga32->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga32->TabIndex = 200;
+			this->pb_plaga32->TabStop = false;
+			// 
+			// pb_espanta31
+			// 
+			this->pb_espanta31->Location = System::Drawing::Point(260, 485);
+			this->pb_espanta31->Name = L"pb_espanta31";
+			this->pb_espanta31->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta31->TabIndex = 201;
+			this->pb_espanta31->TabStop = false;
+			// 
+			// pb_plaga31
+			// 
+			this->pb_plaga31->Location = System::Drawing::Point(186, 485);
+			this->pb_plaga31->Name = L"pb_plaga31";
+			this->pb_plaga31->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga31->TabIndex = 202;
+			this->pb_plaga31->TabStop = false;
+			// 
+			// pb_espanta56
+			// 
+			this->pb_espanta56->Location = System::Drawing::Point(890, 737);
+			this->pb_espanta56->Name = L"pb_espanta56";
+			this->pb_espanta56->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta56->TabIndex = 203;
+			this->pb_espanta56->TabStop = false;
+			// 
+			// pb_plaga56
+			// 
+			this->pb_plaga56->Location = System::Drawing::Point(816, 737);
+			this->pb_plaga56->Name = L"pb_plaga56";
+			this->pb_plaga56->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga56->TabIndex = 204;
+			this->pb_plaga56->TabStop = false;
+			// 
+			// pb_espanta55
+			// 
+			this->pb_espanta55->Location = System::Drawing::Point(764, 737);
+			this->pb_espanta55->Name = L"pb_espanta55";
+			this->pb_espanta55->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta55->TabIndex = 205;
+			this->pb_espanta55->TabStop = false;
+			// 
+			// pb_plaga55
+			// 
+			this->pb_plaga55->Location = System::Drawing::Point(690, 737);
+			this->pb_plaga55->Name = L"pb_plaga55";
+			this->pb_plaga55->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga55->TabIndex = 206;
+			this->pb_plaga55->TabStop = false;
+			// 
+			// pb_espanta54
+			// 
+			this->pb_espanta54->Location = System::Drawing::Point(638, 737);
+			this->pb_espanta54->Name = L"pb_espanta54";
+			this->pb_espanta54->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta54->TabIndex = 207;
+			this->pb_espanta54->TabStop = false;
+			// 
+			// pb_plaga54
+			// 
+			this->pb_plaga54->Location = System::Drawing::Point(564, 737);
+			this->pb_plaga54->Name = L"pb_plaga54";
+			this->pb_plaga54->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga54->TabIndex = 208;
+			this->pb_plaga54->TabStop = false;
+			// 
+			// pb_espanta53
+			// 
+			this->pb_espanta53->Location = System::Drawing::Point(512, 737);
+			this->pb_espanta53->Name = L"pb_espanta53";
+			this->pb_espanta53->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta53->TabIndex = 209;
+			this->pb_espanta53->TabStop = false;
+			// 
+			// pb_plaga53
+			// 
+			this->pb_plaga53->Location = System::Drawing::Point(438, 737);
+			this->pb_plaga53->Name = L"pb_plaga53";
+			this->pb_plaga53->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga53->TabIndex = 210;
+			this->pb_plaga53->TabStop = false;
+			// 
+			// pb_espanta52
+			// 
+			this->pb_espanta52->Location = System::Drawing::Point(386, 737);
+			this->pb_espanta52->Name = L"pb_espanta52";
+			this->pb_espanta52->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta52->TabIndex = 211;
+			this->pb_espanta52->TabStop = false;
+			// 
+			// pb_plaga52
+			// 
+			this->pb_plaga52->Location = System::Drawing::Point(312, 737);
+			this->pb_plaga52->Name = L"pb_plaga52";
+			this->pb_plaga52->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga52->TabIndex = 212;
+			this->pb_plaga52->TabStop = false;
+			// 
+			// pb_espanta51
+			// 
+			this->pb_espanta51->Location = System::Drawing::Point(260, 737);
+			this->pb_espanta51->Name = L"pb_espanta51";
+			this->pb_espanta51->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta51->TabIndex = 213;
+			this->pb_espanta51->TabStop = false;
+			// 
+			// pb_plaga51
+			// 
+			this->pb_plaga51->Location = System::Drawing::Point(186, 737);
+			this->pb_plaga51->Name = L"pb_plaga51";
+			this->pb_plaga51->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga51->TabIndex = 214;
+			this->pb_plaga51->TabStop = false;
+			// 
+			// pb_plaga61
+			// 
+			this->pb_plaga61->Location = System::Drawing::Point(186, 863);
+			this->pb_plaga61->Name = L"pb_plaga61";
+			this->pb_plaga61->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga61->TabIndex = 215;
+			this->pb_plaga61->TabStop = false;
+			// 
+			// pb_espanta57
+			// 
+			this->pb_espanta57->Location = System::Drawing::Point(1016, 737);
+			this->pb_espanta57->Name = L"pb_espanta57";
+			this->pb_espanta57->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta57->TabIndex = 216;
+			this->pb_espanta57->TabStop = false;
+			// 
+			// pb_plaga57
+			// 
+			this->pb_plaga57->Location = System::Drawing::Point(942, 736);
+			this->pb_plaga57->Name = L"pb_plaga57";
+			this->pb_plaga57->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga57->TabIndex = 217;
+			this->pb_plaga57->TabStop = false;
+			// 
+			// pb_espanta67
+			// 
+			this->pb_espanta67->Location = System::Drawing::Point(1016, 863);
+			this->pb_espanta67->Name = L"pb_espanta67";
+			this->pb_espanta67->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta67->TabIndex = 218;
+			this->pb_espanta67->TabStop = false;
+			// 
+			// pb_plaga67
+			// 
+			this->pb_plaga67->Location = System::Drawing::Point(942, 863);
+			this->pb_plaga67->Name = L"pb_plaga67";
+			this->pb_plaga67->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga67->TabIndex = 219;
+			this->pb_plaga67->TabStop = false;
+			// 
+			// pb_espanta66
+			// 
+			this->pb_espanta66->Location = System::Drawing::Point(890, 862);
+			this->pb_espanta66->Name = L"pb_espanta66";
+			this->pb_espanta66->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta66->TabIndex = 220;
+			this->pb_espanta66->TabStop = false;
+			// 
+			// pb_plaga66
+			// 
+			this->pb_plaga66->Location = System::Drawing::Point(816, 862);
+			this->pb_plaga66->Name = L"pb_plaga66";
+			this->pb_plaga66->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga66->TabIndex = 221;
+			this->pb_plaga66->TabStop = false;
+			// 
+			// pb_espanta65
+			// 
+			this->pb_espanta65->Location = System::Drawing::Point(764, 862);
+			this->pb_espanta65->Name = L"pb_espanta65";
+			this->pb_espanta65->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta65->TabIndex = 222;
+			this->pb_espanta65->TabStop = false;
+			// 
+			// pb_plaga65
+			// 
+			this->pb_plaga65->Location = System::Drawing::Point(690, 863);
+			this->pb_plaga65->Name = L"pb_plaga65";
+			this->pb_plaga65->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga65->TabIndex = 223;
+			this->pb_plaga65->TabStop = false;
+			// 
+			// pb_espanta64
+			// 
+			this->pb_espanta64->Location = System::Drawing::Point(638, 863);
+			this->pb_espanta64->Name = L"pb_espanta64";
+			this->pb_espanta64->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta64->TabIndex = 224;
+			this->pb_espanta64->TabStop = false;
+			// 
+			// pb_plaga64
+			// 
+			this->pb_plaga64->Location = System::Drawing::Point(564, 863);
+			this->pb_plaga64->Name = L"pb_plaga64";
+			this->pb_plaga64->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga64->TabIndex = 225;
+			this->pb_plaga64->TabStop = false;
+			// 
+			// pb_espanta63
+			// 
+			this->pb_espanta63->Location = System::Drawing::Point(512, 863);
+			this->pb_espanta63->Name = L"pb_espanta63";
+			this->pb_espanta63->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta63->TabIndex = 226;
+			this->pb_espanta63->TabStop = false;
+			// 
+			// pb_plaga63
+			// 
+			this->pb_plaga63->Location = System::Drawing::Point(438, 863);
+			this->pb_plaga63->Name = L"pb_plaga63";
+			this->pb_plaga63->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga63->TabIndex = 227;
+			this->pb_plaga63->TabStop = false;
+			// 
+			// pb_espanta62
+			// 
+			this->pb_espanta62->Location = System::Drawing::Point(386, 863);
+			this->pb_espanta62->Name = L"pb_espanta62";
+			this->pb_espanta62->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta62->TabIndex = 228;
+			this->pb_espanta62->TabStop = false;
+			// 
+			// pb_plaga62
+			// 
+			this->pb_plaga62->Location = System::Drawing::Point(312, 863);
+			this->pb_plaga62->Name = L"pb_plaga62";
+			this->pb_plaga62->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga62->TabIndex = 229;
+			this->pb_plaga62->TabStop = false;
+			// 
+			// pb_espanta61
+			// 
+			this->pb_espanta61->Location = System::Drawing::Point(260, 863);
+			this->pb_espanta61->Name = L"pb_espanta61";
+			this->pb_espanta61->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta61->TabIndex = 230;
+			this->pb_espanta61->TabStop = false;
+			// 
+			// pb_espanta77
+			// 
+			this->pb_espanta77->Location = System::Drawing::Point(1016, 988);
+			this->pb_espanta77->Name = L"pb_espanta77";
+			this->pb_espanta77->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta77->TabIndex = 231;
+			this->pb_espanta77->TabStop = false;
+			// 
+			// pb_plaga77
+			// 
+			this->pb_plaga77->Location = System::Drawing::Point(942, 988);
+			this->pb_plaga77->Name = L"pb_plaga77";
+			this->pb_plaga77->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga77->TabIndex = 232;
+			this->pb_plaga77->TabStop = false;
+			// 
+			// pb_espanta76
+			// 
+			this->pb_espanta76->Location = System::Drawing::Point(890, 988);
+			this->pb_espanta76->Name = L"pb_espanta76";
+			this->pb_espanta76->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta76->TabIndex = 233;
+			this->pb_espanta76->TabStop = false;
+			// 
+			// pb_plaga76
+			// 
+			this->pb_plaga76->Location = System::Drawing::Point(816, 988);
+			this->pb_plaga76->Name = L"pb_plaga76";
+			this->pb_plaga76->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga76->TabIndex = 234;
+			this->pb_plaga76->TabStop = false;
+			// 
+			// pb_espanta75
+			// 
+			this->pb_espanta75->Location = System::Drawing::Point(764, 988);
+			this->pb_espanta75->Name = L"pb_espanta75";
+			this->pb_espanta75->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta75->TabIndex = 235;
+			this->pb_espanta75->TabStop = false;
+			// 
+			// pb_plaga75
+			// 
+			this->pb_plaga75->Location = System::Drawing::Point(690, 989);
+			this->pb_plaga75->Name = L"pb_plaga75";
+			this->pb_plaga75->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga75->TabIndex = 236;
+			this->pb_plaga75->TabStop = false;
+			// 
+			// pb_espanta74
+			// 
+			this->pb_espanta74->Location = System::Drawing::Point(638, 988);
+			this->pb_espanta74->Name = L"pb_espanta74";
+			this->pb_espanta74->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta74->TabIndex = 237;
+			this->pb_espanta74->TabStop = false;
+			// 
+			// pb_plaga74
+			// 
+			this->pb_plaga74->Location = System::Drawing::Point(564, 989);
+			this->pb_plaga74->Name = L"pb_plaga74";
+			this->pb_plaga74->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga74->TabIndex = 238;
+			this->pb_plaga74->TabStop = false;
+			// 
+			// pb_espanta73
+			// 
+			this->pb_espanta73->Location = System::Drawing::Point(512, 989);
+			this->pb_espanta73->Name = L"pb_espanta73";
+			this->pb_espanta73->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta73->TabIndex = 239;
+			this->pb_espanta73->TabStop = false;
+			// 
+			// pb_plaga73
+			// 
+			this->pb_plaga73->Location = System::Drawing::Point(438, 989);
+			this->pb_plaga73->Name = L"pb_plaga73";
+			this->pb_plaga73->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga73->TabIndex = 240;
+			this->pb_plaga73->TabStop = false;
+			// 
+			// pb_espanta72
+			// 
+			this->pb_espanta72->Location = System::Drawing::Point(386, 988);
+			this->pb_espanta72->Name = L"pb_espanta72";
+			this->pb_espanta72->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta72->TabIndex = 241;
+			this->pb_espanta72->TabStop = false;
+			// 
+			// pb_plaga72
+			// 
+			this->pb_plaga72->Location = System::Drawing::Point(312, 989);
+			this->pb_plaga72->Name = L"pb_plaga72";
+			this->pb_plaga72->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga72->TabIndex = 242;
+			this->pb_plaga72->TabStop = false;
+			// 
+			// pb_espanta71
+			// 
+			this->pb_espanta71->Location = System::Drawing::Point(260, 989);
+			this->pb_espanta71->Name = L"pb_espanta71";
+			this->pb_espanta71->Size = System::Drawing::Size(46, 50);
+			this->pb_espanta71->TabIndex = 243;
+			this->pb_espanta71->TabStop = false;
+			// 
+			// pb_plaga71
+			// 
+			this->pb_plaga71->Location = System::Drawing::Point(186, 989);
+			this->pb_plaga71->Name = L"pb_plaga71";
+			this->pb_plaga71->Size = System::Drawing::Size(46, 50);
+			this->pb_plaga71->TabIndex = 244;
+			this->pb_plaga71->TabStop = false;
+			// 
+			// lbl_TituloArbol
+			// 
+			this->lbl_TituloArbol->AutoSize = true;
+			this->lbl_TituloArbol->Location = System::Drawing::Point(173, 27);
+			this->lbl_TituloArbol->Name = L"lbl_TituloArbol";
+			this->lbl_TituloArbol->Size = System::Drawing::Size(46, 20);
+			this->lbl_TituloArbol->TabIndex = 245;
+			this->lbl_TituloArbol->Text = L"Arbol";
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(173, 67);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(40, 20);
+			this->label1->TabIndex = 246;
+			this->label1->Text = L"AVL";
+			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->Location = System::Drawing::Point(173, 47);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(43, 20);
+			this->label2->TabIndex = 247;
+			this->label2->Text = L"ABO";
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->Location = System::Drawing::Point(173, 87);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(53, 20);
+			this->label3->TabIndex = 248;
+			this->label3->Text = L"HEAP";
+			// 
+			// label4
+			// 
+			this->label4->AutoSize = true;
+			this->label4->Location = System::Drawing::Point(256, 27);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(85, 20);
+			this->label4->TabIndex = 249;
+			this->label4->Text = L"Posiciones";
+			// 
+			// lbl_PosiAB
+			// 
+			this->lbl_PosiAB->AutoSize = true;
+			this->lbl_PosiAB->Location = System::Drawing::Point(255, 47);
+			this->lbl_PosiAB->Name = L"lbl_PosiAB";
+			this->lbl_PosiAB->Size = System::Drawing::Size(51, 20);
+			this->lbl_PosiAB->TabIndex = 250;
+			this->lbl_PosiAB->Text = L"label5";
+			// 
+			// lbl_PosiHEAP
+			// 
+			this->lbl_PosiHEAP->AutoSize = true;
+			this->lbl_PosiHEAP->Location = System::Drawing::Point(255, 87);
+			this->lbl_PosiHEAP->Name = L"lbl_PosiHEAP";
+			this->lbl_PosiHEAP->Size = System::Drawing::Size(51, 20);
+			this->lbl_PosiHEAP->TabIndex = 252;
+			this->lbl_PosiHEAP->Text = L"label6";
+			// 
+			// lbl_PosiAVL
+			// 
+			this->lbl_PosiAVL->AutoSize = true;
+			this->lbl_PosiAVL->Location = System::Drawing::Point(256, 67);
+			this->lbl_PosiAVL->Name = L"lbl_PosiAVL";
+			this->lbl_PosiAVL->Size = System::Drawing::Size(51, 20);
+			this->lbl_PosiAVL->TabIndex = 251;
+			this->lbl_PosiAVL->Text = L"label7";
+			// 
+			// lbl_FrutaHEAP
+			// 
+			this->lbl_FrutaHEAP->AutoSize = true;
+			this->lbl_FrutaHEAP->Location = System::Drawing::Point(367, 87);
+			this->lbl_FrutaHEAP->Name = L"lbl_FrutaHEAP";
+			this->lbl_FrutaHEAP->Size = System::Drawing::Size(51, 20);
+			this->lbl_FrutaHEAP->TabIndex = 256;
+			this->lbl_FrutaHEAP->Text = L"label6";
+			// 
+			// lbl_FrutaAVL
+			// 
+			this->lbl_FrutaAVL->AutoSize = true;
+			this->lbl_FrutaAVL->Location = System::Drawing::Point(368, 67);
+			this->lbl_FrutaAVL->Name = L"lbl_FrutaAVL";
+			this->lbl_FrutaAVL->Size = System::Drawing::Size(51, 20);
+			this->lbl_FrutaAVL->TabIndex = 255;
+			this->lbl_FrutaAVL->Text = L"label7";
+			// 
+			// lbl_FrutaAB
+			// 
+			this->lbl_FrutaAB->AutoSize = true;
+			this->lbl_FrutaAB->Location = System::Drawing::Point(367, 47);
+			this->lbl_FrutaAB->Name = L"lbl_FrutaAB";
+			this->lbl_FrutaAB->Size = System::Drawing::Size(51, 20);
+			this->lbl_FrutaAB->TabIndex = 254;
+			this->lbl_FrutaAB->Text = L"label5";
+			// 
+			// label8
+			// 
+			this->label8->AutoSize = true;
+			this->label8->Location = System::Drawing::Point(368, 27);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(140, 20);
+			this->label8->TabIndex = 253;
+			this->label8->Text = L"Cantidad de frutos";
 			// 
 			// Form1
 			// 
@@ -1835,55 +3201,165 @@ private: System::Windows::Forms::PictureBox^ pictureBox95;
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1478, 1170);
-			this->Controls->Add(this->pictureBox95);
-			this->Controls->Add(this->pictureBox94);
-			this->Controls->Add(this->pictureBox93);
-			this->Controls->Add(this->pictureBox92);
-			this->Controls->Add(this->pictureBox91);
-			this->Controls->Add(this->pictureBox90);
-			this->Controls->Add(this->pictureBox89);
-			this->Controls->Add(this->pictureBox88);
-			this->Controls->Add(this->pictureBox87);
-			this->Controls->Add(this->pictureBox86);
-			this->Controls->Add(this->pictureBox85);
-			this->Controls->Add(this->pictureBox84);
-			this->Controls->Add(this->pictureBox83);
-			this->Controls->Add(this->pictureBox82);
-			this->Controls->Add(this->pictureBox81);
-			this->Controls->Add(this->pictureBox80);
-			this->Controls->Add(this->pictureBox79);
-			this->Controls->Add(this->pictureBox78);
-			this->Controls->Add(this->pictureBox77);
-			this->Controls->Add(this->pictureBox76);
-			this->Controls->Add(this->pictureBox75);
-			this->Controls->Add(this->pictureBox74);
-			this->Controls->Add(this->pictureBox73);
-			this->Controls->Add(this->pictureBox72);
-			this->Controls->Add(this->pictureBox71);
-			this->Controls->Add(this->pictureBox70);
-			this->Controls->Add(this->pictureBox69);
-			this->Controls->Add(this->pictureBox68);
-			this->Controls->Add(this->pictureBox67);
-			this->Controls->Add(this->pictureBox66);
-			this->Controls->Add(this->pictureBox65);
-			this->Controls->Add(this->pictureBox64);
-			this->Controls->Add(this->pictureBox63);
-			this->Controls->Add(this->pictureBox62);
-			this->Controls->Add(this->pictureBox61);
-			this->Controls->Add(this->pictureBox60);
-			this->Controls->Add(this->pictureBox59);
-			this->Controls->Add(this->pictureBox58);
-			this->Controls->Add(this->pictureBox57);
-			this->Controls->Add(this->pictureBox56);
-			this->Controls->Add(this->pictureBox55);
-			this->Controls->Add(this->pictureBox54);
-			this->Controls->Add(this->pictureBox46);
-			this->Controls->Add(this->pictureBox45);
-			this->Controls->Add(this->pictureBox44);
-			this->Controls->Add(this->pictureBox43);
-			this->Controls->Add(this->pictureBox42);
-			this->Controls->Add(this->pictureBox41);
-			this->Controls->Add(this->pictureBox40);
+			this->Controls->Add(this->lbl_FrutaHEAP);
+			this->Controls->Add(this->lbl_FrutaAVL);
+			this->Controls->Add(this->lbl_FrutaAB);
+			this->Controls->Add(this->label8);
+			this->Controls->Add(this->lbl_PosiHEAP);
+			this->Controls->Add(this->lbl_PosiAVL);
+			this->Controls->Add(this->lbl_PosiAB);
+			this->Controls->Add(this->label4);
+			this->Controls->Add(this->label3);
+			this->Controls->Add(this->label2);
+			this->Controls->Add(this->label1);
+			this->Controls->Add(this->lbl_TituloArbol);
+			this->Controls->Add(this->pb_plaga71);
+			this->Controls->Add(this->pb_espanta71);
+			this->Controls->Add(this->pb_plaga72);
+			this->Controls->Add(this->pb_espanta72);
+			this->Controls->Add(this->pb_plaga73);
+			this->Controls->Add(this->pb_espanta73);
+			this->Controls->Add(this->pb_plaga74);
+			this->Controls->Add(this->pb_espanta74);
+			this->Controls->Add(this->pb_plaga75);
+			this->Controls->Add(this->pb_espanta75);
+			this->Controls->Add(this->pb_plaga76);
+			this->Controls->Add(this->pb_espanta76);
+			this->Controls->Add(this->pb_plaga77);
+			this->Controls->Add(this->pb_espanta77);
+			this->Controls->Add(this->pb_espanta61);
+			this->Controls->Add(this->pb_plaga62);
+			this->Controls->Add(this->pb_espanta62);
+			this->Controls->Add(this->pb_plaga63);
+			this->Controls->Add(this->pb_espanta63);
+			this->Controls->Add(this->pb_plaga64);
+			this->Controls->Add(this->pb_espanta64);
+			this->Controls->Add(this->pb_plaga65);
+			this->Controls->Add(this->pb_espanta65);
+			this->Controls->Add(this->pb_plaga66);
+			this->Controls->Add(this->pb_espanta66);
+			this->Controls->Add(this->pb_plaga67);
+			this->Controls->Add(this->pb_espanta67);
+			this->Controls->Add(this->pb_plaga57);
+			this->Controls->Add(this->pb_espanta57);
+			this->Controls->Add(this->pb_plaga61);
+			this->Controls->Add(this->pb_plaga51);
+			this->Controls->Add(this->pb_espanta51);
+			this->Controls->Add(this->pb_plaga52);
+			this->Controls->Add(this->pb_espanta52);
+			this->Controls->Add(this->pb_plaga53);
+			this->Controls->Add(this->pb_espanta53);
+			this->Controls->Add(this->pb_plaga54);
+			this->Controls->Add(this->pb_espanta54);
+			this->Controls->Add(this->pb_plaga55);
+			this->Controls->Add(this->pb_espanta55);
+			this->Controls->Add(this->pb_plaga56);
+			this->Controls->Add(this->pb_espanta56);
+			this->Controls->Add(this->pb_plaga31);
+			this->Controls->Add(this->pb_espanta31);
+			this->Controls->Add(this->pb_plaga32);
+			this->Controls->Add(this->pb_espanta32);
+			this->Controls->Add(this->pb_plaga33);
+			this->Controls->Add(this->pb_espanta33);
+			this->Controls->Add(this->pb_plaga34);
+			this->Controls->Add(this->pb_espanta34);
+			this->Controls->Add(this->pb_plaga35);
+			this->Controls->Add(this->pb_espanta35);
+			this->Controls->Add(this->pb_plaga36);
+			this->Controls->Add(this->pb_espanta36);
+			this->Controls->Add(this->pb_plaga37);
+			this->Controls->Add(this->pb_espanta37);
+			this->Controls->Add(this->pb_plaga41);
+			this->Controls->Add(this->pb_espanta41);
+			this->Controls->Add(this->pb_plaga42);
+			this->Controls->Add(this->pb_espanta42);
+			this->Controls->Add(this->pb_plaga43);
+			this->Controls->Add(this->pb_espanta43);
+			this->Controls->Add(this->pb_plaga44);
+			this->Controls->Add(this->pb_espanta44);
+			this->Controls->Add(this->pb_plaga47);
+			this->Controls->Add(this->pb_espanta47);
+			this->Controls->Add(this->pb_plaga46);
+			this->Controls->Add(this->pb_espanta46);
+			this->Controls->Add(this->pb_plaga45);
+			this->Controls->Add(this->pb_espanta45);
+			this->Controls->Add(this->pb_plaga21);
+			this->Controls->Add(this->pb_espanta21);
+			this->Controls->Add(this->pb_plaga22);
+			this->Controls->Add(this->pb_espanta22);
+			this->Controls->Add(this->pb_plaga23);
+			this->Controls->Add(this->pb_espanta23);
+			this->Controls->Add(this->pb_plaga24);
+			this->Controls->Add(this->pb_espanta24);
+			this->Controls->Add(this->pb_plaga25);
+			this->Controls->Add(this->pb_espanta25);
+			this->Controls->Add(this->pb_plaga26);
+			this->Controls->Add(this->pb_espanta26);
+			this->Controls->Add(this->pb_plaga27);
+			this->Controls->Add(this->pb_espanta27);
+			this->Controls->Add(this->pb_espanta11);
+			this->Controls->Add(this->pb_plaga12);
+			this->Controls->Add(this->pb_espanta12);
+			this->Controls->Add(this->pb_plaga13);
+			this->Controls->Add(this->pb_espanta13);
+			this->Controls->Add(this->pb_plaga14);
+			this->Controls->Add(this->pb_espanta14);
+			this->Controls->Add(this->pb_plaga15);
+			this->Controls->Add(this->pb_espanta15);
+			this->Controls->Add(this->pb_plaga16);
+			this->Controls->Add(this->pb_espanta16);
+			this->Controls->Add(this->pb_plaga17);
+			this->Controls->Add(this->pb_espanta17);
+			this->Controls->Add(this->pb_plaga11);
+			this->Controls->Add(this->pb_granjero73);
+			this->Controls->Add(this->pb_granjero74);
+			this->Controls->Add(this->pb_granjero75);
+			this->Controls->Add(this->pb_granjero76);
+			this->Controls->Add(this->pb_granjero77);
+			this->Controls->Add(this->pb_granjero72);
+			this->Controls->Add(this->pb_granjero71);
+			this->Controls->Add(this->pb_granjero67);
+			this->Controls->Add(this->pb_granjero66);
+			this->Controls->Add(this->pb_granjero65);
+			this->Controls->Add(this->pb_granjero64);
+			this->Controls->Add(this->pb_granjero63);
+			this->Controls->Add(this->pb_granjero62);
+			this->Controls->Add(this->pb_granjero61);
+			this->Controls->Add(this->pb_granjero57);
+			this->Controls->Add(this->pb_granjero56);
+			this->Controls->Add(this->pb_granjero55);
+			this->Controls->Add(this->pb_granjero54);
+			this->Controls->Add(this->pb_granjero53);
+			this->Controls->Add(this->pb_granjero52);
+			this->Controls->Add(this->pb_granjero51);
+			this->Controls->Add(this->pb_granjero47);
+			this->Controls->Add(this->pb_granjero46);
+			this->Controls->Add(this->pb_granjero45);
+			this->Controls->Add(this->pb_granjero44);
+			this->Controls->Add(this->pb_granjero43);
+			this->Controls->Add(this->pb_granjero42);
+			this->Controls->Add(this->pb_granjero41);
+			this->Controls->Add(this->pb_granjero37);
+			this->Controls->Add(this->pb_granjero36);
+			this->Controls->Add(this->pb_granjero35);
+			this->Controls->Add(this->pb_granjero34);
+			this->Controls->Add(this->pb_granjero33);
+			this->Controls->Add(this->pb_granjero32);
+			this->Controls->Add(this->pb_granjero31);
+			this->Controls->Add(this->pb_granjero27);
+			this->Controls->Add(this->pb_granjero26);
+			this->Controls->Add(this->pb_granjero25);
+			this->Controls->Add(this->pb_granjero24);
+			this->Controls->Add(this->pb_granjero23);
+			this->Controls->Add(this->pb_granjero22);
+			this->Controls->Add(this->pb_granjero21);
+			this->Controls->Add(this->pb_granjero17);
+			this->Controls->Add(this->pb_granjero16);
+			this->Controls->Add(this->pb_granjero15);
+			this->Controls->Add(this->pb_granjero14);
+			this->Controls->Add(this->pb_granjero13);
+			this->Controls->Add(this->pb_granjero12);
+			this->Controls->Add(this->pb_granjero11);
 			this->Controls->Add(this->pb_arbol77);
 			this->Controls->Add(this->pb_arbol76);
 			this->Controls->Add(this->pb_arbol75);
@@ -2084,56 +3560,155 @@ private: System::Windows::Forms::PictureBox^ pictureBox95;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox51))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox52))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox53))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox40))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox41))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox42))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox43))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox44))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox45))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox46))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox54))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox55))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox56))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox57))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox58))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox59))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox60))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox61))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox62))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox63))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox64))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox65))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox66))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox67))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox68))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox69))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox70))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox71))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox72))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox73))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox74))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox75))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox76))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox77))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox78))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox79))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox80))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox81))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox82))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox83))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox84))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox85))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox86))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox87))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox88))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox89))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox90))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox91))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox92))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox93))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox94))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox95))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero11))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero12))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero13))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero14))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero15))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero16))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero17))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero21))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero22))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero24))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero25))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero26))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero27))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero31))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero32))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero33))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero34))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero35))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero36))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero37))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero41))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero42))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero43))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero44))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero45))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero46))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero47))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero51))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero52))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero53))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero54))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero55))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero56))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero57))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero61))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero62))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero63))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero64))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero65))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero66))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero67))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero71))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero72))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero77))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero76))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero75))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero74))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_granjero73))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga11))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta17))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga17))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta16))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga16))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta15))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga15))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta14))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga14))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta13))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga13))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta12))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga12))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta11))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta27))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga27))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta26))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga26))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta25))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga25))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta24))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga24))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta22))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga22))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta21))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga21))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta45))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga45))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta46))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga46))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta47))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga47))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta44))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga44))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta43))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga43))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta42))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga42))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta41))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga41))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta37))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga37))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta36))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga36))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta35))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga35))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta34))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga34))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta33))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga33))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta32))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga32))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta31))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga31))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta56))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga56))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta55))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga55))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta54))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga54))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta53))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga53))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta52))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga52))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta51))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga51))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga61))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta57))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga57))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta67))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga67))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta66))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga66))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta65))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga65))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta64))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga64))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta63))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga63))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta62))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga62))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta61))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta77))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga77))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta76))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga76))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta75))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga75))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta74))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga74))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta73))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga73))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta72))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga72))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta71))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga71))->EndInit();
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
@@ -2163,5 +3738,11 @@ private: System::Void pictureBox71_Click(System::Object^ sender, System::EventAr
 }
 private: System::Void pictureBox60_Click(System::Object^ sender, System::EventArgs^ e) {
 }
+private: System::Void pictureBox62_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+
+
+
+
 };
 }
