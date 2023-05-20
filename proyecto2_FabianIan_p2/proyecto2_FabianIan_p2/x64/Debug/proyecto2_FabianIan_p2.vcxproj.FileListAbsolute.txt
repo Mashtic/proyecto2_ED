@@ -2,3 +2,4 @@ C:\Users\fabia\OneDrive - Estudiantes ITCR\TEC\2023_1_Semestre\ED\Proyectos\proy
 C:\Users\fabia\OneDrive - Estudiantes ITCR\TEC\2023_1_Semestre\ED\Proyectos\proyecto2\proyecto2_ED\proyecto2_FabianIan_p2\proyecto2_FabianIan_p2\x64\Debug\proyecto2_FabianIan_p2.vcxproj.SuggestedBindingRedirects.cache
 C:\Users\fabia\OneDrive - Estudiantes ITCR\TEC\2023_1_Semestre\ED\Proyectos\proyecto2\proyecto2_ED\proyecto2_FabianIan_p2\proyecto2_FabianIan_p2\x64\Debug\proyecto2_FabianIan_p2.Form1.resources
 C:\Users\fabia\OneDrive - Estudiantes ITCR\TEC\2023_1_Semestre\ED\Proyectos\proyecto2\proyecto2_ED\proyecto2_FabianIan_p2\proyecto2_FabianIan_p2\x64\Debug\proyecto2_FabianIan_p2.vcxproj.GenerateResource.cache
+C:\Users\fabia\OneDrive - Estudiantes ITCR\TEC\2023_1_Semestre\ED\Proyectos\proyecto2\proyecto2_ED\proyecto2_FabianIan_p2\proyecto2_FabianIan_p2\x64\Debug\proyecto2_FabianIan_p2.PantallaInicial.resources
