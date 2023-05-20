@@ -1,7 +1,7 @@
 #pragma once
-
-namespace proyecto2_FabianIan_p2 {
-
+#include "Form1.h"
+namespace CppCLRWinFormsProject {
+	//CppCLRWinFormsProject
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -18,6 +18,7 @@ namespace proyecto2_FabianIan_p2 {
 		PantallaInicial(void)
 		{
 			InitializeComponent();
+			InitImages();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -49,7 +50,9 @@ namespace proyecto2_FabianIan_p2 {
 		/// Required designer variable.
 		/// </summary>
 		System::ComponentModel::Container ^components;
-
+		void InitImages() {
+			this->BackgroundImage = Image::FromFile("img//amanecer.jpg");
+		}
 #pragma region Windows Form Designer generated code
 		/// <summary>
 		/// Required method for Designer support - do not modify
@@ -57,7 +60,6 @@ namespace proyecto2_FabianIan_p2 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(PantallaInicial::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->btn_NewGame = (gcnew System::Windows::Forms::Button());
 			this->btn_LoadGame = (gcnew System::Windows::Forms::Button());
@@ -80,6 +82,7 @@ namespace proyecto2_FabianIan_p2 {
 			this->btn_NewGame->TabIndex = 1;
 			this->btn_NewGame->Text = L"New Game";
 			this->btn_NewGame->UseVisualStyleBackColor = true;
+			this->btn_NewGame->Click += gcnew System::EventHandler(this, &PantallaInicial::btn_NewGame_Click);
 			// 
 			// btn_LoadGame
 			// 
@@ -94,7 +97,6 @@ namespace proyecto2_FabianIan_p2 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackgroundImage = Image::FromFile("img//amanecer.jpg");
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1029, 590);
 			this->Controls->Add(this->btn_LoadGame);
@@ -108,5 +110,9 @@ namespace proyecto2_FabianIan_p2 {
 		}
 #pragma endregion
 
+	private: System::Void btn_NewGame_Click(System::Object^ sender, System::EventArgs^ e) {
+		Form1^ form = gcnew Form1;
+		form->ShowDialog();
+	}
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 
 namespace CppCLRWinFormsProject {
-
+	//proyecto2_FabianIan_p2
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
