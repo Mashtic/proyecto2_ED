@@ -491,6 +491,51 @@ private: System::Windows::Forms::Label^ lbl_FrutaHEAP;
 private: System::Windows::Forms::Label^ lbl_FrutaAVL;
 private: System::Windows::Forms::Label^ lbl_FrutaAB;
 private: System::Windows::Forms::Label^ label8;
+private: System::Windows::Forms::Label^ lbl_MontoTotalHEAP;
+private: System::Windows::Forms::Label^ lbl_MontoTotalAVL;
+private: System::Windows::Forms::Label^ lbl_MontoTotalAB;
+private: System::Windows::Forms::Label^ label9;
+private: System::Windows::Forms::Button^ btn_VenderAB;
+private: System::Windows::Forms::Button^ btn_VenderAVL;
+private: System::Windows::Forms::Button^ btn_VenderHEAP;
+private: System::Windows::Forms::Button^ btn_VenderTodo;
+private: System::Windows::Forms::Button^ btn_Mercado;
+private: System::Windows::Forms::Label^ label5;
+private: System::Windows::Forms::Label^ label6;
+private: System::Windows::Forms::Label^ label7;
+private: System::Windows::Forms::Label^ label10;
+private: System::Windows::Forms::Label^ label11;
+private: System::Windows::Forms::PictureBox^ pb_ArbolAB;
+private: System::Windows::Forms::PictureBox^ pb_ArbolAVL;
+private: System::Windows::Forms::PictureBox^ pb_ArbolHEAP;
+private: System::Windows::Forms::PictureBox^ pb_Espanta;
+private: System::Windows::Forms::Label^ lbl_CantAB;
+private: System::Windows::Forms::Label^ lbl_CantAVL;
+private: System::Windows::Forms::Label^ lbl_CantHEAP;
+private: System::Windows::Forms::Label^ lbl_CantEspanta;
+private: System::Windows::Forms::Button^ btn_SembrarAB;
+private: System::Windows::Forms::Button^ btn_SembrarAVL;
+private: System::Windows::Forms::Button^ btn_SembrarHEAP;
+private: System::Windows::Forms::Button^ btn_SembrarEspanta;
+private: System::Windows::Forms::Button^ btn_Pause;
+private: System::Windows::Forms::Button^ btn_Resume;
+private: System::Windows::Forms::Button^ btn_Save;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -770,6 +815,35 @@ private: System::Windows::Forms::Label^ label8;
 			this->lbl_FrutaAVL = (gcnew System::Windows::Forms::Label());
 			this->lbl_FrutaAB = (gcnew System::Windows::Forms::Label());
 			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->lbl_MontoTotalHEAP = (gcnew System::Windows::Forms::Label());
+			this->lbl_MontoTotalAVL = (gcnew System::Windows::Forms::Label());
+			this->lbl_MontoTotalAB = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->btn_VenderAB = (gcnew System::Windows::Forms::Button());
+			this->btn_VenderAVL = (gcnew System::Windows::Forms::Button());
+			this->btn_VenderHEAP = (gcnew System::Windows::Forms::Button());
+			this->btn_VenderTodo = (gcnew System::Windows::Forms::Button());
+			this->btn_Mercado = (gcnew System::Windows::Forms::Button());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->pb_ArbolAB = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_ArbolAVL = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_ArbolHEAP = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_Espanta = (gcnew System::Windows::Forms::PictureBox());
+			this->lbl_CantAB = (gcnew System::Windows::Forms::Label());
+			this->lbl_CantAVL = (gcnew System::Windows::Forms::Label());
+			this->lbl_CantHEAP = (gcnew System::Windows::Forms::Label());
+			this->lbl_CantEspanta = (gcnew System::Windows::Forms::Label());
+			this->btn_SembrarAB = (gcnew System::Windows::Forms::Button());
+			this->btn_SembrarAVL = (gcnew System::Windows::Forms::Button());
+			this->btn_SembrarHEAP = (gcnew System::Windows::Forms::Button());
+			this->btn_SembrarEspanta = (gcnew System::Windows::Forms::Button());
+			this->btn_Pause = (gcnew System::Windows::Forms::Button());
+			this->btn_Resume = (gcnew System::Windows::Forms::Button());
+			this->btn_Save = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_11))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_13))->BeginInit();
@@ -1015,6 +1089,10 @@ private: System::Windows::Forms::Label^ label8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga72))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta71))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga71))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAB))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAVL))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolHEAP))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_Espanta))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pb_11
@@ -3099,7 +3177,7 @@ private: System::Windows::Forms::Label^ label8;
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(173, 67);
+			this->label1->Location = System::Drawing::Point(174, 87);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(40, 20);
 			this->label1->TabIndex = 246;
@@ -3108,7 +3186,7 @@ private: System::Windows::Forms::Label^ label8;
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(173, 47);
+			this->label2->Location = System::Drawing::Point(175, 52);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(43, 20);
 			this->label2->TabIndex = 247;
@@ -3117,7 +3195,7 @@ private: System::Windows::Forms::Label^ label8;
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(173, 87);
+			this->label3->Location = System::Drawing::Point(175, 123);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(53, 20);
 			this->label3->TabIndex = 248;
@@ -3135,7 +3213,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_PosiAB
 			// 
 			this->lbl_PosiAB->AutoSize = true;
-			this->lbl_PosiAB->Location = System::Drawing::Point(255, 47);
+			this->lbl_PosiAB->Location = System::Drawing::Point(257, 52);
 			this->lbl_PosiAB->Name = L"lbl_PosiAB";
 			this->lbl_PosiAB->Size = System::Drawing::Size(51, 20);
 			this->lbl_PosiAB->TabIndex = 250;
@@ -3144,7 +3222,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_PosiHEAP
 			// 
 			this->lbl_PosiHEAP->AutoSize = true;
-			this->lbl_PosiHEAP->Location = System::Drawing::Point(255, 87);
+			this->lbl_PosiHEAP->Location = System::Drawing::Point(257, 123);
 			this->lbl_PosiHEAP->Name = L"lbl_PosiHEAP";
 			this->lbl_PosiHEAP->Size = System::Drawing::Size(51, 20);
 			this->lbl_PosiHEAP->TabIndex = 252;
@@ -3153,7 +3231,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_PosiAVL
 			// 
 			this->lbl_PosiAVL->AutoSize = true;
-			this->lbl_PosiAVL->Location = System::Drawing::Point(256, 67);
+			this->lbl_PosiAVL->Location = System::Drawing::Point(257, 87);
 			this->lbl_PosiAVL->Name = L"lbl_PosiAVL";
 			this->lbl_PosiAVL->Size = System::Drawing::Size(51, 20);
 			this->lbl_PosiAVL->TabIndex = 251;
@@ -3162,7 +3240,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_FrutaHEAP
 			// 
 			this->lbl_FrutaHEAP->AutoSize = true;
-			this->lbl_FrutaHEAP->Location = System::Drawing::Point(367, 87);
+			this->lbl_FrutaHEAP->Location = System::Drawing::Point(369, 123);
 			this->lbl_FrutaHEAP->Name = L"lbl_FrutaHEAP";
 			this->lbl_FrutaHEAP->Size = System::Drawing::Size(51, 20);
 			this->lbl_FrutaHEAP->TabIndex = 256;
@@ -3171,7 +3249,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_FrutaAVL
 			// 
 			this->lbl_FrutaAVL->AutoSize = true;
-			this->lbl_FrutaAVL->Location = System::Drawing::Point(368, 67);
+			this->lbl_FrutaAVL->Location = System::Drawing::Point(369, 87);
 			this->lbl_FrutaAVL->Name = L"lbl_FrutaAVL";
 			this->lbl_FrutaAVL->Size = System::Drawing::Size(51, 20);
 			this->lbl_FrutaAVL->TabIndex = 255;
@@ -3180,7 +3258,7 @@ private: System::Windows::Forms::Label^ label8;
 			// lbl_FrutaAB
 			// 
 			this->lbl_FrutaAB->AutoSize = true;
-			this->lbl_FrutaAB->Location = System::Drawing::Point(367, 47);
+			this->lbl_FrutaAB->Location = System::Drawing::Point(369, 52);
 			this->lbl_FrutaAB->Name = L"lbl_FrutaAB";
 			this->lbl_FrutaAB->Size = System::Drawing::Size(51, 20);
 			this->lbl_FrutaAB->TabIndex = 254;
@@ -3195,12 +3273,302 @@ private: System::Windows::Forms::Label^ label8;
 			this->label8->TabIndex = 253;
 			this->label8->Text = L"Cantidad de frutos";
 			// 
+			// lbl_MontoTotalHEAP
+			// 
+			this->lbl_MontoTotalHEAP->AutoSize = true;
+			this->lbl_MontoTotalHEAP->Location = System::Drawing::Point(515, 123);
+			this->lbl_MontoTotalHEAP->Name = L"lbl_MontoTotalHEAP";
+			this->lbl_MontoTotalHEAP->Size = System::Drawing::Size(51, 20);
+			this->lbl_MontoTotalHEAP->TabIndex = 260;
+			this->lbl_MontoTotalHEAP->Text = L"label6";
+			// 
+			// lbl_MontoTotalAVL
+			// 
+			this->lbl_MontoTotalAVL->AutoSize = true;
+			this->lbl_MontoTotalAVL->Location = System::Drawing::Point(515, 87);
+			this->lbl_MontoTotalAVL->Name = L"lbl_MontoTotalAVL";
+			this->lbl_MontoTotalAVL->Size = System::Drawing::Size(51, 20);
+			this->lbl_MontoTotalAVL->TabIndex = 259;
+			this->lbl_MontoTotalAVL->Text = L"label7";
+			// 
+			// lbl_MontoTotalAB
+			// 
+			this->lbl_MontoTotalAB->AutoSize = true;
+			this->lbl_MontoTotalAB->Location = System::Drawing::Point(515, 52);
+			this->lbl_MontoTotalAB->Name = L"lbl_MontoTotalAB";
+			this->lbl_MontoTotalAB->Size = System::Drawing::Size(51, 20);
+			this->lbl_MontoTotalAB->TabIndex = 258;
+			this->lbl_MontoTotalAB->Text = L"label5";
+			// 
+			// label9
+			// 
+			this->label9->AutoSize = true;
+			this->label9->Location = System::Drawing::Point(514, 27);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(93, 20);
+			this->label9->TabIndex = 257;
+			this->label9->Text = L"Monto Total";
+			// 
+			// btn_VenderAB
+			// 
+			this->btn_VenderAB->Location = System::Drawing::Point(613, 42);
+			this->btn_VenderAB->Name = L"btn_VenderAB";
+			this->btn_VenderAB->Size = System::Drawing::Size(80, 30);
+			this->btn_VenderAB->TabIndex = 261;
+			this->btn_VenderAB->Text = L"Vender";
+			this->btn_VenderAB->UseVisualStyleBackColor = true;
+			// 
+			// btn_VenderAVL
+			// 
+			this->btn_VenderAVL->Location = System::Drawing::Point(613, 77);
+			this->btn_VenderAVL->Name = L"btn_VenderAVL";
+			this->btn_VenderAVL->Size = System::Drawing::Size(80, 30);
+			this->btn_VenderAVL->TabIndex = 262;
+			this->btn_VenderAVL->Text = L"Vender";
+			this->btn_VenderAVL->UseVisualStyleBackColor = true;
+			// 
+			// btn_VenderHEAP
+			// 
+			this->btn_VenderHEAP->Location = System::Drawing::Point(613, 113);
+			this->btn_VenderHEAP->Name = L"btn_VenderHEAP";
+			this->btn_VenderHEAP->Size = System::Drawing::Size(80, 30);
+			this->btn_VenderHEAP->TabIndex = 263;
+			this->btn_VenderHEAP->Text = L"Vender";
+			this->btn_VenderHEAP->UseVisualStyleBackColor = true;
+			// 
+			// btn_VenderTodo
+			// 
+			this->btn_VenderTodo->Location = System::Drawing::Point(340, 164);
+			this->btn_VenderTodo->Name = L"btn_VenderTodo";
+			this->btn_VenderTodo->Size = System::Drawing::Size(132, 30);
+			this->btn_VenderTodo->TabIndex = 264;
+			this->btn_VenderTodo->Text = L"Vender Todo";
+			this->btn_VenderTodo->UseVisualStyleBackColor = true;
+			// 
+			// btn_Mercado
+			// 
+			this->btn_Mercado->Location = System::Drawing::Point(1308, 53);
+			this->btn_Mercado->Name = L"btn_Mercado";
+			this->btn_Mercado->Size = System::Drawing::Size(169, 88);
+			this->btn_Mercado->TabIndex = 265;
+			this->btn_Mercado->Text = L"Mercado";
+			this->btn_Mercado->UseVisualStyleBackColor = true;
+			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->Location = System::Drawing::Point(1272, 263);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(79, 20);
+			this->label5->TabIndex = 266;
+			this->label5->Text = L"Inventario";
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(1186, 321);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(72, 20);
+			this->label6->TabIndex = 267;
+			this->label6->Text = L"Arbol AB";
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Location = System::Drawing::Point(1177, 417);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(81, 20);
+			this->label7->TabIndex = 268;
+			this->label7->Text = L"Arbol AVL";
+			// 
+			// label10
+			// 
+			this->label10->AutoSize = true;
+			this->label10->Location = System::Drawing::Point(1164, 505);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(94, 20);
+			this->label10->TabIndex = 269;
+			this->label10->Text = L"Arbol HEAP";
+			// 
+			// label11
+			// 
+			this->label11->AutoSize = true;
+			this->label11->Location = System::Drawing::Point(1137, 608);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(121, 20);
+			this->label11->TabIndex = 270;
+			this->label11->Text = L"Espantapajaros";
+			// 
+			// pb_ArbolAB
+			// 
+			this->pb_ArbolAB->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_ArbolAB->Location = System::Drawing::Point(1276, 301);
+			this->pb_ArbolAB->Name = L"pb_ArbolAB";
+			this->pb_ArbolAB->Size = System::Drawing::Size(63, 64);
+			this->pb_ArbolAB->TabIndex = 271;
+			this->pb_ArbolAB->TabStop = false;
+			// 
+			// pb_ArbolAVL
+			// 
+			this->pb_ArbolAVL->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_ArbolAVL->Location = System::Drawing::Point(1276, 394);
+			this->pb_ArbolAVL->Name = L"pb_ArbolAVL";
+			this->pb_ArbolAVL->Size = System::Drawing::Size(63, 64);
+			this->pb_ArbolAVL->TabIndex = 272;
+			this->pb_ArbolAVL->TabStop = false;
+			// 
+			// pb_ArbolHEAP
+			// 
+			this->pb_ArbolHEAP->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_ArbolHEAP->Location = System::Drawing::Point(1276, 484);
+			this->pb_ArbolHEAP->Name = L"pb_ArbolHEAP";
+			this->pb_ArbolHEAP->Size = System::Drawing::Size(63, 64);
+			this->pb_ArbolHEAP->TabIndex = 273;
+			this->pb_ArbolHEAP->TabStop = false;
+			// 
+			// pb_Espanta
+			// 
+			this->pb_Espanta->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_Espanta->Location = System::Drawing::Point(1276, 585);
+			this->pb_Espanta->Name = L"pb_Espanta";
+			this->pb_Espanta->Size = System::Drawing::Size(63, 64);
+			this->pb_Espanta->TabIndex = 274;
+			this->pb_Espanta->TabStop = false;
+			// 
+			// lbl_CantAB
+			// 
+			this->lbl_CantAB->AutoSize = true;
+			this->lbl_CantAB->Location = System::Drawing::Point(1358, 321);
+			this->lbl_CantAB->Name = L"lbl_CantAB";
+			this->lbl_CantAB->Size = System::Drawing::Size(62, 20);
+			this->lbl_CantAB->TabIndex = 275;
+			this->lbl_CantAB->Text = L"cantAB";
+			// 
+			// lbl_CantAVL
+			// 
+			this->lbl_CantAVL->AutoSize = true;
+			this->lbl_CantAVL->Location = System::Drawing::Point(1358, 417);
+			this->lbl_CantAVL->Name = L"lbl_CantAVL";
+			this->lbl_CantAVL->Size = System::Drawing::Size(71, 20);
+			this->lbl_CantAVL->TabIndex = 276;
+			this->lbl_CantAVL->Text = L"cantAVL";
+			// 
+			// lbl_CantHEAP
+			// 
+			this->lbl_CantHEAP->AutoSize = true;
+			this->lbl_CantHEAP->Location = System::Drawing::Point(1358, 505);
+			this->lbl_CantHEAP->Name = L"lbl_CantHEAP";
+			this->lbl_CantHEAP->Size = System::Drawing::Size(84, 20);
+			this->lbl_CantHEAP->TabIndex = 277;
+			this->lbl_CantHEAP->Text = L"cantHEAP";
+			// 
+			// lbl_CantEspanta
+			// 
+			this->lbl_CantEspanta->AutoSize = true;
+			this->lbl_CantEspanta->Location = System::Drawing::Point(1358, 608);
+			this->lbl_CantEspanta->Name = L"lbl_CantEspanta";
+			this->lbl_CantEspanta->Size = System::Drawing::Size(100, 20);
+			this->lbl_CantEspanta->TabIndex = 278;
+			this->lbl_CantEspanta->Text = L"cantEspanta";
+			// 
+			// btn_SembrarAB
+			// 
+			this->btn_SembrarAB->Location = System::Drawing::Point(1489, 314);
+			this->btn_SembrarAB->Name = L"btn_SembrarAB";
+			this->btn_SembrarAB->Size = System::Drawing::Size(83, 35);
+			this->btn_SembrarAB->TabIndex = 279;
+			this->btn_SembrarAB->Text = L"Sembrar";
+			this->btn_SembrarAB->UseVisualStyleBackColor = true;
+			// 
+			// btn_SembrarAVL
+			// 
+			this->btn_SembrarAVL->Location = System::Drawing::Point(1489, 409);
+			this->btn_SembrarAVL->Name = L"btn_SembrarAVL";
+			this->btn_SembrarAVL->Size = System::Drawing::Size(83, 36);
+			this->btn_SembrarAVL->TabIndex = 280;
+			this->btn_SembrarAVL->Text = L"Sembrar";
+			this->btn_SembrarAVL->UseVisualStyleBackColor = true;
+			// 
+			// btn_SembrarHEAP
+			// 
+			this->btn_SembrarHEAP->Location = System::Drawing::Point(1489, 497);
+			this->btn_SembrarHEAP->Name = L"btn_SembrarHEAP";
+			this->btn_SembrarHEAP->Size = System::Drawing::Size(83, 36);
+			this->btn_SembrarHEAP->TabIndex = 282;
+			this->btn_SembrarHEAP->Text = L"Sembrar";
+			this->btn_SembrarHEAP->UseVisualStyleBackColor = true;
+			// 
+			// btn_SembrarEspanta
+			// 
+			this->btn_SembrarEspanta->Location = System::Drawing::Point(1489, 601);
+			this->btn_SembrarEspanta->Name = L"btn_SembrarEspanta";
+			this->btn_SembrarEspanta->Size = System::Drawing::Size(83, 35);
+			this->btn_SembrarEspanta->TabIndex = 281;
+			this->btn_SembrarEspanta->Text = L"Colocar";
+			this->btn_SembrarEspanta->UseVisualStyleBackColor = true;
+			// 
+			// btn_Pause
+			// 
+			this->btn_Pause->Location = System::Drawing::Point(1182, 1031);
+			this->btn_Pause->Name = L"btn_Pause";
+			this->btn_Pause->Size = System::Drawing::Size(98, 41);
+			this->btn_Pause->TabIndex = 283;
+			this->btn_Pause->Text = L"Pausa";
+			this->btn_Pause->UseVisualStyleBackColor = true;
+			// 
+			// btn_Resume
+			// 
+			this->btn_Resume->Location = System::Drawing::Point(1323, 1031);
+			this->btn_Resume->Name = L"btn_Resume";
+			this->btn_Resume->Size = System::Drawing::Size(97, 41);
+			this->btn_Resume->TabIndex = 284;
+			this->btn_Resume->Text = L"Continuar";
+			this->btn_Resume->UseVisualStyleBackColor = true;
+			// 
+			// btn_Save
+			// 
+			this->btn_Save->Location = System::Drawing::Point(1480, 1020);
+			this->btn_Save->Name = L"btn_Save";
+			this->btn_Save->Size = System::Drawing::Size(127, 63);
+			this->btn_Save->TabIndex = 285;
+			this->btn_Save->Text = L"Guardar Partida";
+			this->btn_Save->UseVisualStyleBackColor = true;
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1478, 1170);
+			this->ClientSize = System::Drawing::Size(1678, 1170);
+			this->Controls->Add(this->btn_Save);
+			this->Controls->Add(this->btn_Resume);
+			this->Controls->Add(this->btn_Pause);
+			this->Controls->Add(this->btn_SembrarHEAP);
+			this->Controls->Add(this->btn_SembrarEspanta);
+			this->Controls->Add(this->btn_SembrarAVL);
+			this->Controls->Add(this->btn_SembrarAB);
+			this->Controls->Add(this->lbl_CantEspanta);
+			this->Controls->Add(this->lbl_CantHEAP);
+			this->Controls->Add(this->lbl_CantAVL);
+			this->Controls->Add(this->lbl_CantAB);
+			this->Controls->Add(this->pb_Espanta);
+			this->Controls->Add(this->pb_ArbolHEAP);
+			this->Controls->Add(this->pb_ArbolAVL);
+			this->Controls->Add(this->pb_ArbolAB);
+			this->Controls->Add(this->label11);
+			this->Controls->Add(this->label10);
+			this->Controls->Add(this->label7);
+			this->Controls->Add(this->label6);
+			this->Controls->Add(this->label5);
+			this->Controls->Add(this->btn_Mercado);
+			this->Controls->Add(this->btn_VenderTodo);
+			this->Controls->Add(this->btn_VenderHEAP);
+			this->Controls->Add(this->btn_VenderAVL);
+			this->Controls->Add(this->btn_VenderAB);
+			this->Controls->Add(this->lbl_MontoTotalHEAP);
+			this->Controls->Add(this->lbl_MontoTotalAVL);
+			this->Controls->Add(this->lbl_MontoTotalAB);
+			this->Controls->Add(this->label9);
 			this->Controls->Add(this->lbl_FrutaHEAP);
 			this->Controls->Add(this->lbl_FrutaAVL);
 			this->Controls->Add(this->lbl_FrutaAB);
@@ -3707,6 +4075,10 @@ private: System::Windows::Forms::Label^ label8;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga72))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_espanta71))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_plaga71))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAB))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAVL))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolHEAP))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_Espanta))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -3740,6 +4112,7 @@ private: System::Void pictureBox60_Click(System::Object^ sender, System::EventAr
 }
 private: System::Void pictureBox62_Click(System::Object^ sender, System::EventArgs^ e) {
 }
+
 
 
 
