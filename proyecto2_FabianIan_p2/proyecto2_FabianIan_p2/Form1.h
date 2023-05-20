@@ -17,6 +17,7 @@ namespace CppCLRWinFormsProject {
 		Form1(void)
 		{
 			InitializeComponent();
+			initImages();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -520,6 +521,24 @@ private: System::Windows::Forms::Button^ btn_SembrarEspanta;
 private: System::Windows::Forms::Button^ btn_Pause;
 private: System::Windows::Forms::Button^ btn_Resume;
 private: System::Windows::Forms::Button^ btn_Save;
+private: System::Windows::Forms::Button^ btn_VenderSPLAY;
+
+private: System::Windows::Forms::Label^ lbl_MontoTotalSPLAY;
+
+private: System::Windows::Forms::Label^ lbl_FrutaSPLAY;
+
+private: System::Windows::Forms::Label^ lbl_PosiSPLAY;
+
+private: System::Windows::Forms::Label^ label15;
+private: System::Windows::Forms::Button^ btn_SembrarSPLAY;
+
+private: System::Windows::Forms::Label^ lbl_CantSPLAY;
+
+
+
+private: System::Windows::Forms::PictureBox^ pb_ArbolSPLAY;
+
+private: System::Windows::Forms::Label^ label13;
 
 
 
@@ -551,6 +570,15 @@ private: System::Windows::Forms::Button^ btn_Save;
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
+		void initImages() {
+			this->BackgroundImage = Image::FromFile("img//granja.jpg");
+			this->pb_ArbolAB->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+			this->pb_ArbolAVL->BackgroundImage = Image::FromFile("img//arbolFrutas.png");
+			this->pb_ArbolHEAP->BackgroundImage = Image::FromFile("img//arbolChiva.png");
+			this->pb_ArbolSPLAY->BackgroundImage = Image::FromFile("img//arbolLimones.png");
+			this->pb_Espanta->BackgroundImage = Image::FromFile("img//espanta.png");
+
+		}
 #pragma region Windows Form Designer generated code
 		/// <summary>
 		/// Required method for Designer support - do not modify
@@ -844,6 +872,15 @@ private: System::Windows::Forms::Button^ btn_Save;
 			this->btn_Pause = (gcnew System::Windows::Forms::Button());
 			this->btn_Resume = (gcnew System::Windows::Forms::Button());
 			this->btn_Save = (gcnew System::Windows::Forms::Button());
+			this->btn_VenderSPLAY = (gcnew System::Windows::Forms::Button());
+			this->lbl_MontoTotalSPLAY = (gcnew System::Windows::Forms::Label());
+			this->lbl_FrutaSPLAY = (gcnew System::Windows::Forms::Label());
+			this->lbl_PosiSPLAY = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->btn_SembrarSPLAY = (gcnew System::Windows::Forms::Button());
+			this->lbl_CantSPLAY = (gcnew System::Windows::Forms::Label());
+			this->pb_ArbolSPLAY = (gcnew System::Windows::Forms::PictureBox());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_11))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_13))->BeginInit();
@@ -1093,6 +1130,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAVL))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolHEAP))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_Espanta))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolSPLAY))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pb_11
@@ -1523,6 +1561,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol11
 			// 
+			this->pb_arbol11->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol11->Location = System::Drawing::Point(186, 280);
 			this->pb_arbol11->Name = L"pb_arbol11";
 			this->pb_arbol11->Size = System::Drawing::Size(76, 73);
@@ -1531,6 +1571,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol12
 			// 
+			this->pb_arbol12->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol12->Location = System::Drawing::Point(312, 280);
 			this->pb_arbol12->Name = L"pb_arbol12";
 			this->pb_arbol12->Size = System::Drawing::Size(76, 73);
@@ -1539,6 +1581,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol13
 			// 
+			this->pb_arbol13->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol13->Location = System::Drawing::Point(438, 280);
 			this->pb_arbol13->Name = L"pb_arbol13";
 			this->pb_arbol13->Size = System::Drawing::Size(76, 73);
@@ -1547,6 +1591,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pbarbol14
 			// 
+			this->pbarbol14->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pbarbol14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pbarbol14->Location = System::Drawing::Point(564, 280);
 			this->pbarbol14->Name = L"pbarbol14";
 			this->pbarbol14->Size = System::Drawing::Size(76, 73);
@@ -1555,6 +1601,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol15
 			// 
+			this->pb_arbol15->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol15->Location = System::Drawing::Point(690, 280);
 			this->pb_arbol15->Name = L"pb_arbol15";
 			this->pb_arbol15->Size = System::Drawing::Size(76, 73);
@@ -1564,6 +1612,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol16
 			// 
+			this->pb_arbol16->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol16->Location = System::Drawing::Point(816, 280);
 			this->pb_arbol16->Name = L"pb_arbol16";
 			this->pb_arbol16->Size = System::Drawing::Size(76, 73);
@@ -1572,6 +1622,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol17
 			// 
+			this->pb_arbol17->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol17->Location = System::Drawing::Point(942, 280);
 			this->pb_arbol17->Name = L"pb_arbol17";
 			this->pb_arbol17->Size = System::Drawing::Size(76, 73);
@@ -1580,6 +1632,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol21
 			// 
+			this->pb_arbol21->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol21->Location = System::Drawing::Point(186, 406);
 			this->pb_arbol21->Name = L"pb_arbol21";
 			this->pb_arbol21->Size = System::Drawing::Size(76, 73);
@@ -1588,6 +1642,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol22
 			// 
+			this->pb_arbol22->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol22->Location = System::Drawing::Point(312, 406);
 			this->pb_arbol22->Name = L"pb_arbol22";
 			this->pb_arbol22->Size = System::Drawing::Size(76, 73);
@@ -1596,6 +1652,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol23
 			// 
+			this->pb_arbol23->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol23->Location = System::Drawing::Point(438, 406);
 			this->pb_arbol23->Name = L"pb_arbol23";
 			this->pb_arbol23->Size = System::Drawing::Size(76, 73);
@@ -1604,6 +1662,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol24
 			// 
+			this->pb_arbol24->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol24->Location = System::Drawing::Point(564, 406);
 			this->pb_arbol24->Name = L"pb_arbol24";
 			this->pb_arbol24->Size = System::Drawing::Size(76, 73);
@@ -1612,6 +1672,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol25
 			// 
+			this->pb_arbol25->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol25->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol25->Location = System::Drawing::Point(690, 406);
 			this->pb_arbol25->Name = L"pb_arbol25";
 			this->pb_arbol25->Size = System::Drawing::Size(76, 73);
@@ -1620,6 +1682,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol26
 			// 
+			this->pb_arbol26->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol26->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol26->Location = System::Drawing::Point(816, 406);
 			this->pb_arbol26->Name = L"pb_arbol26";
 			this->pb_arbol26->Size = System::Drawing::Size(76, 73);
@@ -1628,6 +1692,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol27
 			// 
+			this->pb_arbol27->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol27->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol27->Location = System::Drawing::Point(942, 406);
 			this->pb_arbol27->Name = L"pb_arbol27";
 			this->pb_arbol27->Size = System::Drawing::Size(76, 73);
@@ -1636,6 +1702,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol37
 			// 
+			this->pb_arbol37->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol37->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol37->Location = System::Drawing::Point(942, 532);
 			this->pb_arbol37->Name = L"pb_arbol37";
 			this->pb_arbol37->Size = System::Drawing::Size(76, 73);
@@ -1644,6 +1712,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol36
 			// 
+			this->pb_arbol36->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol36->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol36->Location = System::Drawing::Point(816, 532);
 			this->pb_arbol36->Name = L"pb_arbol36";
 			this->pb_arbol36->Size = System::Drawing::Size(76, 73);
@@ -1652,6 +1722,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol35
 			// 
+			this->pb_arbol35->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol35->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol35->Location = System::Drawing::Point(690, 532);
 			this->pb_arbol35->Name = L"pb_arbol35";
 			this->pb_arbol35->Size = System::Drawing::Size(76, 73);
@@ -1661,6 +1733,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol34
 			// 
+			this->pb_arbol34->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol34->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol34->Location = System::Drawing::Point(564, 532);
 			this->pb_arbol34->Name = L"pb_arbol34";
 			this->pb_arbol34->Size = System::Drawing::Size(76, 73);
@@ -1669,6 +1743,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol33
 			// 
+			this->pb_arbol33->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol33->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol33->Location = System::Drawing::Point(438, 532);
 			this->pb_arbol33->Name = L"pb_arbol33";
 			this->pb_arbol33->Size = System::Drawing::Size(76, 73);
@@ -1678,6 +1754,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol32
 			// 
+			this->pb_arbol32->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol32->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol32->Location = System::Drawing::Point(312, 532);
 			this->pb_arbol32->Name = L"pb_arbol32";
 			this->pb_arbol32->Size = System::Drawing::Size(76, 73);
@@ -1686,6 +1764,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol31
 			// 
+			this->pb_arbol31->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol31->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol31->Location = System::Drawing::Point(186, 532);
 			this->pb_arbol31->Name = L"pb_arbol31";
 			this->pb_arbol31->Size = System::Drawing::Size(76, 73);
@@ -1694,6 +1774,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol47
 			// 
+			this->pb_arbol47->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol47->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol47->Location = System::Drawing::Point(942, 658);
 			this->pb_arbol47->Name = L"pb_arbol47";
 			this->pb_arbol47->Size = System::Drawing::Size(76, 73);
@@ -1702,6 +1784,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol46
 			// 
+			this->pb_arbol46->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol46->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol46->Location = System::Drawing::Point(816, 658);
 			this->pb_arbol46->Name = L"pb_arbol46";
 			this->pb_arbol46->Size = System::Drawing::Size(76, 73);
@@ -1710,6 +1794,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol45
 			// 
+			this->pb_arbol45->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol45->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol45->Location = System::Drawing::Point(690, 658);
 			this->pb_arbol45->Name = L"pb_arbol45";
 			this->pb_arbol45->Size = System::Drawing::Size(76, 73);
@@ -1718,6 +1804,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol44
 			// 
+			this->pb_arbol44->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol44->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol44->Location = System::Drawing::Point(564, 658);
 			this->pb_arbol44->Name = L"pb_arbol44";
 			this->pb_arbol44->Size = System::Drawing::Size(76, 73);
@@ -1726,6 +1814,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol43
 			// 
+			this->pb_arbol43->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol43->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol43->Location = System::Drawing::Point(438, 658);
 			this->pb_arbol43->Name = L"pb_arbol43";
 			this->pb_arbol43->Size = System::Drawing::Size(76, 73);
@@ -1734,6 +1824,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol42
 			// 
+			this->pb_arbol42->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol42->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol42->Location = System::Drawing::Point(312, 658);
 			this->pb_arbol42->Name = L"pb_arbol42";
 			this->pb_arbol42->Size = System::Drawing::Size(76, 73);
@@ -1742,6 +1834,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol41
 			// 
+			this->pb_arbol41->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol41->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol41->Location = System::Drawing::Point(186, 658);
 			this->pb_arbol41->Name = L"pb_arbol41";
 			this->pb_arbol41->Size = System::Drawing::Size(76, 73);
@@ -1750,6 +1844,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol57
 			// 
+			this->pb_arbol57->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol57->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol57->Location = System::Drawing::Point(942, 784);
 			this->pb_arbol57->Name = L"pb_arbol57";
 			this->pb_arbol57->Size = System::Drawing::Size(76, 73);
@@ -1758,6 +1854,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol56
 			// 
+			this->pb_arbol56->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol56->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol56->Location = System::Drawing::Point(816, 784);
 			this->pb_arbol56->Name = L"pb_arbol56";
 			this->pb_arbol56->Size = System::Drawing::Size(76, 73);
@@ -1766,6 +1864,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol55
 			// 
+			this->pb_arbol55->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol55->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol55->Location = System::Drawing::Point(690, 784);
 			this->pb_arbol55->Name = L"pb_arbol55";
 			this->pb_arbol55->Size = System::Drawing::Size(76, 73);
@@ -1774,6 +1874,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol54
 			// 
+			this->pb_arbol54->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol54->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol54->Location = System::Drawing::Point(564, 784);
 			this->pb_arbol54->Name = L"pb_arbol54";
 			this->pb_arbol54->Size = System::Drawing::Size(76, 73);
@@ -1783,6 +1885,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol53
 			// 
+			this->pb_arbol53->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol53->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol53->Location = System::Drawing::Point(438, 784);
 			this->pb_arbol53->Name = L"pb_arbol53";
 			this->pb_arbol53->Size = System::Drawing::Size(76, 73);
@@ -1791,6 +1895,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol52
 			// 
+			this->pb_arbol52->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol52->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol52->Location = System::Drawing::Point(312, 784);
 			this->pb_arbol52->Name = L"pb_arbol52";
 			this->pb_arbol52->Size = System::Drawing::Size(76, 73);
@@ -1799,6 +1905,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol51
 			// 
+			this->pb_arbol51->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol51->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol51->Location = System::Drawing::Point(186, 784);
 			this->pb_arbol51->Name = L"pb_arbol51";
 			this->pb_arbol51->Size = System::Drawing::Size(76, 73);
@@ -1807,6 +1915,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol67
 			// 
+			this->pb_arbol67->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol67->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol67->Location = System::Drawing::Point(942, 910);
 			this->pb_arbol67->Name = L"pb_arbol67";
 			this->pb_arbol67->Size = System::Drawing::Size(76, 73);
@@ -1815,6 +1925,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol66
 			// 
+			this->pb_arbol66->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol66->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol66->Location = System::Drawing::Point(816, 910);
 			this->pb_arbol66->Name = L"pb_arbol66";
 			this->pb_arbol66->Size = System::Drawing::Size(76, 73);
@@ -1823,6 +1935,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol65
 			// 
+			this->pb_arbol65->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol65->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol65->Location = System::Drawing::Point(690, 910);
 			this->pb_arbol65->Name = L"pb_arbol65";
 			this->pb_arbol65->Size = System::Drawing::Size(76, 73);
@@ -1831,6 +1945,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol64
 			// 
+			this->pb_arbol64->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol64->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol64->Location = System::Drawing::Point(564, 910);
 			this->pb_arbol64->Name = L"pb_arbol64";
 			this->pb_arbol64->Size = System::Drawing::Size(76, 73);
@@ -1839,6 +1955,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol63
 			// 
+			this->pb_arbol63->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol63->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol63->Location = System::Drawing::Point(438, 910);
 			this->pb_arbol63->Name = L"pb_arbol63";
 			this->pb_arbol63->Size = System::Drawing::Size(76, 73);
@@ -1847,6 +1965,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol62
 			// 
+			this->pb_arbol62->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol62->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol62->Location = System::Drawing::Point(312, 910);
 			this->pb_arbol62->Name = L"pb_arbol62";
 			this->pb_arbol62->Size = System::Drawing::Size(76, 73);
@@ -1855,6 +1975,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol61
 			// 
+			this->pb_arbol61->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol61->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol61->Location = System::Drawing::Point(186, 910);
 			this->pb_arbol61->Name = L"pb_arbol61";
 			this->pb_arbol61->Size = System::Drawing::Size(76, 73);
@@ -1863,6 +1985,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol77
 			// 
+			this->pb_arbol77->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol77->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol77->Location = System::Drawing::Point(942, 1036);
 			this->pb_arbol77->Name = L"pb_arbol77";
 			this->pb_arbol77->Size = System::Drawing::Size(76, 73);
@@ -1871,6 +1995,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol76
 			// 
+			this->pb_arbol76->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol76->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol76->Location = System::Drawing::Point(816, 1036);
 			this->pb_arbol76->Name = L"pb_arbol76";
 			this->pb_arbol76->Size = System::Drawing::Size(76, 73);
@@ -1879,6 +2005,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol75
 			// 
+			this->pb_arbol75->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol75->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol75->Location = System::Drawing::Point(690, 1036);
 			this->pb_arbol75->Name = L"pb_arbol75";
 			this->pb_arbol75->Size = System::Drawing::Size(76, 73);
@@ -1887,6 +2015,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol74
 			// 
+			this->pb_arbol74->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol74->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol74->Location = System::Drawing::Point(564, 1036);
 			this->pb_arbol74->Name = L"pb_arbol74";
 			this->pb_arbol74->Size = System::Drawing::Size(76, 73);
@@ -1895,6 +2025,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol73
 			// 
+			this->pb_arbol73->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol73->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol73->Location = System::Drawing::Point(438, 1036);
 			this->pb_arbol73->Name = L"pb_arbol73";
 			this->pb_arbol73->Size = System::Drawing::Size(76, 73);
@@ -1903,6 +2035,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol72
 			// 
+			this->pb_arbol72->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol72->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol72->Location = System::Drawing::Point(312, 1036);
 			this->pb_arbol72->Name = L"pb_arbol72";
 			this->pb_arbol72->Size = System::Drawing::Size(76, 73);
@@ -1911,6 +2045,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_arbol71
 			// 
+			this->pb_arbol71->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol71->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_arbol71->Location = System::Drawing::Point(186, 1036);
 			this->pb_arbol71->Name = L"pb_arbol71";
 			this->pb_arbol71->Size = System::Drawing::Size(76, 73);
@@ -1989,6 +2125,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero11
 			// 
+			this->pb_granjero11->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero11->Location = System::Drawing::Point(260, 280);
 			this->pb_granjero11->Name = L"pb_granjero11";
 			this->pb_granjero11->Size = System::Drawing::Size(46, 72);
@@ -1997,6 +2135,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero12
 			// 
+			this->pb_granjero12->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero12->Location = System::Drawing::Point(386, 280);
 			this->pb_granjero12->Name = L"pb_granjero12";
 			this->pb_granjero12->Size = System::Drawing::Size(46, 72);
@@ -2005,6 +2145,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero13
 			// 
+			this->pb_granjero13->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero13->Location = System::Drawing::Point(512, 280);
 			this->pb_granjero13->Name = L"pb_granjero13";
 			this->pb_granjero13->Size = System::Drawing::Size(46, 72);
@@ -2013,6 +2155,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero14
 			// 
+			this->pb_granjero14->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero14->Location = System::Drawing::Point(638, 280);
 			this->pb_granjero14->Name = L"pb_granjero14";
 			this->pb_granjero14->Size = System::Drawing::Size(46, 72);
@@ -2021,6 +2165,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero15
 			// 
+			this->pb_granjero15->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero15->Location = System::Drawing::Point(764, 280);
 			this->pb_granjero15->Name = L"pb_granjero15";
 			this->pb_granjero15->Size = System::Drawing::Size(46, 72);
@@ -2029,6 +2175,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero16
 			// 
+			this->pb_granjero16->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero16->Location = System::Drawing::Point(890, 280);
 			this->pb_granjero16->Name = L"pb_granjero16";
 			this->pb_granjero16->Size = System::Drawing::Size(46, 72);
@@ -2037,6 +2185,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero17
 			// 
+			this->pb_granjero17->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero17->Location = System::Drawing::Point(1016, 280);
 			this->pb_granjero17->Name = L"pb_granjero17";
 			this->pb_granjero17->Size = System::Drawing::Size(46, 72);
@@ -2045,6 +2195,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero21
 			// 
+			this->pb_granjero21->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero21->Location = System::Drawing::Point(260, 407);
 			this->pb_granjero21->Name = L"pb_granjero21";
 			this->pb_granjero21->Size = System::Drawing::Size(46, 72);
@@ -2053,6 +2205,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero22
 			// 
+			this->pb_granjero22->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero22->Location = System::Drawing::Point(386, 406);
 			this->pb_granjero22->Name = L"pb_granjero22";
 			this->pb_granjero22->Size = System::Drawing::Size(46, 72);
@@ -2061,6 +2215,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero23
 			// 
+			this->pb_granjero23->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero23->Location = System::Drawing::Point(512, 407);
 			this->pb_granjero23->Name = L"pb_granjero23";
 			this->pb_granjero23->Size = System::Drawing::Size(46, 72);
@@ -2069,6 +2225,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero24
 			// 
+			this->pb_granjero24->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero24->Location = System::Drawing::Point(638, 407);
 			this->pb_granjero24->Name = L"pb_granjero24";
 			this->pb_granjero24->Size = System::Drawing::Size(46, 73);
@@ -2077,6 +2235,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero25
 			// 
+			this->pb_granjero25->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero25->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero25->Location = System::Drawing::Point(764, 406);
 			this->pb_granjero25->Name = L"pb_granjero25";
 			this->pb_granjero25->Size = System::Drawing::Size(46, 72);
@@ -2085,6 +2245,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero26
 			// 
+			this->pb_granjero26->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero26->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero26->Location = System::Drawing::Point(890, 406);
 			this->pb_granjero26->Name = L"pb_granjero26";
 			this->pb_granjero26->Size = System::Drawing::Size(46, 72);
@@ -2093,6 +2255,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero27
 			// 
+			this->pb_granjero27->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero27->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero27->Location = System::Drawing::Point(1016, 406);
 			this->pb_granjero27->Name = L"pb_granjero27";
 			this->pb_granjero27->Size = System::Drawing::Size(46, 72);
@@ -2102,6 +2266,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero31
 			// 
+			this->pb_granjero31->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero31->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero31->Location = System::Drawing::Point(260, 532);
 			this->pb_granjero31->Name = L"pb_granjero31";
 			this->pb_granjero31->Size = System::Drawing::Size(46, 72);
@@ -2110,6 +2276,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero32
 			// 
+			this->pb_granjero32->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero32->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero32->Location = System::Drawing::Point(386, 532);
 			this->pb_granjero32->Name = L"pb_granjero32";
 			this->pb_granjero32->Size = System::Drawing::Size(46, 72);
@@ -2119,6 +2287,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero33
 			// 
+			this->pb_granjero33->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero33->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero33->Location = System::Drawing::Point(512, 532);
 			this->pb_granjero33->Name = L"pb_granjero33";
 			this->pb_granjero33->Size = System::Drawing::Size(46, 72);
@@ -2127,6 +2297,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero34
 			// 
+			this->pb_granjero34->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero34->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero34->Location = System::Drawing::Point(638, 532);
 			this->pb_granjero34->Name = L"pb_granjero34";
 			this->pb_granjero34->Size = System::Drawing::Size(46, 72);
@@ -2135,6 +2307,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero35
 			// 
+			this->pb_granjero35->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero35->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero35->Location = System::Drawing::Point(764, 532);
 			this->pb_granjero35->Name = L"pb_granjero35";
 			this->pb_granjero35->Size = System::Drawing::Size(46, 72);
@@ -2143,6 +2317,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero36
 			// 
+			this->pb_granjero36->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero36->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero36->Location = System::Drawing::Point(890, 532);
 			this->pb_granjero36->Name = L"pb_granjero36";
 			this->pb_granjero36->Size = System::Drawing::Size(46, 72);
@@ -2151,6 +2327,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero37
 			// 
+			this->pb_granjero37->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero37->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero37->Location = System::Drawing::Point(1016, 532);
 			this->pb_granjero37->Name = L"pb_granjero37";
 			this->pb_granjero37->Size = System::Drawing::Size(46, 72);
@@ -2159,6 +2337,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero41
 			// 
+			this->pb_granjero41->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero41->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero41->Location = System::Drawing::Point(260, 658);
 			this->pb_granjero41->Name = L"pb_granjero41";
 			this->pb_granjero41->Size = System::Drawing::Size(46, 72);
@@ -2167,6 +2347,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero42
 			// 
+			this->pb_granjero42->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero42->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero42->Location = System::Drawing::Point(386, 658);
 			this->pb_granjero42->Name = L"pb_granjero42";
 			this->pb_granjero42->Size = System::Drawing::Size(46, 72);
@@ -2175,6 +2357,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero43
 			// 
+			this->pb_granjero43->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero43->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero43->Location = System::Drawing::Point(512, 658);
 			this->pb_granjero43->Name = L"pb_granjero43";
 			this->pb_granjero43->Size = System::Drawing::Size(46, 72);
@@ -2183,6 +2367,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero44
 			// 
+			this->pb_granjero44->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero44->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero44->Location = System::Drawing::Point(638, 658);
 			this->pb_granjero44->Name = L"pb_granjero44";
 			this->pb_granjero44->Size = System::Drawing::Size(46, 72);
@@ -2191,6 +2377,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero45
 			// 
+			this->pb_granjero45->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero45->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero45->Location = System::Drawing::Point(764, 659);
 			this->pb_granjero45->Name = L"pb_granjero45";
 			this->pb_granjero45->Size = System::Drawing::Size(46, 72);
@@ -2199,6 +2387,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero46
 			// 
+			this->pb_granjero46->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero46->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero46->Location = System::Drawing::Point(890, 658);
 			this->pb_granjero46->Name = L"pb_granjero46";
 			this->pb_granjero46->Size = System::Drawing::Size(46, 72);
@@ -2207,6 +2397,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero47
 			// 
+			this->pb_granjero47->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero47->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero47->Location = System::Drawing::Point(1016, 659);
 			this->pb_granjero47->Name = L"pb_granjero47";
 			this->pb_granjero47->Size = System::Drawing::Size(46, 72);
@@ -2215,6 +2407,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero51
 			// 
+			this->pb_granjero51->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero51->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero51->Location = System::Drawing::Point(260, 784);
 			this->pb_granjero51->Name = L"pb_granjero51";
 			this->pb_granjero51->Size = System::Drawing::Size(46, 72);
@@ -2223,6 +2417,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero52
 			// 
+			this->pb_granjero52->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero52->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero52->Location = System::Drawing::Point(386, 785);
 			this->pb_granjero52->Name = L"pb_granjero52";
 			this->pb_granjero52->Size = System::Drawing::Size(46, 72);
@@ -2231,6 +2427,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero53
 			// 
+			this->pb_granjero53->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero53->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero53->Location = System::Drawing::Point(512, 784);
 			this->pb_granjero53->Name = L"pb_granjero53";
 			this->pb_granjero53->Size = System::Drawing::Size(46, 72);
@@ -2239,6 +2437,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero54
 			// 
+			this->pb_granjero54->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero54->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero54->Location = System::Drawing::Point(638, 784);
 			this->pb_granjero54->Name = L"pb_granjero54";
 			this->pb_granjero54->Size = System::Drawing::Size(46, 72);
@@ -2247,6 +2447,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero55
 			// 
+			this->pb_granjero55->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero55->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero55->Location = System::Drawing::Point(764, 784);
 			this->pb_granjero55->Name = L"pb_granjero55";
 			this->pb_granjero55->Size = System::Drawing::Size(46, 72);
@@ -2255,6 +2457,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero56
 			// 
+			this->pb_granjero56->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero56->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero56->Location = System::Drawing::Point(890, 785);
 			this->pb_granjero56->Name = L"pb_granjero56";
 			this->pb_granjero56->Size = System::Drawing::Size(46, 72);
@@ -2263,6 +2467,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero57
 			// 
+			this->pb_granjero57->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero57->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero57->Location = System::Drawing::Point(1016, 784);
 			this->pb_granjero57->Name = L"pb_granjero57";
 			this->pb_granjero57->Size = System::Drawing::Size(46, 72);
@@ -2271,6 +2477,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero61
 			// 
+			this->pb_granjero61->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero61->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero61->Location = System::Drawing::Point(260, 910);
 			this->pb_granjero61->Name = L"pb_granjero61";
 			this->pb_granjero61->Size = System::Drawing::Size(46, 72);
@@ -2279,6 +2487,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero62
 			// 
+			this->pb_granjero62->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero62->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero62->Location = System::Drawing::Point(386, 910);
 			this->pb_granjero62->Name = L"pb_granjero62";
 			this->pb_granjero62->Size = System::Drawing::Size(46, 72);
@@ -2287,6 +2497,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero63
 			// 
+			this->pb_granjero63->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero63->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero63->Location = System::Drawing::Point(512, 910);
 			this->pb_granjero63->Name = L"pb_granjero63";
 			this->pb_granjero63->Size = System::Drawing::Size(46, 72);
@@ -2295,6 +2507,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero64
 			// 
+			this->pb_granjero64->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero64->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero64->Location = System::Drawing::Point(638, 910);
 			this->pb_granjero64->Name = L"pb_granjero64";
 			this->pb_granjero64->Size = System::Drawing::Size(46, 72);
@@ -2303,6 +2517,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero65
 			// 
+			this->pb_granjero65->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero65->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero65->Location = System::Drawing::Point(764, 910);
 			this->pb_granjero65->Name = L"pb_granjero65";
 			this->pb_granjero65->Size = System::Drawing::Size(46, 72);
@@ -2311,6 +2527,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero66
 			// 
+			this->pb_granjero66->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero66->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero66->Location = System::Drawing::Point(890, 911);
 			this->pb_granjero66->Name = L"pb_granjero66";
 			this->pb_granjero66->Size = System::Drawing::Size(46, 72);
@@ -2319,6 +2537,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero67
 			// 
+			this->pb_granjero67->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero67->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero67->Location = System::Drawing::Point(1016, 910);
 			this->pb_granjero67->Name = L"pb_granjero67";
 			this->pb_granjero67->Size = System::Drawing::Size(46, 72);
@@ -2327,6 +2547,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero71
 			// 
+			this->pb_granjero71->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero71->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero71->Location = System::Drawing::Point(260, 1036);
 			this->pb_granjero71->Name = L"pb_granjero71";
 			this->pb_granjero71->Size = System::Drawing::Size(46, 72);
@@ -2335,6 +2557,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero72
 			// 
+			this->pb_granjero72->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero72->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero72->Location = System::Drawing::Point(386, 1036);
 			this->pb_granjero72->Name = L"pb_granjero72";
 			this->pb_granjero72->Size = System::Drawing::Size(46, 72);
@@ -2343,6 +2567,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero77
 			// 
+			this->pb_granjero77->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero77->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero77->Location = System::Drawing::Point(1016, 1036);
 			this->pb_granjero77->Name = L"pb_granjero77";
 			this->pb_granjero77->Size = System::Drawing::Size(46, 72);
@@ -2351,6 +2577,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero76
 			// 
+			this->pb_granjero76->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero76->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero76->Location = System::Drawing::Point(890, 1036);
 			this->pb_granjero76->Name = L"pb_granjero76";
 			this->pb_granjero76->Size = System::Drawing::Size(46, 72);
@@ -2359,6 +2587,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero75
 			// 
+			this->pb_granjero75->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero75->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero75->Location = System::Drawing::Point(764, 1036);
 			this->pb_granjero75->Name = L"pb_granjero75";
 			this->pb_granjero75->Size = System::Drawing::Size(46, 72);
@@ -2367,6 +2597,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero74
 			// 
+			this->pb_granjero74->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero74->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero74->Location = System::Drawing::Point(638, 1036);
 			this->pb_granjero74->Name = L"pb_granjero74";
 			this->pb_granjero74->Size = System::Drawing::Size(46, 72);
@@ -2375,6 +2607,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_granjero73
 			// 
+			this->pb_granjero73->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_granjero73->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_granjero73->Location = System::Drawing::Point(512, 1036);
 			this->pb_granjero73->Name = L"pb_granjero73";
 			this->pb_granjero73->Size = System::Drawing::Size(46, 72);
@@ -2383,6 +2617,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga11
 			// 
+			this->pb_plaga11->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga11->Location = System::Drawing::Point(186, 233);
 			this->pb_plaga11->Name = L"pb_plaga11";
 			this->pb_plaga11->Size = System::Drawing::Size(46, 50);
@@ -2391,6 +2627,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta17
 			// 
+			this->pb_espanta17->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta17->Location = System::Drawing::Point(1016, 233);
 			this->pb_espanta17->Name = L"pb_espanta17";
 			this->pb_espanta17->Size = System::Drawing::Size(46, 50);
@@ -2399,6 +2637,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga17
 			// 
+			this->pb_plaga17->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga17->Location = System::Drawing::Point(942, 233);
 			this->pb_plaga17->Name = L"pb_plaga17";
 			this->pb_plaga17->Size = System::Drawing::Size(46, 50);
@@ -2407,6 +2647,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta16
 			// 
+			this->pb_espanta16->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta16->Location = System::Drawing::Point(890, 233);
 			this->pb_espanta16->Name = L"pb_espanta16";
 			this->pb_espanta16->Size = System::Drawing::Size(46, 50);
@@ -2415,6 +2657,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga16
 			// 
+			this->pb_plaga16->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga16->Location = System::Drawing::Point(816, 233);
 			this->pb_plaga16->Name = L"pb_plaga16";
 			this->pb_plaga16->Size = System::Drawing::Size(46, 50);
@@ -2423,6 +2667,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta15
 			// 
+			this->pb_espanta15->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta15->Location = System::Drawing::Point(764, 233);
 			this->pb_espanta15->Name = L"pb_espanta15";
 			this->pb_espanta15->Size = System::Drawing::Size(46, 50);
@@ -2431,6 +2677,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga15
 			// 
+			this->pb_plaga15->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga15->Location = System::Drawing::Point(690, 233);
 			this->pb_plaga15->Name = L"pb_plaga15";
 			this->pb_plaga15->Size = System::Drawing::Size(46, 50);
@@ -2439,6 +2687,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta14
 			// 
+			this->pb_espanta14->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta14->Location = System::Drawing::Point(638, 233);
 			this->pb_espanta14->Name = L"pb_espanta14";
 			this->pb_espanta14->Size = System::Drawing::Size(46, 50);
@@ -2447,6 +2697,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga14
 			// 
+			this->pb_plaga14->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga14->Location = System::Drawing::Point(564, 233);
 			this->pb_plaga14->Name = L"pb_plaga14";
 			this->pb_plaga14->Size = System::Drawing::Size(46, 50);
@@ -2455,6 +2707,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta13
 			// 
+			this->pb_espanta13->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta13->Location = System::Drawing::Point(512, 233);
 			this->pb_espanta13->Name = L"pb_espanta13";
 			this->pb_espanta13->Size = System::Drawing::Size(46, 50);
@@ -2463,6 +2717,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga13
 			// 
+			this->pb_plaga13->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga13->Location = System::Drawing::Point(438, 233);
 			this->pb_plaga13->Name = L"pb_plaga13";
 			this->pb_plaga13->Size = System::Drawing::Size(46, 50);
@@ -2471,6 +2727,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta12
 			// 
+			this->pb_espanta12->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta12->Location = System::Drawing::Point(386, 233);
 			this->pb_espanta12->Name = L"pb_espanta12";
 			this->pb_espanta12->Size = System::Drawing::Size(46, 50);
@@ -2479,6 +2737,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga12
 			// 
+			this->pb_plaga12->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga12->Location = System::Drawing::Point(312, 233);
 			this->pb_plaga12->Name = L"pb_plaga12";
 			this->pb_plaga12->Size = System::Drawing::Size(46, 50);
@@ -2487,6 +2747,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta11
 			// 
+			this->pb_espanta11->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta11->Location = System::Drawing::Point(260, 233);
 			this->pb_espanta11->Name = L"pb_espanta11";
 			this->pb_espanta11->Size = System::Drawing::Size(46, 50);
@@ -2495,6 +2757,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta27
 			// 
+			this->pb_espanta27->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta27->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta27->Location = System::Drawing::Point(1016, 359);
 			this->pb_espanta27->Name = L"pb_espanta27";
 			this->pb_espanta27->Size = System::Drawing::Size(46, 50);
@@ -2503,6 +2767,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga27
 			// 
+			this->pb_plaga27->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga27->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga27->Location = System::Drawing::Point(942, 359);
 			this->pb_plaga27->Name = L"pb_plaga27";
 			this->pb_plaga27->Size = System::Drawing::Size(46, 50);
@@ -2511,6 +2777,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta26
 			// 
+			this->pb_espanta26->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta26->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta26->Location = System::Drawing::Point(890, 358);
 			this->pb_espanta26->Name = L"pb_espanta26";
 			this->pb_espanta26->Size = System::Drawing::Size(46, 50);
@@ -2519,6 +2787,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga26
 			// 
+			this->pb_plaga26->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga26->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga26->Location = System::Drawing::Point(816, 359);
 			this->pb_plaga26->Name = L"pb_plaga26";
 			this->pb_plaga26->Size = System::Drawing::Size(46, 50);
@@ -2527,6 +2797,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta25
 			// 
+			this->pb_espanta25->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta25->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta25->Location = System::Drawing::Point(764, 359);
 			this->pb_espanta25->Name = L"pb_espanta25";
 			this->pb_espanta25->Size = System::Drawing::Size(46, 50);
@@ -2535,6 +2807,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga25
 			// 
+			this->pb_plaga25->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga25->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga25->Location = System::Drawing::Point(690, 359);
 			this->pb_plaga25->Name = L"pb_plaga25";
 			this->pb_plaga25->Size = System::Drawing::Size(46, 50);
@@ -2543,6 +2817,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta24
 			// 
+			this->pb_espanta24->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta24->Location = System::Drawing::Point(638, 359);
 			this->pb_espanta24->Name = L"pb_espanta24";
 			this->pb_espanta24->Size = System::Drawing::Size(46, 50);
@@ -2551,6 +2827,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga24
 			// 
+			this->pb_plaga24->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga24->Location = System::Drawing::Point(564, 359);
 			this->pb_plaga24->Name = L"pb_plaga24";
 			this->pb_plaga24->Size = System::Drawing::Size(46, 50);
@@ -2559,6 +2837,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta23
 			// 
+			this->pb_espanta23->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta23->Location = System::Drawing::Point(512, 359);
 			this->pb_espanta23->Name = L"pb_espanta23";
 			this->pb_espanta23->Size = System::Drawing::Size(46, 50);
@@ -2567,6 +2847,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga23
 			// 
+			this->pb_plaga23->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga23->Location = System::Drawing::Point(438, 359);
 			this->pb_plaga23->Name = L"pb_plaga23";
 			this->pb_plaga23->Size = System::Drawing::Size(46, 50);
@@ -2575,6 +2857,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta22
 			// 
+			this->pb_espanta22->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta22->Location = System::Drawing::Point(386, 359);
 			this->pb_espanta22->Name = L"pb_espanta22";
 			this->pb_espanta22->Size = System::Drawing::Size(46, 50);
@@ -2583,6 +2867,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga22
 			// 
+			this->pb_plaga22->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga22->Location = System::Drawing::Point(312, 359);
 			this->pb_plaga22->Name = L"pb_plaga22";
 			this->pb_plaga22->Size = System::Drawing::Size(46, 50);
@@ -2591,6 +2877,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta21
 			// 
+			this->pb_espanta21->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta21->Location = System::Drawing::Point(260, 359);
 			this->pb_espanta21->Name = L"pb_espanta21";
 			this->pb_espanta21->Size = System::Drawing::Size(46, 50);
@@ -2599,6 +2887,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga21
 			// 
+			this->pb_plaga21->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga21->Location = System::Drawing::Point(186, 359);
 			this->pb_plaga21->Name = L"pb_plaga21";
 			this->pb_plaga21->Size = System::Drawing::Size(46, 50);
@@ -2607,6 +2897,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta45
 			// 
+			this->pb_espanta45->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta45->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta45->Location = System::Drawing::Point(764, 611);
 			this->pb_espanta45->Name = L"pb_espanta45";
 			this->pb_espanta45->Size = System::Drawing::Size(46, 50);
@@ -2615,6 +2907,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga45
 			// 
+			this->pb_plaga45->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga45->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga45->Location = System::Drawing::Point(690, 611);
 			this->pb_plaga45->Name = L"pb_plaga45";
 			this->pb_plaga45->Size = System::Drawing::Size(46, 50);
@@ -2623,6 +2917,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta46
 			// 
+			this->pb_espanta46->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta46->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta46->Location = System::Drawing::Point(890, 610);
 			this->pb_espanta46->Name = L"pb_espanta46";
 			this->pb_espanta46->Size = System::Drawing::Size(46, 50);
@@ -2631,6 +2927,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga46
 			// 
+			this->pb_plaga46->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga46->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga46->Location = System::Drawing::Point(816, 611);
 			this->pb_plaga46->Name = L"pb_plaga46";
 			this->pb_plaga46->Size = System::Drawing::Size(46, 50);
@@ -2639,6 +2937,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta47
 			// 
+			this->pb_espanta47->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta47->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta47->Location = System::Drawing::Point(1016, 611);
 			this->pb_espanta47->Name = L"pb_espanta47";
 			this->pb_espanta47->Size = System::Drawing::Size(46, 50);
@@ -2647,6 +2947,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga47
 			// 
+			this->pb_plaga47->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga47->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga47->Location = System::Drawing::Point(942, 610);
 			this->pb_plaga47->Name = L"pb_plaga47";
 			this->pb_plaga47->Size = System::Drawing::Size(46, 50);
@@ -2655,6 +2957,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta44
 			// 
+			this->pb_espanta44->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta44->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta44->Location = System::Drawing::Point(638, 611);
 			this->pb_espanta44->Name = L"pb_espanta44";
 			this->pb_espanta44->Size = System::Drawing::Size(46, 50);
@@ -2663,7 +2967,9 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga44
 			// 
-			this->pb_plaga44->Location = System::Drawing::Point(564, 608);
+			this->pb_plaga44->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga44->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_plaga44->Location = System::Drawing::Point(564, 611);
 			this->pb_plaga44->Name = L"pb_plaga44";
 			this->pb_plaga44->Size = System::Drawing::Size(46, 50);
 			this->pb_plaga44->TabIndex = 182;
@@ -2671,6 +2977,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta43
 			// 
+			this->pb_espanta43->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta43->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta43->Location = System::Drawing::Point(512, 610);
 			this->pb_espanta43->Name = L"pb_espanta43";
 			this->pb_espanta43->Size = System::Drawing::Size(46, 50);
@@ -2679,7 +2987,9 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga43
 			// 
-			this->pb_plaga43->Location = System::Drawing::Point(438, 608);
+			this->pb_plaga43->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga43->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_plaga43->Location = System::Drawing::Point(438, 611);
 			this->pb_plaga43->Name = L"pb_plaga43";
 			this->pb_plaga43->Size = System::Drawing::Size(46, 50);
 			this->pb_plaga43->TabIndex = 184;
@@ -2687,6 +2997,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta42
 			// 
+			this->pb_espanta42->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta42->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta42->Location = System::Drawing::Point(386, 610);
 			this->pb_espanta42->Name = L"pb_espanta42";
 			this->pb_espanta42->Size = System::Drawing::Size(46, 50);
@@ -2695,6 +3007,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga42
 			// 
+			this->pb_plaga42->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga42->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga42->Location = System::Drawing::Point(312, 611);
 			this->pb_plaga42->Name = L"pb_plaga42";
 			this->pb_plaga42->Size = System::Drawing::Size(46, 50);
@@ -2703,6 +3017,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta41
 			// 
+			this->pb_espanta41->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta41->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta41->Location = System::Drawing::Point(260, 611);
 			this->pb_espanta41->Name = L"pb_espanta41";
 			this->pb_espanta41->Size = System::Drawing::Size(46, 50);
@@ -2711,6 +3027,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga41
 			// 
+			this->pb_plaga41->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga41->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga41->Location = System::Drawing::Point(186, 611);
 			this->pb_plaga41->Name = L"pb_plaga41";
 			this->pb_plaga41->Size = System::Drawing::Size(46, 50);
@@ -2719,6 +3037,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta37
 			// 
+			this->pb_espanta37->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta37->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta37->Location = System::Drawing::Point(1016, 485);
 			this->pb_espanta37->Name = L"pb_espanta37";
 			this->pb_espanta37->Size = System::Drawing::Size(46, 50);
@@ -2727,6 +3047,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga37
 			// 
+			this->pb_plaga37->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga37->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga37->Location = System::Drawing::Point(942, 486);
 			this->pb_plaga37->Name = L"pb_plaga37";
 			this->pb_plaga37->Size = System::Drawing::Size(46, 50);
@@ -2735,6 +3057,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta36
 			// 
+			this->pb_espanta36->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta36->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta36->Location = System::Drawing::Point(890, 484);
 			this->pb_espanta36->Name = L"pb_espanta36";
 			this->pb_espanta36->Size = System::Drawing::Size(46, 50);
@@ -2743,6 +3067,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga36
 			// 
+			this->pb_plaga36->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga36->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga36->Location = System::Drawing::Point(816, 485);
 			this->pb_plaga36->Name = L"pb_plaga36";
 			this->pb_plaga36->Size = System::Drawing::Size(46, 50);
@@ -2751,6 +3077,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta35
 			// 
+			this->pb_espanta35->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta35->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta35->Location = System::Drawing::Point(764, 486);
 			this->pb_espanta35->Name = L"pb_espanta35";
 			this->pb_espanta35->Size = System::Drawing::Size(46, 50);
@@ -2759,6 +3087,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga35
 			// 
+			this->pb_plaga35->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga35->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga35->Location = System::Drawing::Point(690, 485);
 			this->pb_plaga35->Name = L"pb_plaga35";
 			this->pb_plaga35->Size = System::Drawing::Size(46, 50);
@@ -2767,6 +3097,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta34
 			// 
+			this->pb_espanta34->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta34->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta34->Location = System::Drawing::Point(638, 486);
 			this->pb_espanta34->Name = L"pb_espanta34";
 			this->pb_espanta34->Size = System::Drawing::Size(46, 50);
@@ -2775,6 +3107,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga34
 			// 
+			this->pb_plaga34->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga34->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga34->Location = System::Drawing::Point(564, 485);
 			this->pb_plaga34->Name = L"pb_plaga34";
 			this->pb_plaga34->Size = System::Drawing::Size(46, 50);
@@ -2783,6 +3117,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta33
 			// 
+			this->pb_espanta33->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta33->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta33->Location = System::Drawing::Point(512, 485);
 			this->pb_espanta33->Name = L"pb_espanta33";
 			this->pb_espanta33->Size = System::Drawing::Size(46, 50);
@@ -2791,6 +3127,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga33
 			// 
+			this->pb_plaga33->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga33->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga33->Location = System::Drawing::Point(438, 485);
 			this->pb_plaga33->Name = L"pb_plaga33";
 			this->pb_plaga33->Size = System::Drawing::Size(46, 50);
@@ -2799,6 +3137,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta32
 			// 
+			this->pb_espanta32->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta32->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta32->Location = System::Drawing::Point(386, 485);
 			this->pb_espanta32->Name = L"pb_espanta32";
 			this->pb_espanta32->Size = System::Drawing::Size(46, 50);
@@ -2807,6 +3147,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga32
 			// 
+			this->pb_plaga32->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga32->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga32->Location = System::Drawing::Point(312, 485);
 			this->pb_plaga32->Name = L"pb_plaga32";
 			this->pb_plaga32->Size = System::Drawing::Size(46, 50);
@@ -2815,6 +3157,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta31
 			// 
+			this->pb_espanta31->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta31->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta31->Location = System::Drawing::Point(260, 485);
 			this->pb_espanta31->Name = L"pb_espanta31";
 			this->pb_espanta31->Size = System::Drawing::Size(46, 50);
@@ -2823,6 +3167,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga31
 			// 
+			this->pb_plaga31->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga31->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga31->Location = System::Drawing::Point(186, 485);
 			this->pb_plaga31->Name = L"pb_plaga31";
 			this->pb_plaga31->Size = System::Drawing::Size(46, 50);
@@ -2831,6 +3177,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta56
 			// 
+			this->pb_espanta56->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta56->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta56->Location = System::Drawing::Point(890, 737);
 			this->pb_espanta56->Name = L"pb_espanta56";
 			this->pb_espanta56->Size = System::Drawing::Size(46, 50);
@@ -2839,6 +3187,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga56
 			// 
+			this->pb_plaga56->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga56->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga56->Location = System::Drawing::Point(816, 737);
 			this->pb_plaga56->Name = L"pb_plaga56";
 			this->pb_plaga56->Size = System::Drawing::Size(46, 50);
@@ -2847,6 +3197,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta55
 			// 
+			this->pb_espanta55->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta55->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta55->Location = System::Drawing::Point(764, 737);
 			this->pb_espanta55->Name = L"pb_espanta55";
 			this->pb_espanta55->Size = System::Drawing::Size(46, 50);
@@ -2855,6 +3207,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga55
 			// 
+			this->pb_plaga55->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga55->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga55->Location = System::Drawing::Point(690, 737);
 			this->pb_plaga55->Name = L"pb_plaga55";
 			this->pb_plaga55->Size = System::Drawing::Size(46, 50);
@@ -2863,6 +3217,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta54
 			// 
+			this->pb_espanta54->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta54->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta54->Location = System::Drawing::Point(638, 737);
 			this->pb_espanta54->Name = L"pb_espanta54";
 			this->pb_espanta54->Size = System::Drawing::Size(46, 50);
@@ -2871,6 +3227,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga54
 			// 
+			this->pb_plaga54->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga54->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga54->Location = System::Drawing::Point(564, 737);
 			this->pb_plaga54->Name = L"pb_plaga54";
 			this->pb_plaga54->Size = System::Drawing::Size(46, 50);
@@ -2879,6 +3237,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta53
 			// 
+			this->pb_espanta53->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta53->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta53->Location = System::Drawing::Point(512, 737);
 			this->pb_espanta53->Name = L"pb_espanta53";
 			this->pb_espanta53->Size = System::Drawing::Size(46, 50);
@@ -2887,6 +3247,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga53
 			// 
+			this->pb_plaga53->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga53->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga53->Location = System::Drawing::Point(438, 737);
 			this->pb_plaga53->Name = L"pb_plaga53";
 			this->pb_plaga53->Size = System::Drawing::Size(46, 50);
@@ -2895,6 +3257,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta52
 			// 
+			this->pb_espanta52->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta52->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta52->Location = System::Drawing::Point(386, 737);
 			this->pb_espanta52->Name = L"pb_espanta52";
 			this->pb_espanta52->Size = System::Drawing::Size(46, 50);
@@ -2903,6 +3267,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga52
 			// 
+			this->pb_plaga52->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga52->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga52->Location = System::Drawing::Point(312, 737);
 			this->pb_plaga52->Name = L"pb_plaga52";
 			this->pb_plaga52->Size = System::Drawing::Size(46, 50);
@@ -2911,6 +3277,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta51
 			// 
+			this->pb_espanta51->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta51->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta51->Location = System::Drawing::Point(260, 737);
 			this->pb_espanta51->Name = L"pb_espanta51";
 			this->pb_espanta51->Size = System::Drawing::Size(46, 50);
@@ -2919,6 +3287,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga51
 			// 
+			this->pb_plaga51->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga51->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga51->Location = System::Drawing::Point(186, 737);
 			this->pb_plaga51->Name = L"pb_plaga51";
 			this->pb_plaga51->Size = System::Drawing::Size(46, 50);
@@ -2927,6 +3297,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga61
 			// 
+			this->pb_plaga61->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga61->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga61->Location = System::Drawing::Point(186, 863);
 			this->pb_plaga61->Name = L"pb_plaga61";
 			this->pb_plaga61->Size = System::Drawing::Size(46, 50);
@@ -2935,6 +3307,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta57
 			// 
+			this->pb_espanta57->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta57->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta57->Location = System::Drawing::Point(1016, 737);
 			this->pb_espanta57->Name = L"pb_espanta57";
 			this->pb_espanta57->Size = System::Drawing::Size(46, 50);
@@ -2943,6 +3317,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga57
 			// 
+			this->pb_plaga57->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga57->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga57->Location = System::Drawing::Point(942, 736);
 			this->pb_plaga57->Name = L"pb_plaga57";
 			this->pb_plaga57->Size = System::Drawing::Size(46, 50);
@@ -2951,6 +3327,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta67
 			// 
+			this->pb_espanta67->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta67->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta67->Location = System::Drawing::Point(1016, 863);
 			this->pb_espanta67->Name = L"pb_espanta67";
 			this->pb_espanta67->Size = System::Drawing::Size(46, 50);
@@ -2959,6 +3337,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga67
 			// 
+			this->pb_plaga67->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga67->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga67->Location = System::Drawing::Point(942, 863);
 			this->pb_plaga67->Name = L"pb_plaga67";
 			this->pb_plaga67->Size = System::Drawing::Size(46, 50);
@@ -2967,6 +3347,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta66
 			// 
+			this->pb_espanta66->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta66->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta66->Location = System::Drawing::Point(890, 862);
 			this->pb_espanta66->Name = L"pb_espanta66";
 			this->pb_espanta66->Size = System::Drawing::Size(46, 50);
@@ -2975,6 +3357,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga66
 			// 
+			this->pb_plaga66->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga66->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga66->Location = System::Drawing::Point(816, 862);
 			this->pb_plaga66->Name = L"pb_plaga66";
 			this->pb_plaga66->Size = System::Drawing::Size(46, 50);
@@ -2983,6 +3367,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta65
 			// 
+			this->pb_espanta65->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta65->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta65->Location = System::Drawing::Point(764, 862);
 			this->pb_espanta65->Name = L"pb_espanta65";
 			this->pb_espanta65->Size = System::Drawing::Size(46, 50);
@@ -2991,6 +3377,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga65
 			// 
+			this->pb_plaga65->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga65->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga65->Location = System::Drawing::Point(690, 863);
 			this->pb_plaga65->Name = L"pb_plaga65";
 			this->pb_plaga65->Size = System::Drawing::Size(46, 50);
@@ -2999,6 +3387,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta64
 			// 
+			this->pb_espanta64->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta64->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta64->Location = System::Drawing::Point(638, 863);
 			this->pb_espanta64->Name = L"pb_espanta64";
 			this->pb_espanta64->Size = System::Drawing::Size(46, 50);
@@ -3007,6 +3397,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga64
 			// 
+			this->pb_plaga64->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga64->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga64->Location = System::Drawing::Point(564, 863);
 			this->pb_plaga64->Name = L"pb_plaga64";
 			this->pb_plaga64->Size = System::Drawing::Size(46, 50);
@@ -3015,6 +3407,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta63
 			// 
+			this->pb_espanta63->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta63->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta63->Location = System::Drawing::Point(512, 863);
 			this->pb_espanta63->Name = L"pb_espanta63";
 			this->pb_espanta63->Size = System::Drawing::Size(46, 50);
@@ -3023,6 +3417,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga63
 			// 
+			this->pb_plaga63->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga63->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga63->Location = System::Drawing::Point(438, 863);
 			this->pb_plaga63->Name = L"pb_plaga63";
 			this->pb_plaga63->Size = System::Drawing::Size(46, 50);
@@ -3031,6 +3427,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta62
 			// 
+			this->pb_espanta62->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta62->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta62->Location = System::Drawing::Point(386, 863);
 			this->pb_espanta62->Name = L"pb_espanta62";
 			this->pb_espanta62->Size = System::Drawing::Size(46, 50);
@@ -3039,6 +3437,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga62
 			// 
+			this->pb_plaga62->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga62->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga62->Location = System::Drawing::Point(312, 863);
 			this->pb_plaga62->Name = L"pb_plaga62";
 			this->pb_plaga62->Size = System::Drawing::Size(46, 50);
@@ -3047,6 +3447,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta61
 			// 
+			this->pb_espanta61->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta61->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta61->Location = System::Drawing::Point(260, 863);
 			this->pb_espanta61->Name = L"pb_espanta61";
 			this->pb_espanta61->Size = System::Drawing::Size(46, 50);
@@ -3055,6 +3457,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta77
 			// 
+			this->pb_espanta77->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta77->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta77->Location = System::Drawing::Point(1016, 988);
 			this->pb_espanta77->Name = L"pb_espanta77";
 			this->pb_espanta77->Size = System::Drawing::Size(46, 50);
@@ -3063,6 +3467,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga77
 			// 
+			this->pb_plaga77->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga77->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga77->Location = System::Drawing::Point(942, 988);
 			this->pb_plaga77->Name = L"pb_plaga77";
 			this->pb_plaga77->Size = System::Drawing::Size(46, 50);
@@ -3071,6 +3477,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta76
 			// 
+			this->pb_espanta76->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta76->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta76->Location = System::Drawing::Point(890, 988);
 			this->pb_espanta76->Name = L"pb_espanta76";
 			this->pb_espanta76->Size = System::Drawing::Size(46, 50);
@@ -3079,6 +3487,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga76
 			// 
+			this->pb_plaga76->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga76->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga76->Location = System::Drawing::Point(816, 988);
 			this->pb_plaga76->Name = L"pb_plaga76";
 			this->pb_plaga76->Size = System::Drawing::Size(46, 50);
@@ -3087,6 +3497,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta75
 			// 
+			this->pb_espanta75->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta75->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta75->Location = System::Drawing::Point(764, 988);
 			this->pb_espanta75->Name = L"pb_espanta75";
 			this->pb_espanta75->Size = System::Drawing::Size(46, 50);
@@ -3095,6 +3507,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga75
 			// 
+			this->pb_plaga75->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga75->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga75->Location = System::Drawing::Point(690, 989);
 			this->pb_plaga75->Name = L"pb_plaga75";
 			this->pb_plaga75->Size = System::Drawing::Size(46, 50);
@@ -3103,6 +3517,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta74
 			// 
+			this->pb_espanta74->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta74->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta74->Location = System::Drawing::Point(638, 988);
 			this->pb_espanta74->Name = L"pb_espanta74";
 			this->pb_espanta74->Size = System::Drawing::Size(46, 50);
@@ -3111,6 +3527,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga74
 			// 
+			this->pb_plaga74->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga74->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga74->Location = System::Drawing::Point(564, 989);
 			this->pb_plaga74->Name = L"pb_plaga74";
 			this->pb_plaga74->Size = System::Drawing::Size(46, 50);
@@ -3119,6 +3537,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta73
 			// 
+			this->pb_espanta73->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta73->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta73->Location = System::Drawing::Point(512, 989);
 			this->pb_espanta73->Name = L"pb_espanta73";
 			this->pb_espanta73->Size = System::Drawing::Size(46, 50);
@@ -3127,6 +3547,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga73
 			// 
+			this->pb_plaga73->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga73->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga73->Location = System::Drawing::Point(438, 989);
 			this->pb_plaga73->Name = L"pb_plaga73";
 			this->pb_plaga73->Size = System::Drawing::Size(46, 50);
@@ -3135,6 +3557,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta72
 			// 
+			this->pb_espanta72->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta72->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta72->Location = System::Drawing::Point(386, 988);
 			this->pb_espanta72->Name = L"pb_espanta72";
 			this->pb_espanta72->Size = System::Drawing::Size(46, 50);
@@ -3143,6 +3567,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga72
 			// 
+			this->pb_plaga72->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga72->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga72->Location = System::Drawing::Point(312, 989);
 			this->pb_plaga72->Name = L"pb_plaga72";
 			this->pb_plaga72->Size = System::Drawing::Size(46, 50);
@@ -3151,6 +3577,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_espanta71
 			// 
+			this->pb_espanta71->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_espanta71->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_espanta71->Location = System::Drawing::Point(260, 989);
 			this->pb_espanta71->Name = L"pb_espanta71";
 			this->pb_espanta71->Size = System::Drawing::Size(46, 50);
@@ -3159,6 +3587,8 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// pb_plaga71
 			// 
+			this->pb_plaga71->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_plaga71->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pb_plaga71->Location = System::Drawing::Point(186, 989);
 			this->pb_plaga71->Name = L"pb_plaga71";
 			this->pb_plaga71->Size = System::Drawing::Size(46, 50);
@@ -3338,7 +3768,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// btn_VenderTodo
 			// 
-			this->btn_VenderTodo->Location = System::Drawing::Point(340, 164);
+			this->btn_VenderTodo->Location = System::Drawing::Point(340, 197);
 			this->btn_VenderTodo->Name = L"btn_VenderTodo";
 			this->btn_VenderTodo->Size = System::Drawing::Size(132, 30);
 			this->btn_VenderTodo->TabIndex = 264;
@@ -3393,7 +3823,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->Location = System::Drawing::Point(1137, 608);
+			this->label11->Location = System::Drawing::Point(1137, 702);
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(121, 20);
 			this->label11->TabIndex = 270;
@@ -3429,7 +3859,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// pb_Espanta
 			// 
 			this->pb_Espanta->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pb_Espanta->Location = System::Drawing::Point(1276, 585);
+			this->pb_Espanta->Location = System::Drawing::Point(1276, 679);
 			this->pb_Espanta->Name = L"pb_Espanta";
 			this->pb_Espanta->Size = System::Drawing::Size(63, 64);
 			this->pb_Espanta->TabIndex = 274;
@@ -3465,7 +3895,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// lbl_CantEspanta
 			// 
 			this->lbl_CantEspanta->AutoSize = true;
-			this->lbl_CantEspanta->Location = System::Drawing::Point(1358, 608);
+			this->lbl_CantEspanta->Location = System::Drawing::Point(1358, 702);
 			this->lbl_CantEspanta->Name = L"lbl_CantEspanta";
 			this->lbl_CantEspanta->Size = System::Drawing::Size(100, 20);
 			this->lbl_CantEspanta->TabIndex = 278;
@@ -3500,7 +3930,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			// 
 			// btn_SembrarEspanta
 			// 
-			this->btn_SembrarEspanta->Location = System::Drawing::Point(1489, 601);
+			this->btn_SembrarEspanta->Location = System::Drawing::Point(1489, 695);
 			this->btn_SembrarEspanta->Name = L"btn_SembrarEspanta";
 			this->btn_SembrarEspanta->Size = System::Drawing::Size(83, 35);
 			this->btn_SembrarEspanta->TabIndex = 281;
@@ -3534,12 +3964,102 @@ private: System::Windows::Forms::Button^ btn_Save;
 			this->btn_Save->Text = L"Guardar Partida";
 			this->btn_Save->UseVisualStyleBackColor = true;
 			// 
+			// btn_VenderSPLAY
+			// 
+			this->btn_VenderSPLAY->Location = System::Drawing::Point(612, 150);
+			this->btn_VenderSPLAY->Name = L"btn_VenderSPLAY";
+			this->btn_VenderSPLAY->Size = System::Drawing::Size(80, 30);
+			this->btn_VenderSPLAY->TabIndex = 290;
+			this->btn_VenderSPLAY->Text = L"Vender";
+			this->btn_VenderSPLAY->UseVisualStyleBackColor = true;
+			// 
+			// lbl_MontoTotalSPLAY
+			// 
+			this->lbl_MontoTotalSPLAY->AutoSize = true;
+			this->lbl_MontoTotalSPLAY->Location = System::Drawing::Point(514, 160);
+			this->lbl_MontoTotalSPLAY->Name = L"lbl_MontoTotalSPLAY";
+			this->lbl_MontoTotalSPLAY->Size = System::Drawing::Size(51, 20);
+			this->lbl_MontoTotalSPLAY->TabIndex = 289;
+			this->lbl_MontoTotalSPLAY->Text = L"label6";
+			// 
+			// lbl_FrutaSPLAY
+			// 
+			this->lbl_FrutaSPLAY->AutoSize = true;
+			this->lbl_FrutaSPLAY->Location = System::Drawing::Point(368, 160);
+			this->lbl_FrutaSPLAY->Name = L"lbl_FrutaSPLAY";
+			this->lbl_FrutaSPLAY->Size = System::Drawing::Size(51, 20);
+			this->lbl_FrutaSPLAY->TabIndex = 288;
+			this->lbl_FrutaSPLAY->Text = L"label6";
+			// 
+			// lbl_PosiSPLAY
+			// 
+			this->lbl_PosiSPLAY->AutoSize = true;
+			this->lbl_PosiSPLAY->Location = System::Drawing::Point(256, 160);
+			this->lbl_PosiSPLAY->Name = L"lbl_PosiSPLAY";
+			this->lbl_PosiSPLAY->Size = System::Drawing::Size(51, 20);
+			this->lbl_PosiSPLAY->TabIndex = 287;
+			this->lbl_PosiSPLAY->Text = L"label6";
+			// 
+			// label15
+			// 
+			this->label15->AutoSize = true;
+			this->label15->Location = System::Drawing::Point(174, 160);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(61, 20);
+			this->label15->TabIndex = 286;
+			this->label15->Text = L"SPLAY";
+			// 
+			// btn_SembrarSPLAY
+			// 
+			this->btn_SembrarSPLAY->Location = System::Drawing::Point(1489, 591);
+			this->btn_SembrarSPLAY->Name = L"btn_SembrarSPLAY";
+			this->btn_SembrarSPLAY->Size = System::Drawing::Size(83, 36);
+			this->btn_SembrarSPLAY->TabIndex = 294;
+			this->btn_SembrarSPLAY->Text = L"Sembrar";
+			this->btn_SembrarSPLAY->UseVisualStyleBackColor = true;
+			// 
+			// lbl_CantSPLAY
+			// 
+			this->lbl_CantSPLAY->AutoSize = true;
+			this->lbl_CantSPLAY->Location = System::Drawing::Point(1358, 599);
+			this->lbl_CantSPLAY->Name = L"lbl_CantSPLAY";
+			this->lbl_CantSPLAY->Size = System::Drawing::Size(92, 20);
+			this->lbl_CantSPLAY->TabIndex = 293;
+			this->lbl_CantSPLAY->Text = L"cantSPLAY";
+			// 
+			// pb_ArbolSPLAY
+			// 
+			this->pb_ArbolSPLAY->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_ArbolSPLAY->Location = System::Drawing::Point(1276, 578);
+			this->pb_ArbolSPLAY->Name = L"pb_ArbolSPLAY";
+			this->pb_ArbolSPLAY->Size = System::Drawing::Size(63, 64);
+			this->pb_ArbolSPLAY->TabIndex = 292;
+			this->pb_ArbolSPLAY->TabStop = false;
+			// 
+			// label13
+			// 
+			this->label13->AutoSize = true;
+			this->label13->Location = System::Drawing::Point(1164, 599);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(102, 20);
+			this->label13->TabIndex = 291;
+			this->label13->Text = L"Arbol SPLAY";
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1678, 1170);
+			this->Controls->Add(this->btn_SembrarSPLAY);
+			this->Controls->Add(this->lbl_CantSPLAY);
+			this->Controls->Add(this->pb_ArbolSPLAY);
+			this->Controls->Add(this->label13);
+			this->Controls->Add(this->btn_VenderSPLAY);
+			this->Controls->Add(this->lbl_MontoTotalSPLAY);
+			this->Controls->Add(this->lbl_FrutaSPLAY);
+			this->Controls->Add(this->lbl_PosiSPLAY);
+			this->Controls->Add(this->label15);
 			this->Controls->Add(this->btn_Save);
 			this->Controls->Add(this->btn_Resume);
 			this->Controls->Add(this->btn_Pause);
@@ -4079,6 +4599,7 @@ private: System::Windows::Forms::Button^ btn_Save;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolAVL))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolHEAP))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_Espanta))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_ArbolSPLAY))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -4112,6 +4633,53 @@ private: System::Void pictureBox60_Click(System::Object^ sender, System::EventAr
 }
 private: System::Void pictureBox62_Click(System::Object^ sender, System::EventArgs^ e) {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
