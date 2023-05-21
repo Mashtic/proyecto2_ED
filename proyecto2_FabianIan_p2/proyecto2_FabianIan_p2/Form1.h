@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Mercado.h"
 namespace CppCLRWinFormsProject {
 	//proyecto2_FabianIan_p2
 	using namespace System;
@@ -3783,6 +3783,7 @@ private: System::Windows::Forms::Label^ label13;
 			this->btn_Mercado->TabIndex = 265;
 			this->btn_Mercado->Text = L"Mercado";
 			this->btn_Mercado->UseVisualStyleBackColor = true;
+			this->btn_Mercado->Click += gcnew System::EventHandler(this, &Form1::btn_Mercado_Click);
 			// 
 			// label5
 			// 
@@ -4685,5 +4686,9 @@ private: System::Void pictureBox62_Click(System::Object^ sender, System::EventAr
 
 
 
+private: System::Void btn_Mercado_Click(System::Object^ sender, System::EventArgs^ e) {
+	Mercado^ form = gcnew Mercado;
+	form->ShowDialog();
+}
 };
 }
