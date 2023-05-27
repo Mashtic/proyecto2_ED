@@ -22,7 +22,482 @@ namespace CppCLRWinFormsProject {
 			//TODO: Add the constructor code here
 			//
 		}
-
+		void cambImageGranjero(int num) {
+			switch (num)
+			{
+			case 11:
+				this->pb_granjero11->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 12:
+				this->pb_granjero12->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 13:
+				this->pb_granjero13->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 14:
+				this->pb_granjero14->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 15:
+				this->pb_granjero15->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 16:
+				this->pb_granjero16->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 17:
+				this->pb_granjero17->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 21:
+				this->pb_granjero21->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 22:
+				this->pb_granjero22->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 23:
+				this->pb_granjero23->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 24:
+				this->pb_granjero24->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 25:
+				this->pb_granjero25->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 26:
+				this->pb_granjero26->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 27:
+				this->pb_granjero27->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 31:
+				this->pb_granjero31->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 32:
+				this->pb_granjero32->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 33:
+				this->pb_granjero33->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 34:
+				this->pb_granjero34->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 35:
+				this->pb_granjero35->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 36:
+				this->pb_granjero36->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 37:
+				this->pb_granjero37->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 41:
+				this->pb_granjero41->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 42:
+				this->pb_granjero42->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 43:
+				this->pb_granjero43->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 44:
+				this->pb_granjero44->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 45:
+				this->pb_granjero45->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 46:
+				this->pb_granjero46->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 47:
+				this->pb_granjero47->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 51:
+				this->pb_granjero51->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 52:
+				this->pb_granjero52->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 53:
+				this->pb_granjero53->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 54:
+				this->pb_granjero54->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 55:
+				this->pb_granjero55->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 56:
+				this->pb_granjero56->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 57:
+				this->pb_granjero57->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 61:
+				this->pb_granjero61->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 62:
+				this->pb_granjero62->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 63:
+				this->pb_granjero63->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 64:
+				this->pb_granjero64->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 65:
+				this->pb_granjero65->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 66:
+				this->pb_granjero66->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 67:
+				this->pb_granjero67->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 71:
+				this->pb_granjero71->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 72:
+				this->pb_granjero72->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 73:
+				this->pb_granjero73->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 74:
+				this->pb_granjero74->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 75:
+				this->pb_granjero75->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 76:
+				this->pb_granjero76->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 77:
+				this->pb_granjero77->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			default:
+				break;
+			}
+		}
+		void cambImageGranjeroTransp(int num) {
+			switch (num)
+			{
+			case 11:
+				this->pb_granjero11->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 12:
+				this->pb_granjero12->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 13:
+				this->pb_granjero13->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 14:
+				this->pb_granjero14->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 15:
+				this->pb_granjero15->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 16:
+				this->pb_granjero16->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 17:
+				this->pb_granjero17->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 21:
+				this->pb_granjero21->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 22:
+				this->pb_granjero22->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 23:
+				this->pb_granjero23->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 24:
+				this->pb_granjero24->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 25:
+				this->pb_granjero25->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 26:
+				this->pb_granjero26->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 27:
+				this->pb_granjero27->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 31:
+				this->pb_granjero31->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 32:
+				this->pb_granjero32->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 33:
+				this->pb_granjero33->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 34:
+				this->pb_granjero34->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 35:
+				this->pb_granjero35->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 36:
+				this->pb_granjero36->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 37:
+				this->pb_granjero37->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 41:
+				this->pb_granjero41->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 42:
+				this->pb_granjero42->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 43:
+				this->pb_granjero43->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 44:
+				this->pb_granjero44->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 45:
+				this->pb_granjero45->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 46:
+				this->pb_granjero46->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 47:
+				this->pb_granjero47->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 51:
+				this->pb_granjero51->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 52:
+				this->pb_granjero52->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 53:
+				this->pb_granjero53->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 54:
+				this->pb_granjero54->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 55:
+				this->pb_granjero55->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 56:
+				this->pb_granjero56->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 57:
+				this->pb_granjero57->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 61:
+				this->pb_granjero61->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 62:
+				this->pb_granjero62->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 63:
+				this->pb_granjero63->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 64:
+				this->pb_granjero64->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 65:
+				this->pb_granjero65->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 66:
+				this->pb_granjero66->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 67:
+				this->pb_granjero67->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 71:
+				this->pb_granjero71->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 72:
+				this->pb_granjero72->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 73:
+				this->pb_granjero73->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 74:
+				this->pb_granjero74->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 75:
+				this->pb_granjero75->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 76:
+				this->pb_granjero76->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			case 77:
+				this->pb_granjero77->BackgroundImage = Image::FromFile("img//transparente.png");
+				break;
+			default:
+				break;
+			}
+		}
+		void cambImageArbolABO(int num) {
+			switch (num)
+			{
+			case 11:
+				this->pb_arbol11->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 12:
+				this->pb_arbol12->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 13:
+				this->pb_arbol13->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 14:
+				this->pb_arbol14->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 15:
+				this->pb_arbol15->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 16:
+				this->pb_arbol16->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 17:
+				this->pb_arbol17->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 21:
+				this->pb_arbol21->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 22:
+				this->pb_arbol22->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 23:
+				this->pb_arbol23->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 24:
+				this->pb_arbol24->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 25:
+				this->pb_arbol25->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 26:
+				this->pb_arbol26->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 27:
+				this->pb_arbol27->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 31:
+				this->pb_arbol31->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 32:
+				this->pb_arbol32->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 33:
+				this->pb_arbol33->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 34:
+				this->pb_arbol34->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 35:
+				this->pb_arbol35->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 36:
+				this->pb_arbol36->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 37:
+				this->pb_arbol37->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 41:
+				this->pb_arbol41->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 42:
+				this->pb_arbol42->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 43:
+				this->pb_arbol43->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 44:
+				this->pb_arbol44->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 45:
+				this->pb_arbol45->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 46:
+				this->pb_arbol46->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 47:
+				this->pb_arbol47->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 51:
+				this->pb_arbol51->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 52:
+				this->pb_arbol52->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 53:
+				this->pb_arbol53->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 54:
+				this->pb_arbol54->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 55:
+				this->pb_arbol55->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 56:
+				this->pb_arbol56->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 57:
+				this->pb_arbol57->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 61:
+				this->pb_arbol61->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 62:
+				this->pb_arbol62->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 63:
+				this->pb_arbol63->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 64:
+				this->pb_arbol64->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 65:
+				this->pb_arbol65->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 66:
+				this->pb_arbol66->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 67:
+				this->pb_arbol67->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 71:
+				this->pb_arbol71->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 72:
+				this->pb_arbol72->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 73:
+				this->pb_arbol73->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 74:
+				this->pb_arbol74->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 75:
+				this->pb_arbol75->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 76:
+				this->pb_arbol76->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			case 77:
+				this->pb_arbol77->BackgroundImage = Image::FromFile("img//arbolManzana.png");
+				break;
+			default:
+				break;
+			}
+		}
+		System::Void Form1_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+			if (e->KeyCode == Keys::W) {
+				cambImageGranjero(11);
+			}
+			if (e->KeyCode == Keys::A) {
+				cambImageGranjero(55);
+			}
+			if (e->KeyCode == Keys::S) {
+				cambImageGranjero(44);
+			}
+			if (e->KeyCode == Keys::D) {
+				cambImageGranjero(66);
+			}
+		}
 	protected:
 		/// <summary>
 		/// Clean up any resources being used.
@@ -80,7 +555,8 @@ namespace CppCLRWinFormsProject {
 	private: System::Windows::Forms::PictureBox^ pb_arbol11;
 	private: System::Windows::Forms::PictureBox^ pb_arbol12;
 	private: System::Windows::Forms::PictureBox^ pb_arbol13;
-	private: System::Windows::Forms::PictureBox^ pbarbol14;
+private: System::Windows::Forms::PictureBox^ pb_arbol14;
+
 	private: System::Windows::Forms::PictureBox^ pb_arbol15;
 	private: System::Windows::Forms::PictureBox^ pb_arbol16;
 	private: System::Windows::Forms::PictureBox^ pb_arbol17;
@@ -569,7 +1045,7 @@ private: System::Windows::Forms::Label^ label13;
 		/// Required designer variable.
 		/// </summary>
 		System::ComponentModel::Container ^components;
-
+		//Granjero* granjero = new Granjero(8, 100000);
 		void initImages() {
 			this->BackgroundImage = Image::FromFile("img//granja.jpg");
 			this->pb_ArbolAB->BackgroundImage = Image::FromFile("img//arbolManzana.png");
@@ -631,7 +1107,7 @@ private: System::Windows::Forms::Label^ label13;
 			this->pb_arbol11 = (gcnew System::Windows::Forms::PictureBox());
 			this->pb_arbol12 = (gcnew System::Windows::Forms::PictureBox());
 			this->pb_arbol13 = (gcnew System::Windows::Forms::PictureBox());
-			this->pbarbol14 = (gcnew System::Windows::Forms::PictureBox());
+			this->pb_arbol14 = (gcnew System::Windows::Forms::PictureBox());
 			this->pb_arbol15 = (gcnew System::Windows::Forms::PictureBox());
 			this->pb_arbol16 = (gcnew System::Windows::Forms::PictureBox());
 			this->pb_arbol17 = (gcnew System::Windows::Forms::PictureBox());
@@ -926,7 +1402,7 @@ private: System::Windows::Forms::Label^ label13;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol11))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol13))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pbarbol14))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol14))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol15))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol16))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol17))->BeginInit();
@@ -1589,15 +2065,15 @@ private: System::Windows::Forms::Label^ label13;
 			this->pb_arbol13->TabIndex = 44;
 			this->pb_arbol13->TabStop = false;
 			// 
-			// pbarbol14
+			// pb_arbol14
 			// 
-			this->pbarbol14->BackColor = System::Drawing::Color::DarkGoldenrod;
-			this->pbarbol14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pbarbol14->Location = System::Drawing::Point(564, 280);
-			this->pbarbol14->Name = L"pbarbol14";
-			this->pbarbol14->Size = System::Drawing::Size(76, 73);
-			this->pbarbol14->TabIndex = 45;
-			this->pbarbol14->TabStop = false;
+			this->pb_arbol14->BackColor = System::Drawing::Color::DarkGoldenrod;
+			this->pb_arbol14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pb_arbol14->Location = System::Drawing::Point(564, 280);
+			this->pb_arbol14->Name = L"pb_arbol14";
+			this->pb_arbol14->Size = System::Drawing::Size(76, 73);
+			this->pb_arbol14->TabIndex = 45;
+			this->pb_arbol14->TabStop = false;
 			// 
 			// pb_arbol15
 			// 
@@ -4300,7 +4776,7 @@ private: System::Windows::Forms::Label^ label13;
 			this->Controls->Add(this->pb_arbol17);
 			this->Controls->Add(this->pb_arbol16);
 			this->Controls->Add(this->pb_arbol15);
-			this->Controls->Add(this->pbarbol14);
+			this->Controls->Add(this->pb_arbol14);
 			this->Controls->Add(this->pb_arbol13);
 			this->Controls->Add(this->pb_arbol12);
 			this->Controls->Add(this->pb_arbol11);
@@ -4346,10 +4822,12 @@ private: System::Windows::Forms::Label^ label13;
 			this->Controls->Add(this->pb_13);
 			this->Controls->Add(this->pb_12);
 			this->Controls->Add(this->pb_11);
+			this->KeyPreview = true;
 			this->Name = L"Form1";
 			this->Text = L"Form1";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
+			this->KeyDown += gcnew System::Windows::Forms::KeyEventHandler(this, &Form1::Form1_KeyDown);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_11))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_12))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_13))->EndInit();
@@ -4395,7 +4873,7 @@ private: System::Windows::Forms::Label^ label13;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol11))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol12))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol13))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pbarbol14))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol14))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol15))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol16))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_arbol17))->EndInit();
