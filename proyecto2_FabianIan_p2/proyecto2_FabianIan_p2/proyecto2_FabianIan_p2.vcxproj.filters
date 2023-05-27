@@ -35,6 +35,12 @@
     <ClInclude Include="Mercado.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Granjero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GranjeroThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinFormsProject.cpp">
@@ -54,6 +60,15 @@
     </ClCompile>
     <ClCompile Include="Mercado.cpp">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Granjero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GranjeroThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Posi.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

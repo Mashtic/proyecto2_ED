@@ -1,5 +1,10 @@
 #pragma once
 #include "Mercado.h"
+#include <iostream>
+#include <windows.h>
+#include <thread>
+#include <chrono>
+#include <random>
 namespace CppCLRWinFormsProject {
 	//proyecto2_FabianIan_p2
 	using namespace System;
@@ -18,9 +23,160 @@ namespace CppCLRWinFormsProject {
 		{
 			InitializeComponent();
 			initImages();
-			//
-			//TODO: Add the constructor code here
-			//
+		}
+		void cambImageGranjero(int num) {
+			switch (num)
+			{
+			case 11:
+				this->pb_granjero11->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 12:
+				this->pb_granjero12->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 13:
+				this->pb_granjero13->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 14:
+				this->pb_granjero14->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 15:
+				this->pb_granjero15->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 16:
+				this->pb_granjero16->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 17:
+				this->pb_granjero17->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 21:
+				this->pb_granjero21->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 22:
+				this->pb_granjero22->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 23:
+				this->pb_granjero23->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 24:
+				this->pb_granjero24->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 25:
+				this->pb_granjero25->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 26:
+				this->pb_granjero26->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 27:
+				this->pb_granjero27->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 31:
+				this->pb_granjero31->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 32:
+				this->pb_granjero32->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 33:
+				this->pb_granjero33->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 34:
+				this->pb_granjero34->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 35:
+				this->pb_granjero35->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 36:
+				this->pb_granjero36->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 37:
+				this->pb_granjero37->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 41:
+				this->pb_granjero41->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 42:
+				this->pb_granjero42->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 43:
+				this->pb_granjero43->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 44:
+				this->pb_granjero44->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 45:
+				this->pb_granjero45->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 46:
+				this->pb_granjero46->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 47:
+				this->pb_granjero47->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 51:
+				this->pb_granjero51->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 52:
+				this->pb_granjero52->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 53:
+				this->pb_granjero53->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 54:
+				this->pb_granjero54->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 55:
+				this->pb_granjero55->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 56:
+				this->pb_granjero56->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 57:
+				this->pb_granjero57->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 61:
+				this->pb_granjero61->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 62:
+				this->pb_granjero62->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 63:
+				this->pb_granjero63->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 64:
+				this->pb_granjero64->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 65:
+				this->pb_granjero65->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 66:
+				this->pb_granjero66->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 67:
+				this->pb_granjero67->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 71:
+				this->pb_granjero71->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 72:
+				this->pb_granjero72->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 73:
+				this->pb_granjero73->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 74:
+				this->pb_granjero74->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 75:
+				this->pb_granjero75->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 76:
+				this->pb_granjero76->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			case 77:
+				this->pb_granjero77->BackgroundImage = Image::FromFile("img//granjero.png");
+				break;
+			default:
+				break;
+			}
 		}
 
 	protected:
@@ -539,6 +695,11 @@ private: System::Windows::Forms::Label^ lbl_CantSPLAY;
 private: System::Windows::Forms::PictureBox^ pb_ArbolSPLAY;
 
 private: System::Windows::Forms::Label^ label13;
+private: System::Windows::Forms::Button^ button1;
+
+
+
+
 
 
 
@@ -881,6 +1042,7 @@ private: System::Windows::Forms::Label^ label13;
 			this->lbl_CantSPLAY = (gcnew System::Windows::Forms::Label());
 			this->pb_ArbolSPLAY = (gcnew System::Windows::Forms::PictureBox());
 			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_11))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pb_13))->BeginInit();
@@ -4046,12 +4208,22 @@ private: System::Windows::Forms::Label^ label13;
 			this->label13->TabIndex = 291;
 			this->label13->Text = L"Arbol SPLAY";
 			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(0, 0);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 23);
+			this->button1->TabIndex = 295;
+			this->button1->Text = L"button1";
+			this->button1->UseVisualStyleBackColor = true;
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1678, 1170);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->btn_SembrarSPLAY);
 			this->Controls->Add(this->lbl_CantSPLAY);
 			this->Controls->Add(this->pb_ArbolSPLAY);
